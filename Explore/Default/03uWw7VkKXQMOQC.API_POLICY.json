@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "de33e400-9614-406a-a038-078dd50c9e55",
       "name" : "03uWw7VkKXQMOQC",
-      "description" : "This is the description for UI Automation PII Polciyjhfghghgfg",
+      "description" : "This is the description for UI Automation PII Polciy",
       "category" : "PRIVACY",
       "type" : "PII_POLICY",
       "status" : "ENABLED",
@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "2fa2d0a2-b38c-423b-b4b1-f6cd3de8ed2f",
+      "id" : "1fd3fc99-85ed-4981-b649-9242741dec4d",
       "fields" : [ {
         "name" : "Credit Card",
         "requestAction" : "BLOCK",
