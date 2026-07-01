@@ -1,0 +1,54 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>TabbeJOSM8NciZB-gt-225-2026-07-01T10:19:25.728Z::pd.xml</types1:EntryId>
+      <types1:Name>REST_API_2_with_no_dependency</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.anonymous</types1:Tags>
+      <types1:VersionLabel/>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>APIC_QE_AWS_ML</types1:CreatedBy>
+      <types1:CreationDate>2026-07-01T10:19:26Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>APIC_QE_AWS_ML</types1:PublishedBy>
+      <types1:PublicationDate>2026-07-01T10:19:49Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.REST_API_2_with_no_dependency/REST_API_2_with_no_dependency.pd.xml</types1:PublishedContributionId>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  GUID="9ae0Fz9Jc0ClcCErjA61uq"
+                  displayName="REST_API_2_with_no_dependency"
+                  name="REST_API_2_with_no_dependency">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags>.anonymous</tags>
+            <generator>Informatica Process Designer 11</generator>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="none">
+               <rest>
+                  <allowAnonymousAccess/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="link1" targetId="c"/>
+               </start>
+               <end id="c">
+                  <title>OK.</title>
+                  <httpStatus>200</httpStatus>
+               </end>
+            </flow>
+            <dependencies/>
+         </process>
+      </types1:Entry>
+      <types1:GUID>9ae0Fz9Jc0ClcCErjA61uq</types1:GUID>
+      <types1:DisplayName>REST_API_2_with_no_dependency</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2026-07-01T10:50:44.391Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
