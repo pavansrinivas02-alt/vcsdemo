@@ -11,13 +11,13 @@
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "18mVm6crl6mdPgClGTpni8",
-      "lastModifiedDate" : 1782901283073,
+      "lastModifiedDate" : 1782982681005,
       "apiClusterId" : "62341254-3da2-4ecb-a7e9-fc0527caeb65",
       "isFixed" : true
     },
     "location" : "ct7PqUvockPf3d9g4PJzOi",
     "definition" : {
-      "id" : "api_definition_1782901282653",
+      "id" : "api_definition_1782982679261",
       "operations" : [ {
         "id" : "ff35d2cc-9ce4-4f14-83ea-e2c0dbd3dfa4",
         "title" : "op",
@@ -96,6 +96,41 @@
     "groups" : [ ],
     "policies" : [ {
       "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "id" : "f47219e5-1dab-43d1-b10f-b77c108382e5",
+          "name" : "Automation_RL_1_60",
+          "description" : "This Is APIC Automation Policy for Rate Limit",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "3dJkbud29nqbUC7eaZarKb",
+          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+          "frsName" : "Automation_RL_1_60",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "6e9de9d4-c909-4af2-beaa-783d219e421d",
+          "tier" : {
+            "id" : "a12863a0-fe4a-462d-8813-b61288dfb2ae",
+            "name" : "APIC_T_1757680199228",
+            "description" : "This Is APIC Automation Policy for Rate Limit",
+            "quota" : 1,
+            "timeInterval" : 1,
+            "timeUnit" : "MINUTE",
+            "internalTierId" : "758dcd71-8ad8-4c86-9952-5c8f4067a5a6"
+          }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    }, {
+      "policy" : {
         "type" : "AUTHENTICATION_POLICY",
         "metadata" : {
           "category" : "SECURITY",
@@ -131,41 +166,6 @@
         "properties" : [ ]
       },
       "selectionType" : "NONE",
-      "notes" : ""
-    }, {
-      "policy" : {
-        "type" : "RATE_LIMITING_POLICY",
-        "metadata" : {
-          "id" : "aae4895b-ef15-4e9c-a38c-1be400196dbc",
-          "name" : "dh52YpXS8e8wAhz",
-          "description" : "This is the description for UI Automation Policy operational policy",
-          "category" : "OPERATIONAL",
-          "type" : "RATE_LIMITING_POLICY",
-          "status" : "ENABLED",
-          "apiDesignRefCount" : 0,
-          "frsDocumentId" : "iA51LEYTqkLdkVsYyAxEyM",
-          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
-          "frsName" : "dh52YpXS8e8wAhz",
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { },
-          "id" : "68e4762d-28ea-424a-88a5-9193731549b5",
-          "tier" : {
-            "id" : "8f739249-090b-44ca-8980-8edda851f617",
-            "name" : "APIC_T_1758085748872",
-            "description" : "This is the description for UI Automation Policy operational policy",
-            "quota" : 2,
-            "timeInterval" : 1,
-            "timeUnit" : "MINUTE",
-            "internalTierId" : "f410cfea-b267-4431-9307-0ab67428c7da"
-          }
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NAMED",
       "notes" : ""
     } ],
     "tags" : [ ],

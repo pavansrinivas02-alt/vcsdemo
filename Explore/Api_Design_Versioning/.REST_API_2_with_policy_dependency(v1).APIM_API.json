@@ -26,8 +26,31 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-02T08:49:22.940Z",
+  "updateTime" : "2026-07-02T08:59:40.292Z",
   "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "3dJkbud29nqbUC7eaZarKb",
+    "name" : "Automation_RL_1_60",
+    "type" : "API_POLICY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "f47219e5-1dab-43d1-b10f-b77c108382e5"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
@@ -50,29 +73,6 @@
       }
     },
     "path" : "/Explore/Api_Design_Versioning"
-  }, {
-    "schemaVersion" : null,
-    "idmcRelease" : null,
-    "productRelease" : null,
-    "id" : "iA51LEYTqkLdkVsYyAxEyM",
-    "name" : "dh52YpXS8e8wAhz",
-    "type" : "API_POLICY",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 1,
-        "minor" : 1
-      },
-      "repoInfo" : {
-        "repoHandle" : "aae4895b-ef15-4e9c-a38c-1be400196dbc"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "This is the description for UI Automation Policy operational policy",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Default"
   } ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
