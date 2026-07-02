@@ -11,13 +11,13 @@
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "h6ELkzEQ3Gobv8itgWCL4n",
-      "lastModifiedDate" : 1782901239294,
+      "lastModifiedDate" : 1782986311099,
       "apiClusterId" : "71bf78d0-ec95-4ef4-a705-32643d075051",
       "isFixed" : true
     },
     "location" : "ct7PqUvockPf3d9g4PJzOi",
     "definition" : {
-      "id" : "api_definition_1782901238578",
+      "id" : "api_definition_1782986310243",
       "operations" : [ {
         "id" : "7fa0f062-1978-45fe-a647-beb1ff3a1e41",
         "title" : "op",
@@ -135,20 +135,28 @@
       "policy" : {
         "type" : "AUTHENTICATION_POLICY",
         "metadata" : {
+          "id" : "31c55a7f-50b0-4a88-b283-b1435c48a669",
+          "name" : "09PspUUAiE4n6Qh",
+          "description" : "This is the description for UI Automation Policy",
           "category" : "SECURITY",
           "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
           "apiDesignRefCount" : 0,
+          "frsDocumentId" : "bL8HnE1B58RcgkE5STgt2G",
+          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+          "frsName" : "09PspUUAiE4n6Qh",
           "orgLevelRateLimitPolicy" : false
         },
         "definition" : {
           "data" : { },
-          "authenticationSchemes" : [ ]
+          "id" : "aaa749fd-91e8-468e-bd06-dba0901127d6",
+          "authenticationSchemes" : [ "ANONYMOUS" ]
         },
         "inline" : false,
         "inherited" : false,
         "properties" : [ ]
       },
-      "selectionType" : "NONE",
+      "selectionType" : "NAMED",
       "notes" : ""
     } ],
     "tags" : [ ],

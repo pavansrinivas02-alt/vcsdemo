@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-02T08:49:41.576Z",
+  "updateTime" : "2026-07-02T10:00:26.133Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
@@ -46,6 +46,29 @@
       "additionalInfo" : {
         "description" : null,
         "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "bL8HnE1B58RcgkE5STgt2G",
+    "name" : "09PspUUAiE4n6Qh",
+    "type" : "API_POLICY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "31c55a7f-50b0-4a88-b283-b1435c48a669"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "This is the description for UI Automation Policy",
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     },
