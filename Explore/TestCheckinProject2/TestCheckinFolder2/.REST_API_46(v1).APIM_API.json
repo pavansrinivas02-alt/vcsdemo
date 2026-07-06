@@ -1,0 +1,56 @@
+{
+  "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "1bBONRr7dAgiTtTcuXtGGN",
+    "name" : "REST_API_46(v1)",
+    "type" : "APIM_API",
+    "validator" : {
+      "VERSION" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "6e94a53a-bda3-4b9d-91cc-98e44ef73ec4"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-07-06T11:16:24.739Z",
+  "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "0pH67WaNEcwfMk1ggfOhOQ",
+    "name" : "REST_API_46_2",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "vmVtFgpKi9zhFty-gt-98-2026-07-06T10:23:18.349Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/TestCheckinProject2/TestCheckinFolder2"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
