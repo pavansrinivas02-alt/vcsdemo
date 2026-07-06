@@ -3,9 +3,9 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "aEU1KGIDIKFi1WkKfndy02",
-    "name" : "TestCheckinProject5",
-    "type" : "Project",
+    "id" : "0fDpjAmrheIh4BPEGSM1eQ",
+    "name" : "TestCheckinFolder5",
+    "type" : "Folder",
     "metadata" : {
       "modelVersion" : {
         "major" : 0,
@@ -21,7 +21,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-06T11:10:37.035Z",
+  "updateTime" : "2026-07-06T11:10:37.034Z",
   "objectRefs" : [ ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
