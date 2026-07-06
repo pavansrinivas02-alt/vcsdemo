@@ -1,0 +1,181 @@
+{
+  "documentData" : {
+    "metadata" : {
+      "id" : "d7d9c6a1-ed84-4968-bdf6-d816bc0aa1a4",
+      "type" : "REST_API",
+      "name" : "REST_API_44(v1)",
+      "description" : "",
+      "apiName" : "REST_API_44",
+      "version" : "v1",
+      "status" : "DRAFT",
+      "visibility" : "EXTERNAL",
+      "revisionNumber" : 1,
+      "frsDocumentId" : "3fuuPf7DZThi2GTHaTvF8s",
+      "lastModifiedDate" : 1783329028511,
+      "apiClusterId" : "9a631b37-6de3-4c89-9cb9-22ed861c04e1",
+      "isFixed" : true
+    },
+    "location" : "3sVyMJROkg0cFZsF0E1U8i",
+    "definition" : {
+      "id" : "api_definition_1783329027450",
+      "operations" : [ {
+        "id" : "4a22f4db-7e25-4eeb-b470-3f58fa501f53",
+        "title" : "op",
+        "description" : "",
+        "tags" : [ ],
+        "implementationConfigurations" : [ {
+          "frsId" : "jeZRW6lpgKab65TkTwo9UM",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "REST_API_44",
+          "description" : "",
+          "implementationEndpoint" : "https://pod1-cai.ml.infaqa.com/active-bpel/public/rt/5zDmg4mEN4Uk9GkaQm3iy9/REST_API_44",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeMappings" : [ ]
+        } ],
+        "policies" : [ {
+          "policy" : {
+            "type" : "RATE_LIMITING_POLICY",
+            "definition" : {
+              "data" : { }
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NONE",
+          "notes" : ""
+        }, {
+          "policy" : {
+            "type" : "RESPONSE_CACHING_POLICY",
+            "definition" : {
+              "data" : { }
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NONE",
+          "notes" : ""
+        } ],
+        "operationalConfiguration" : { },
+        "requestMethod" : "POST",
+        "path" : "/op",
+        "pathParameters" : [ ],
+        "queryParameters" : [ ],
+        "request" : {
+          "headers" : [ ],
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "constraints" : {
+            "required" : false
+          }
+        },
+        "duplicateOperation" : false,
+        "conflict" : false,
+        "responses" : [ {
+          "headers" : [ ],
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "metadata" : { },
+            "definition" : {
+              "fields" : [ ]
+            },
+            "inline" : false,
+            "properties" : [ ]
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK."
+        } ],
+        "ifSkip" : false,
+        "issuesParsing" : [ ]
+      } ],
+      "implementationProviderIds" : [ "jeZRW6lpgKab65TkTwo9UM" ]
+    },
+    "metadata.type" : "REST_API",
+    "artifacts" : [ ],
+    "groups" : [ ],
+    "policies" : [ {
+      "policy" : {
+        "type" : "PII_POLICY",
+        "metadata" : {
+          "category" : "PRIVACY",
+          "type" : "PII_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "fields" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "id" : "6345cfc6-023a-4df4-aed8-9b00a769e850",
+          "name" : "687j4fEgV3Z0BkP",
+          "description" : "This is the description for UI Automation Policy operational policy",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "9aPGGpJBWAGem9UUjUaBaC",
+          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+          "frsName" : "687j4fEgV3Z0BkP",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "bcf87397-224e-4cd5-89b9-9d0972a0962d",
+          "tier" : {
+            "id" : "2925a0a9-5bf4-4fd0-be03-954542caad89",
+            "name" : "APIC_T_1758091875473",
+            "description" : "This is the description for UI Automation Policy operational policy",
+            "quota" : 2,
+            "timeInterval" : 1,
+            "timeUnit" : "MINUTE",
+            "internalTierId" : "4240ddb3-7763-4eee-8214-ae3a60b236b4"
+          }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "authenticationSchemes" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    } ],
+    "tags" : [ ],
+    "properties" : [ {
+      "id" : "36937daa-4d5f-4112-8889-c3eaa62d22c3",
+      "name" : "ApiImplementationProviderType",
+      "value" : "CAI_PROCESS"
+    } ]
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
