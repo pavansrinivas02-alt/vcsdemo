@@ -1,0 +1,33 @@
+{
+  "documentData" : {
+    "type" : "PII_POLICY",
+    "metadata" : {
+      "id" : "12c9f2ce-8c8e-46a6-9d6e-9efca49f91e1",
+      "name" : "VCSVAL_S1_07061630",
+      "description" : "VCS validation single-checkin policy",
+      "category" : "PRIVACY",
+      "type" : "PII_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "gotnPKojdanfeNaLJ4p9oG",
+      "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+      "frsName" : "VCSVAL_S1_07061630",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "2888cbcd-dbd0-4f75-8632-21ba5514e108",
+      "fields" : [ {
+        "name" : "Credit Card",
+        "requestAction" : "BLOCK",
+        "responseAction" : "NO_ACTION"
+      } ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
