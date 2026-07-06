@@ -1,0 +1,33 @@
+{
+  "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "ao7bOooEkVYjiuAAcLWGeI",
+    "name" : "VCSVAL_S2_B_07061630",
+    "type" : "API_POLICY",
+    "validator" : {
+      "version" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "e2dfdca1-7fee-4de8-8161-1e8b0d9dc82a"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "VCS multi-checkin policy B",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-07-06T11:05:18.274Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}

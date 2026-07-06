@@ -1,0 +1,33 @@
+{
+  "documentData" : {
+    "type" : "PII_POLICY",
+    "metadata" : {
+      "id" : "e2dfdca1-7fee-4de8-8161-1e8b0d9dc82a",
+      "name" : "VCSVAL_S2_B_07061630",
+      "description" : "VCS multi-checkin policy B",
+      "category" : "PRIVACY",
+      "type" : "PII_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "ao7bOooEkVYjiuAAcLWGeI",
+      "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+      "frsName" : "VCSVAL_S2_B_07061630",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "5d956de3-709e-44f4-9c0e-0c8bdffe43ef",
+      "fields" : [ {
+        "name" : "Credit Card",
+        "requestAction" : "BLOCK",
+        "responseAction" : "NO_ACTION"
+      } ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
