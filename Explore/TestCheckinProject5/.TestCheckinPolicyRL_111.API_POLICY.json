@@ -4,7 +4,7 @@
     "idmcRelease" : null,
     "productRelease" : null,
     "id" : "dCfUBO2Vn4Egmjs4LlZyUu",
-    "name" : "TestCheckinPolicyRL",
+    "name" : "TestCheckinPolicyRL_111",
     "type" : "API_POLICY",
     "validator" : {
       "version" : "1.0"
@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-06T11:30:46.166Z",
+  "updateTime" : "2026-07-06T11:36:21.289Z",
   "objectRefs" : [ ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
