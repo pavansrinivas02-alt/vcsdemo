@@ -1,0 +1,37 @@
+{
+  "documentData" : {
+    "type" : "RATE_LIMITING_POLICY",
+    "metadata" : {
+      "id" : "e1837045-9b52-417c-afa7-6769b24fa86f",
+      "name" : "TestCheckinPolicyRL",
+      "description" : "",
+      "category" : "OPERATIONAL",
+      "type" : "RATE_LIMITING_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "dCfUBO2Vn4Egmjs4LlZyUu",
+      "frsLocation" : "3oFmwDJ27QQfnl0AxJUuiL",
+      "frsName" : "TestCheckinPolicyRL",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "5fc623a1-0720-406b-89cc-06c834dd39b4",
+      "tier" : {
+        "id" : "a1bd549d-cffd-4ceb-acb5-e65c1949f917",
+        "name" : "APIC_T_1783337043415",
+        "description" : "",
+        "quota" : 200,
+        "timeInterval" : 1,
+        "timeUnit" : "DAY",
+        "internalTierId" : "3f8daa56-bca3-4070-8c98-e4aa386b8dff"
+      }
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
