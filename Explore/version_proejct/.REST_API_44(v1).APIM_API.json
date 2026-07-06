@@ -19,14 +19,14 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "this is the second time i am making checkin by chnaging description",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-06T09:11:27.998Z",
+  "updateTime" : "2026-07-06T09:25:52.704Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
