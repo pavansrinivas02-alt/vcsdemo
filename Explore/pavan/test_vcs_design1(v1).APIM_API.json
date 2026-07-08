@@ -11,13 +11,13 @@
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "5afUQI6aoecjFCQHI4bKwI",
-      "lastModifiedDate" : 1783506140764,
+      "lastModifiedDate" : 1783506229823,
       "apiClusterId" : "d537c957-124f-4f7a-a6fc-dbc280443d3e",
       "isFixed" : true
     },
     "location" : "5jRFKlmqamWed1qGR65mcD",
     "definition" : {
-      "id" : "api_definition_1783506139689",
+      "id" : "api_definition_1783506229095",
       "operations" : [ ],
       "implementationProviderIds" : [ ]
     },
@@ -45,6 +45,33 @@
       "notes" : ""
     }, {
       "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "id" : "2b5c0df3-c0be-4388-bcd5-c980b1f39af4",
+          "name" : "test_vcs2",
+          "description" : "",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "2vBPVini6bIcn9dc2AebCO",
+          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+          "frsName" : "test_vcs2",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "c9e53b34-e5a6-4019-9697-d321839ea67c",
+          "authenticationSchemes" : [ "BEARER" ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    }, {
+      "policy" : {
         "type" : "RATE_LIMITING_POLICY",
         "metadata" : {
           "category" : "OPERATIONAL",
@@ -60,33 +87,6 @@
         "properties" : [ ]
       },
       "selectionType" : "NONE",
-      "notes" : ""
-    }, {
-      "policy" : {
-        "type" : "AUTHENTICATION_POLICY",
-        "metadata" : {
-          "id" : "c2b2c59b-ef98-4365-ab34-188883518b79",
-          "name" : "test_vcs1",
-          "description" : "",
-          "category" : "SECURITY",
-          "type" : "AUTHENTICATION_POLICY",
-          "status" : "ENABLED",
-          "apiDesignRefCount" : 0,
-          "frsDocumentId" : "hEGuL1IxlAlbNg8SHI2jOS",
-          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
-          "frsName" : "test_vcs1",
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { },
-          "id" : "6f5dfb1d-93b7-4da5-bdfc-dc955766266b",
-          "authenticationSchemes" : [ "BASIC" ]
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NAMED",
       "notes" : ""
     } ],
     "tags" : [ ],

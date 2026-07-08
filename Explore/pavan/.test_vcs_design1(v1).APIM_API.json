@@ -26,13 +26,13 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-08T10:22:46.910Z",
+  "updateTime" : "2026-07-08T10:24:14.098Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "hEGuL1IxlAlbNg8SHI2jOS",
-    "name" : "test_vcs1",
+    "id" : "2vBPVini6bIcn9dc2AebCO",
+    "name" : "test_vcs2",
     "type" : "API_POLICY",
     "metadata" : {
       "modelVersion" : {
@@ -40,7 +40,7 @@
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "c2b2c59b-ef98-4365-ab34-188883518b79"
+        "repoHandle" : "2b5c0df3-c0be-4388-bcd5-c980b1f39af4"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
