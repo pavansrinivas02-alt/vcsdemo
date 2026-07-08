@@ -11,14 +11,107 @@
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "5afUQI6aoecjFCQHI4bKwI",
-      "lastModifiedDate" : 1783506229823,
+      "lastModifiedDate" : 1783515426445,
       "apiClusterId" : "d537c957-124f-4f7a-a6fc-dbc280443d3e",
       "isFixed" : true
     },
     "location" : "5jRFKlmqamWed1qGR65mcD",
     "definition" : {
-      "id" : "api_definition_1783506229095",
-      "operations" : [ ],
+      "id" : "api_definition_1783515425194",
+      "operations" : [ {
+        "id" : "a1d84b05-bc2f-4fcf-ba6d-9804d6b1b6e5",
+        "title" : "sdhusdjhjsd",
+        "description" : "",
+        "tags" : [ ],
+        "implementationConfigurations" : [ {
+          "provider" : "CAI_PROCESS",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeMappings" : [ ]
+        } ],
+        "policies" : [ {
+          "policy" : {
+            "type" : "AUTHENTICATION_POLICY",
+            "metadata" : {
+              "id" : "c2b2c59b-ef98-4365-ab34-188883518b79",
+              "name" : "test_vcs1",
+              "description" : "",
+              "category" : "SECURITY",
+              "type" : "AUTHENTICATION_POLICY",
+              "status" : "ENABLED",
+              "apiDesignRefCount" : 0,
+              "frsDocumentId" : "hEGuL1IxlAlbNg8SHI2jOS",
+              "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+              "frsName" : "test_vcs1",
+              "orgLevelRateLimitPolicy" : false
+            },
+            "definition" : {
+              "data" : { },
+              "id" : "6f5dfb1d-93b7-4da5-bdfc-dc955766266b",
+              "authenticationSchemes" : [ "BASIC" ]
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NAMED",
+          "notes" : ""
+        }, {
+          "policy" : {
+            "type" : "RATE_LIMITING_POLICY",
+            "definition" : {
+              "data" : { }
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NONE",
+          "notes" : ""
+        }, {
+          "policy" : {
+            "type" : "RESPONSE_CACHING_POLICY",
+            "definition" : {
+              "data" : { }
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NONE",
+          "notes" : ""
+        } ],
+        "operationalConfiguration" : { },
+        "requestMethod" : "POST",
+        "path" : "/sdjhsd",
+        "pathParameters" : [ ],
+        "queryParameters" : [ ],
+        "request" : {
+          "headers" : [ ],
+          "mediaTypes" : [ ],
+          "constraints" : {
+            "required" : false
+          }
+        },
+        "duplicateOperation" : false,
+        "conflict" : false,
+        "responses" : [ {
+          "headers" : [ ],
+          "mediaTypes" : [ ],
+          "body" : {
+            "metadata" : { },
+            "definition" : {
+              "fields" : [ ]
+            },
+            "inline" : false,
+            "properties" : [ ]
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK."
+        } ],
+        "ifSkip" : false,
+        "issuesParsing" : [ ]
+      } ],
       "implementationProviderIds" : [ ]
     },
     "metadata.type" : "REST_API",
@@ -45,33 +138,6 @@
       "notes" : ""
     }, {
       "policy" : {
-        "type" : "AUTHENTICATION_POLICY",
-        "metadata" : {
-          "id" : "2b5c0df3-c0be-4388-bcd5-c980b1f39af4",
-          "name" : "test_vcs2",
-          "description" : "",
-          "category" : "SECURITY",
-          "type" : "AUTHENTICATION_POLICY",
-          "status" : "ENABLED",
-          "apiDesignRefCount" : 0,
-          "frsDocumentId" : "2vBPVini6bIcn9dc2AebCO",
-          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
-          "frsName" : "test_vcs2",
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { },
-          "id" : "c9e53b34-e5a6-4019-9697-d321839ea67c",
-          "authenticationSchemes" : [ "BEARER" ]
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NAMED",
-      "notes" : ""
-    }, {
-      "policy" : {
         "type" : "RATE_LIMITING_POLICY",
         "metadata" : {
           "category" : "OPERATIONAL",
@@ -88,9 +154,32 @@
       },
       "selectionType" : "NONE",
       "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "authenticationSchemes" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
     } ],
     "tags" : [ ],
-    "properties" : [ ]
+    "properties" : [ {
+      "id" : "5e30bb18-5490-421f-be77-2064463b0b84",
+      "name" : "ApiImplementationProviderType",
+      "value" : "CAI_PROCESS"
+    } ]
   },
   "metadata" : {
     "VERSION" : "1.0"
