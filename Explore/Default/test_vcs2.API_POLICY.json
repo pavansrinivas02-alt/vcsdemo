@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "2b5c0df3-c0be-4388-bcd5-c980b1f39af4",
+      "name" : "test_vcs2",
+      "description" : "",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "2vBPVini6bIcn9dc2AebCO",
+      "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+      "frsName" : "test_vcs2",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "c9e53b34-e5a6-4019-9697-d321839ea67c",
+      "authenticationSchemes" : [ "BEARER" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
