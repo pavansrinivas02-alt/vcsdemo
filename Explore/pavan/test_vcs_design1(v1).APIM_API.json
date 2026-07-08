@@ -1,0 +1,98 @@
+{
+  "documentData" : {
+    "metadata" : {
+      "id" : "9173aba3-5721-4eda-8bba-f444c76b06c9",
+      "type" : "REST_API",
+      "name" : "test_vcs_design1(v1)",
+      "description" : "",
+      "apiName" : "test_vcs_design1",
+      "version" : "v1",
+      "status" : "DRAFT",
+      "visibility" : "EXTERNAL",
+      "revisionNumber" : 1,
+      "frsDocumentId" : "5afUQI6aoecjFCQHI4bKwI",
+      "lastModifiedDate" : 1783506140764,
+      "apiClusterId" : "d537c957-124f-4f7a-a6fc-dbc280443d3e",
+      "isFixed" : true
+    },
+    "location" : "5jRFKlmqamWed1qGR65mcD",
+    "definition" : {
+      "id" : "api_definition_1783506139689",
+      "operations" : [ ],
+      "implementationProviderIds" : [ ]
+    },
+    "metadata.type" : "REST_API",
+    "artifacts" : [ ],
+    "groups" : [ ],
+    "policies" : [ {
+      "policy" : {
+        "type" : "PII_POLICY",
+        "metadata" : {
+          "category" : "PRIVACY",
+          "type" : "PII_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "fields" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "id" : "c2b2c59b-ef98-4365-ab34-188883518b79",
+          "name" : "test_vcs1",
+          "description" : "",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "hEGuL1IxlAlbNg8SHI2jOS",
+          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+          "frsName" : "test_vcs1",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "6f5dfb1d-93b7-4da5-bdfc-dc955766266b",
+          "authenticationSchemes" : [ "BASIC" ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    } ],
+    "tags" : [ ],
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
