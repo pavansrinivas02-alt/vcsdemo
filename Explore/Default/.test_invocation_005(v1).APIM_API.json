@@ -3,34 +3,6 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "6jVoFqjTIBFg0LGBeohIgE",
-    "name" : "test_invocation_005(v1)",
-    "type" : "API_PUBLISHED",
-    "validator" : {
-      "VERSION" : "1.0"
-    },
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 1,
-        "minor" : 1
-      },
-      "repoInfo" : {
-        "repoHandle" : "c2bb7f1f-1d94-4e07-8ab1-b81eaf29814e"
-      },
-      "contextAttributes" : [ ],
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "Binary",
-        "documentState" : "VALID"
-      }
-    }
-  },
-  "dataFileExtension" : "json",
-  "updateTime" : "2026-07-08T17:01:57.732Z",
-  "objectRefs" : [ {
-    "schemaVersion" : null,
-    "idmcRelease" : null,
-    "productRelease" : null,
     "id" : "4xaSKDAhGz2eyukbj15jeM",
     "name" : "test_invocation_005(v1)",
     "type" : "APIM_API",
@@ -51,9 +23,11 @@
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
-    },
-    "path" : "/Explore/Default"
-  }, {
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-07-08T17:01:57.731Z",
+  "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,

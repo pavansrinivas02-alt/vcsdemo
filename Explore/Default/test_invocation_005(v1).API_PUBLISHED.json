@@ -1,7 +1,7 @@
 {
   "documentData" : {
-    "id" : "73d88372-f850-4bff-9ee6-c99d156416cc",
-    "apiDesignId" : "6afe01a4-e432-4d74-84be-a5a7d56f3792",
+    "id" : "c2bb7f1f-1d94-4e07-8ab1-b81eaf29814e",
+    "apiDesignId" : "3d02eb3e-c93a-4f2c-b03d-170f11f06551",
     "apiDesignApiName" : "test_invocation_005",
     "apiDesignInternalName" : "test_invocation_005(v1)",
     "apiDesignMetadata" : {
@@ -13,7 +13,7 @@
     "name" : "test_invocation_005",
     "description" : "",
     "version" : "v1",
-    "revision" : 1,
+    "revision" : 2,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -45,11 +45,11 @@
           "description" : "OK."
         } ],
         "implementation" : {
-          "id" : "54SwCGEyGfugk0qL2U2Jg5",
+          "id" : "4G3xovFnMhQiLci2uUthYq",
           "provider" : "CAI_PROCESS",
           "assetName" : "saxzuyhsayuxhzsax",
           "description" : "",
-          "endpoint" : "https://pod1-cai.ml.infaqa.com/active-bpel/public/rt/5zDmg4mEN4Uk9GkaQm3iy9/saxzuyhsayuxhzsax",
+          "endpoint" : "https://pod1-cai.ml.infaqa.com/active-bpel/public/rt/7DWQDXlnhE4krcujllMtap/saxzuyhsayuxhzsax",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeTransformations" : [ ]
@@ -114,11 +114,11 @@
           "description" : "OK."
         } ],
         "implementation" : {
-          "id" : "jZuwd34SSUNcUi5SDsqoss",
+          "id" : "5kf8uvG8kzNf9XbHMAS8As",
           "provider" : "CAI_PROCESS",
           "assetName" : "dsxhjugvbwsnax",
           "description" : "",
-          "endpoint" : "https://pod1-cai.ml.infaqa.com/active-bpel/public/rt/5zDmg4mEN4Uk9GkaQm3iy9/dsxhjugvbwsnax",
+          "endpoint" : "https://pod1-cai.ml.infaqa.com/active-bpel/public/rt/7DWQDXlnhE4krcujllMtap/dsxhjugvbwsnax",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeTransformations" : [ ]
@@ -183,11 +183,11 @@
           "description" : "OK."
         } ],
         "implementation" : {
-          "id" : "k6nEp6B2bYZcWyfLbC3asY",
+          "id" : "7nExOxGzgSYeH4uLjlH465",
           "provider" : "CAI_PROCESS",
           "assetName" : "uyghbnsaxz",
           "description" : "",
-          "endpoint" : "https://pod1-cai.ml.infaqa.com/active-bpel/public/rt/5zDmg4mEN4Uk9GkaQm3iy9/uyghbnsaxz",
+          "endpoint" : "https://pod1-cai.ml.infaqa.com/active-bpel/public/rt/7DWQDXlnhE4krcujllMtap/uyghbnsaxz",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeTransformations" : [ ]
@@ -250,15 +250,15 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "11326ad0-dbe0-451d-864a-a22cb9a0107d", "59e1abf1-ce0b-4f5d-8dd1-982513613f28", "f2adc86e-7e33-4df1-ae8f-58a4efbde28b" ],
-      "implementationProviderIds" : [ "54SwCGEyGfugk0qL2U2Jg5", "jZuwd34SSUNcUi5SDsqoss", "k6nEp6B2bYZcWyfLbC3asY" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "apiLevelRateLimitNamedPolicyIds" : [ null ]
+      "operationLevelRateLimitNamedPolicyIds" : [ "11326ad0-dbe0-451d-864a-a22cb9a0107d", "59e1abf1-ce0b-4f5d-8dd1-982513613f28", "f2adc86e-7e33-4df1-ae8f-58a4efbde28b" ],
+      "implementationProviderIds" : [ "5kf8uvG8kzNf9XbHMAS8As", "4G3xovFnMhQiLci2uUthYq", "7nExOxGzgSYeH4uLjlH465" ]
     },
-    "apiClusterId" : "d26afa1d-e1f9-4925-83f8-d9e9bc9aa9de",
+    "apiClusterId" : "ff6de3ba-c859-4f69-9bb9-85672e917320",
     "apiCategory" : "IDMC_APP_GENERATED",
-    "frsDocumentId" : "9zIpMpvyFe3dMgzUJjKMqD",
-    "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+    "frsDocumentId" : "6jVoFqjTIBFg0LGBeohIgE",
+    "frsLocation" : "2llJ7rh8J0cfNoaRGx8HuQ",
     "isFixed" : true,
     "frsName" : "test_invocation_005(v1)",
     "runtimeEnvironmentInfo" : {
