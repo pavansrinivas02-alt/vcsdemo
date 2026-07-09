@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-09T11:13:21.782Z",
+  "updateTime" : "2026-07-09T11:14:20.222Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
@@ -54,8 +54,8 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "8SY2PfBO2EKl0urSkVR161",
-    "name" : "test_auth_policy1",
+    "id" : "7ASSWXHlZMqj7mXqiQRSMQ",
+    "name" : "test_auth_policy2",
     "type" : "API_POLICY",
     "metadata" : {
       "modelVersion" : {
@@ -63,7 +63,7 @@
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "0ce151b9-463f-4c47-b8d3-d972f5c51ac2"
+        "repoHandle" : "8e09f9af-f526-4947-920b-02bb6a872348"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
