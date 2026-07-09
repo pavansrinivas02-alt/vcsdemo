@@ -9,16 +9,86 @@
       "version" : "v1",
       "status" : "PUBLISHED",
       "visibility" : "EXTERNAL",
-      "revisionNumber" : 1,
+      "revisionNumber" : 2,
       "frsDocumentId" : "2fDkZQF16KrjwpHuAcISEX",
-      "lastModifiedDate" : 1783603230118,
+      "lastModifiedDate" : 1783603811735,
       "apiClusterId" : "f29ae2ee-f36d-488a-85ab-c8b420ead7ec",
       "isFixed" : true
     },
     "location" : "ebtt59y80eTfamO6E1DZI8",
     "definition" : {
-      "id" : "api_definition_1783603219931",
+      "id" : "api_definition_1783603806322",
       "operations" : [ {
+        "id" : "0cdf6532-c4cc-46c0-97c7-f4b109461eb6",
+        "title" : "sdhjnsdkjsd",
+        "description" : "",
+        "tags" : [ ],
+        "implementationConfigurations" : [ {
+          "frsId" : "663iyzXdtW0emX8Osx21AS",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "sdjbmnsd",
+          "description" : "",
+          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/sdjbmnsd",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeMappings" : [ ]
+        } ],
+        "policies" : [ {
+          "policy" : {
+            "type" : "RATE_LIMITING_POLICY",
+            "definition" : {
+              "data" : { }
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NONE",
+          "notes" : ""
+        }, {
+          "policy" : {
+            "type" : "RESPONSE_CACHING_POLICY",
+            "definition" : {
+              "data" : { }
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NONE",
+          "notes" : ""
+        } ],
+        "operationalConfiguration" : { },
+        "requestMethod" : "POST",
+        "path" : "/dscjhsd",
+        "pathParameters" : [ ],
+        "queryParameters" : [ ],
+        "request" : {
+          "headers" : [ ],
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "constraints" : {
+            "required" : false
+          }
+        },
+        "duplicateOperation" : false,
+        "conflict" : false,
+        "responses" : [ {
+          "headers" : [ ],
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "metadata" : { },
+            "definition" : {
+              "fields" : [ ]
+            },
+            "inline" : false,
+            "properties" : [ ]
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK."
+        } ],
+        "ifSkip" : false,
+        "issuesParsing" : [ ]
+      }, {
         "id" : "cad1e28c-a70f-4d35-bb2e-f462702b495d",
         "title" : "dshbdwhjwd",
         "description" : "",
@@ -89,7 +159,7 @@
         "ifSkip" : false,
         "issuesParsing" : [ ]
       } ],
-      "implementationProviderIds" : [ "c3XbCpFx7gbd2Sf5KKphK7" ]
+      "implementationProviderIds" : [ "663iyzXdtW0emX8Osx21AS", "c3XbCpFx7gbd2Sf5KKphK7" ]
     },
     "metadata.type" : "REST_API",
     "artifacts" : [ ],
