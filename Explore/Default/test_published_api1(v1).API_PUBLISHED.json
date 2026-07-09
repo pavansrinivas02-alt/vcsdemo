@@ -11,9 +11,9 @@
       }
     },
     "name" : "test_published_api1",
-    "description" : "hujsdijsdbnnb",
+    "description" : "hujsdijsd",
     "version" : "v1",
-    "revision" : 1,
+    "revision" : 2,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -24,78 +24,6 @@
         "ApiImplementationProviderType" : "CAI_PROCESS"
       },
       "operations" : [ {
-        "id" : "0cdf6532-c4cc-46c0-97c7-f4b109461eb6",
-        "title" : "sdhjnsdkjsd",
-        "description" : "",
-        "requestMethod" : "POST",
-        "type" : "REST_API",
-        "path" : "/dscjhsd",
-        "tags" : [ ],
-        "properties" : { },
-        "request" : {
-          "mediaTypes" : [ "APPLICATION_JSON" ],
-          "required" : false
-        },
-        "responses" : [ {
-          "mediaTypes" : [ "APPLICATION_JSON" ],
-          "body" : {
-            "inline" : false
-          },
-          "status" : "STATUS_200_OK",
-          "description" : "OK."
-        } ],
-        "implementation" : {
-          "id" : "663iyzXdtW0emX8Osx21AS",
-          "provider" : "CAI_PROCESS",
-          "assetName" : "sdjbmnsd",
-          "description" : "",
-          "endpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/sdjbmnsd",
-          "inputTransformations" : [ ],
-          "outputTransformations" : [ ],
-          "responseCodeTransformations" : [ ]
-        },
-        "configuration" : { },
-        "policies" : [ {
-          "id" : "38b6d8b6-17de-4ef2-903e-70fae36341ae",
-          "name" : "test_pub_policy1",
-          "description" : "",
-          "category" : "SECURITY",
-          "type" : "AUTHENTICATION_POLICY",
-          "status" : "ENABLED",
-          "inline" : true,
-          "inherited" : true,
-          "notes" : "",
-          "selectionType" : "INLINE",
-          "definition" : {
-            "id" : "28de93aa-0b63-45ec-ab96-48b7da64f41f",
-            "authenticationSchemes" : [ "BASIC" ]
-          }
-        }, {
-          "id" : "18448905-e985-4361-8915-b4f0a9e52da1",
-          "category" : "OPERATIONAL",
-          "type" : "RATE_LIMITING_POLICY",
-          "status" : "ENABLED",
-          "inline" : false,
-          "inherited" : false,
-          "notes" : "",
-          "selectionType" : "NONE",
-          "definition" : {
-            "tier" : {
-              "timeUnit" : "SECOND"
-            }
-          }
-        }, {
-          "id" : "f15c2ba3-1fc4-4f6a-b538-8f55ec917cd6",
-          "category" : "OPERATIONAL",
-          "type" : "RESPONSE_CACHING_POLICY",
-          "status" : "ENABLED",
-          "inline" : false,
-          "inherited" : false,
-          "notes" : "",
-          "selectionType" : "NONE",
-          "definition" : { }
-        } ]
-      }, {
         "id" : "cad1e28c-a70f-4d35-bb2e-f462702b495d",
         "title" : "dshbdwhjwd",
         "description" : "",
@@ -143,7 +71,7 @@
             "authenticationSchemes" : [ "BASIC" ]
           }
         }, {
-          "id" : "ff1e4402-b23d-49a8-ada7-ce5a970389b9",
+          "id" : "a2c24248-c155-4b4e-99f0-5a120f36dcd4",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -157,7 +85,7 @@
             }
           }
         }, {
-          "id" : "55b74a56-58ad-48d0-8a02-4f5349121d8f",
+          "id" : "75ebb7a2-baac-45be-9136-1c6f8bfd641b",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -187,10 +115,10 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
-      "apiLevelRateLimitNamedPolicyIds" : [ null ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "ff1e4402-b23d-49a8-ada7-ce5a970389b9", "18448905-e985-4361-8915-b4f0a9e52da1" ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "a2c24248-c155-4b4e-99f0-5a120f36dcd4" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "implementationProviderIds" : [ "663iyzXdtW0emX8Osx21AS", "c3XbCpFx7gbd2Sf5KKphK7" ]
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
+      "implementationProviderIds" : [ "c3XbCpFx7gbd2Sf5KKphK7" ]
     },
     "apiClusterId" : "f29ae2ee-f36d-488a-85ab-c8b420ead7ec",
     "apiCategory" : "IDMC_APP_GENERATED",
