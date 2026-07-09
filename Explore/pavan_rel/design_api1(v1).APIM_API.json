@@ -11,13 +11,13 @@
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "kc1zst3Q70ZkqzbmKJpbk9",
-      "lastModifiedDate" : 1783595649910,
+      "lastModifiedDate" : 1783595707234,
       "apiClusterId" : "05d735c4-7c09-49de-9785-e9c6043d69a8",
       "isFixed" : true
     },
     "location" : "1PUPM5vsJpjgQFn8hAGk0a",
     "definition" : {
-      "id" : "api_definition_1783595648787",
+      "id" : "api_definition_1783595580392",
       "operations" : [ {
         "id" : "b9dd2355-3da4-4b4c-adf7-99c3252678ba",
         "title" : "yuhjdsxz",
@@ -37,22 +37,22 @@
           "policy" : {
             "type" : "AUTHENTICATION_POLICY",
             "metadata" : {
-              "id" : "8e09f9af-f526-4947-920b-02bb6a872348",
-              "name" : "test_auth_policy2",
+              "id" : "0ce151b9-463f-4c47-b8d3-d972f5c51ac2",
+              "name" : "test_auth_policy1",
               "description" : "",
               "category" : "SECURITY",
               "type" : "AUTHENTICATION_POLICY",
               "status" : "ENABLED",
               "apiDesignRefCount" : 0,
-              "frsDocumentId" : "7ASSWXHlZMqj7mXqiQRSMQ",
+              "frsDocumentId" : "8SY2PfBO2EKl0urSkVR161",
               "frsLocation" : "f2Am1SWtCCnfvzOx5D9yWT",
-              "frsName" : "test_auth_policy2",
+              "frsName" : "test_auth_policy1",
               "orgLevelRateLimitPolicy" : false
             },
             "definition" : {
               "data" : { },
-              "id" : "1e714746-ca7c-4c00-a797-a354808ee057",
-              "authenticationSchemes" : [ "BEARER" ]
+              "id" : "60a570f8-6e3c-4ca9-838a-e6c2472f5cd6",
+              "authenticationSchemes" : [ "BASIC" ]
             },
             "inline" : false,
             "inherited" : false,
