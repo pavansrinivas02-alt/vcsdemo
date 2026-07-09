@@ -3,7 +3,7 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "97VKnkJrLyKeuUmnmxKLs5",
+    "id" : "2fDkZQF16KrjwpHuAcISEX",
     "name" : "test_published_api1(v1)",
     "type" : "APIM_API",
     "validator" : {
@@ -15,7 +15,7 @@
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "23c20ce8-9fd1-4096-8404-c35d1547b0f6"
+        "repoHandle" : "063def36-00ae-4464-84d5-bb8b77397092"
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
@@ -26,12 +26,81 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-09T17:29:41.665Z",
+  "updateTime" : "2026-07-09T17:46:13.277Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "daxeKx3MJSzgyB2H2IFog8",
+    "id" : "663iyzXdtW0emX8Osx21AS",
+    "name" : "sdjbmnsd",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "oAyNnQMMnGbciZB-gt-30802-2026-07-09T13:30:00.923Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "c3XbCpFx7gbd2Sf5KKphK7",
+    "name" : "wdshjnwdsj",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "nUqThtpyqaa-gt-29968-2026-07-09T13:18:41.218Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "7NIaKAHKTs0bhTdOsKmAeQ",
+    "name" : "rl1",
+    "type" : "API_POLICY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "03ddSld3TPLfduzcBEExqr",
     "name" : "ewrfdvcfd",
     "type" : "PROCESS",
     "metadata" : {
@@ -40,7 +109,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0Nmumf6S3wOLIFv-gt-86659-2026-07-09T17:14:22.988Z::pd.xml"
+        "repoHandle" : "fPnE29Em2kVNKSm-gt-86688-2026-07-09T17:20:12.08Z::pd.xml"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -50,98 +119,6 @@
       }
     },
     "path" : "/Explore/pavan_rel"
-  }, {
-    "schemaVersion" : null,
-    "idmcRelease" : null,
-    "productRelease" : null,
-    "id" : "1DsXslpHbG6lV6Z6fLzmqZ",
-    "name" : "test_pub_policy1",
-    "type" : "API_POLICY",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 1,
-        "minor" : 1
-      },
-      "repoInfo" : {
-        "repoHandle" : "18ea6186-bdbc-4672-ac3d-3899f94c6285"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Default"
-  }, {
-    "schemaVersion" : null,
-    "idmcRelease" : null,
-    "productRelease" : null,
-    "id" : "00R87FIOCbpc3fB44Y1LGN",
-    "name" : "sdjbmnsd",
-    "type" : "PROCESS",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 1,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "FwIciQlBWlD2pHA-gt-85503-2026-07-09T16:58:16.513Z::pd.xml"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "application/json; charset=utf-8",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Default"
-  }, {
-    "schemaVersion" : null,
-    "idmcRelease" : null,
-    "productRelease" : null,
-    "id" : "1YPZTpluUXKglytitRGgiT",
-    "name" : "wdshjnwdsj",
-    "type" : "PROCESS",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 1,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "ImXycotFgpKi9zh-gt-85511-2026-07-09T16:58:16.549Z::pd.xml"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "application/json; charset=utf-8",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Default"
-  }, {
-    "schemaVersion" : null,
-    "idmcRelease" : null,
-    "productRelease" : null,
-    "id" : "iy6PnWMGAUNkgxRsMWAHYX",
-    "name" : "rl1",
-    "type" : "API_POLICY",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 1,
-        "minor" : 1
-      },
-      "repoInfo" : {
-        "repoHandle" : "22463278-3d66-45b7-8521-c97cadc38faa"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : "",
-        "contentType" : "JSON",
-        "documentState" : "VALID"
-      }
-    },
-    "path" : "/Explore/Default"
   } ],
   "readableFileExtension" : null,
   "readableFilePresent" : false

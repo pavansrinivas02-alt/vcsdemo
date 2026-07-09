@@ -1,34 +1,34 @@
 {
   "documentData" : {
     "metadata" : {
-      "id" : "23c20ce8-9fd1-4096-8404-c35d1547b0f6",
+      "id" : "063def36-00ae-4464-84d5-bb8b77397092",
       "type" : "REST_API",
       "name" : "test_published_api1(v1)",
       "description" : "hujsdijsdbnnb",
       "apiName" : "test_published_api1",
       "version" : "v1",
-      "status" : "PUBLISHED",
+      "status" : "DRAFT",
       "visibility" : "EXTERNAL",
-      "revisionNumber" : 3,
-      "frsDocumentId" : "97VKnkJrLyKeuUmnmxKLs5",
-      "lastModifiedDate" : 1783618155437,
-      "apiClusterId" : "e36325fe-4804-4e77-83d3-465c1ccf5b9c",
+      "revisionNumber" : 5,
+      "frsDocumentId" : "2fDkZQF16KrjwpHuAcISEX",
+      "lastModifiedDate" : 1783619138558,
+      "apiClusterId" : "f29ae2ee-f36d-488a-85ab-c8b420ead7ec",
       "isFixed" : true
     },
-    "location" : "f2Am1SWtCCnfvzOx5D9yWT",
+    "location" : "ebtt59y80eTfamO6E1DZI8",
     "definition" : {
-      "id" : "api_definition_1783618151694",
+      "id" : "api_definition_1783619137788",
       "operations" : [ {
         "id" : "79c4b514-d635-4b6b-be98-a97a60df71e0",
         "title" : "ewdfvc",
         "description" : "",
         "tags" : [ ],
         "implementationConfigurations" : [ {
-          "frsId" : "daxeKx3MJSzgyB2H2IFog8",
+          "frsId" : "03ddSld3TPLfduzcBEExqr",
           "provider" : "CAI_PROCESS",
           "assetName" : "ewrfdvcfd",
           "description" : "",
-          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/9Zf5iUTZprSjJxUgb87goe/ewrfdvcfd",
+          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/ewrfdvcfd",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeMappings" : [ ]
@@ -94,11 +94,11 @@
         "description" : "",
         "tags" : [ ],
         "implementationConfigurations" : [ {
-          "frsId" : "00R87FIOCbpc3fB44Y1LGN",
+          "frsId" : "663iyzXdtW0emX8Osx21AS",
           "provider" : "CAI_PROCESS",
           "assetName" : "sdjbmnsd",
           "description" : "",
-          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/9Zf5iUTZprSjJxUgb87goe/sdjbmnsd",
+          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/sdjbmnsd",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeMappings" : [ ]
@@ -164,11 +164,11 @@
         "description" : "",
         "tags" : [ ],
         "implementationConfigurations" : [ {
-          "frsId" : "1YPZTpluUXKglytitRGgiT",
+          "frsId" : "c3XbCpFx7gbd2Sf5KKphK7",
           "provider" : "CAI_PROCESS",
           "assetName" : "wdshjnwdsj",
           "description" : "wdsjhdw",
-          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/9Zf5iUTZprSjJxUgb87goe/wdshjnwdsj",
+          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/wdshjnwdsj",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeMappings" : [ ]
@@ -177,15 +177,15 @@
           "policy" : {
             "type" : "RATE_LIMITING_POLICY",
             "metadata" : {
-              "id" : "22463278-3d66-45b7-8521-c97cadc38faa",
+              "id" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c",
               "name" : "rl1",
               "description" : "",
               "category" : "OPERATIONAL",
               "type" : "RATE_LIMITING_POLICY",
               "status" : "ENABLED",
               "apiDesignRefCount" : 0,
-              "frsDocumentId" : "iy6PnWMGAUNkgxRsMWAHYX",
-              "frsLocation" : "f2Am1SWtCCnfvzOx5D9yWT",
+              "frsDocumentId" : "7NIaKAHKTs0bhTdOsKmAeQ",
+              "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
               "frsName" : "rl1",
               "orgLevelRateLimitPolicy" : false
             },
@@ -193,13 +193,13 @@
               "data" : { },
               "id" : "9da3b8af-5fae-4c1b-a84a-f4582810ca44",
               "tier" : {
-                "id" : "f3c29dff-2af1-4aa1-a724-9619667ea348",
-                "name" : "APIC_T_1783618085350",
+                "id" : "422ca7ed-91dc-4a9e-910f-0bf95b1a77fe",
+                "name" : "APIC_T_1783618707488",
                 "description" : "",
                 "quota" : 23,
                 "timeInterval" : 1,
                 "timeUnit" : "HOUR",
-                "internalTierId" : "b9f11d7e-6672-47d2-aee5-7306e863a8dc"
+                "internalTierId" : "8d4ec293-163e-4380-a762-c9ff02a1fd3f"
               }
             },
             "inline" : false,
@@ -252,7 +252,7 @@
         "ifSkip" : false,
         "issuesParsing" : [ ]
       } ],
-      "implementationProviderIds" : [ "daxeKx3MJSzgyB2H2IFog8", "00R87FIOCbpc3fB44Y1LGN", "1YPZTpluUXKglytitRGgiT" ]
+      "implementationProviderIds" : [ "03ddSld3TPLfduzcBEExqr", "663iyzXdtW0emX8Osx21AS", "c3XbCpFx7gbd2Sf5KKphK7" ]
     },
     "metadata.type" : "REST_API",
     "artifacts" : [ ],
@@ -261,15 +261,15 @@
       "policy" : {
         "type" : "RATE_LIMITING_POLICY",
         "metadata" : {
-          "id" : "22463278-3d66-45b7-8521-c97cadc38faa",
+          "id" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c",
           "name" : "rl1",
           "description" : "",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
           "apiDesignRefCount" : 0,
-          "frsDocumentId" : "iy6PnWMGAUNkgxRsMWAHYX",
-          "frsLocation" : "f2Am1SWtCCnfvzOx5D9yWT",
+          "frsDocumentId" : "7NIaKAHKTs0bhTdOsKmAeQ",
+          "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
           "frsName" : "rl1",
           "orgLevelRateLimitPolicy" : false
         },
@@ -277,13 +277,13 @@
           "data" : { },
           "id" : "9da3b8af-5fae-4c1b-a84a-f4582810ca44",
           "tier" : {
-            "id" : "f3c29dff-2af1-4aa1-a724-9619667ea348",
-            "name" : "APIC_T_1783618085350",
+            "id" : "422ca7ed-91dc-4a9e-910f-0bf95b1a77fe",
+            "name" : "APIC_T_1783618707488",
             "description" : "",
             "quota" : 23,
             "timeInterval" : 1,
             "timeUnit" : "HOUR",
-            "internalTierId" : "b9f11d7e-6672-47d2-aee5-7306e863a8dc"
+            "internalTierId" : "8d4ec293-163e-4380-a762-c9ff02a1fd3f"
           }
         },
         "inline" : false,
@@ -296,28 +296,20 @@
       "policy" : {
         "type" : "AUTHENTICATION_POLICY",
         "metadata" : {
-          "id" : "18ea6186-bdbc-4672-ac3d-3899f94c6285",
-          "name" : "test_pub_policy1",
-          "description" : "",
           "category" : "SECURITY",
           "type" : "AUTHENTICATION_POLICY",
-          "status" : "ENABLED",
           "apiDesignRefCount" : 0,
-          "frsDocumentId" : "1DsXslpHbG6lV6Z6fLzmqZ",
-          "frsLocation" : "f2Am1SWtCCnfvzOx5D9yWT",
-          "frsName" : "test_pub_policy1",
           "orgLevelRateLimitPolicy" : false
         },
         "definition" : {
           "data" : { },
-          "id" : "28de93aa-0b63-45ec-ab96-48b7da64f41f",
-          "authenticationSchemes" : [ "BASIC" ]
+          "authenticationSchemes" : [ ]
         },
         "inline" : false,
         "inherited" : false,
         "properties" : [ ]
       },
-      "selectionType" : "NAMED",
+      "selectionType" : "NONE",
       "notes" : ""
     }, {
       "policy" : {
@@ -341,7 +333,7 @@
     } ],
     "tags" : [ ],
     "properties" : [ {
-      "id" : "f66c56b3-3eda-43b5-ad7b-045d1c7aa355",
+      "id" : "d2dbae43-0e74-4cb6-a10d-bd4a1287ee2c",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
     } ]
