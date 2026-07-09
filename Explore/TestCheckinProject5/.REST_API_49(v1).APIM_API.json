@@ -19,14 +19,14 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "editing as part of checkout and will take acion undoc checklout",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-06T11:48:52.619Z",
+  "updateTime" : "2026-07-09T07:38:31.570Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
@@ -50,6 +50,29 @@
       }
     },
     "path" : "/Explore/TestCheckinProject5"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "9aPGGpJBWAGem9UUjUaBaC",
+    "name" : "687j4fEgV3Z0BkP",
+    "type" : "API_POLICY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "6345cfc6-023a-4df4-aed8-9b00a769e850"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "This is the description for UI Automation Policy operational policy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
   } ],
   "readableFileExtension" : null,
   "readableFilePresent" : false

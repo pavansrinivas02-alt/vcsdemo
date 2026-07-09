@@ -4,20 +4,20 @@
       "id" : "a0a2052e-e94f-485f-aa2e-eb3081c9aaf9",
       "type" : "REST_API",
       "name" : "REST_API_49(v1)",
-      "description" : "",
+      "description" : "editing as part of checkout and will take acion undoc checklout",
       "apiName" : "REST_API_49",
       "version" : "v1",
       "status" : "DRAFT",
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "aQYCJaSEI6nfF0xr26G2Cb",
-      "lastModifiedDate" : 1783335419070,
+      "lastModifiedDate" : 1783582698129,
       "apiClusterId" : "1ff3d11a-adab-4174-81f5-27a86185fcfc",
       "isFixed" : true
     },
     "location" : "aEU1KGIDIKFi1WkKfndy02",
     "definition" : {
-      "id" : "api_definition_1783335418566",
+      "id" : "api_definition_1783582697264",
       "operations" : [ {
         "id" : "262b5404-64e8-4077-a25a-b3f7f4f1142a",
         "title" : "op",
@@ -96,6 +96,41 @@
     "groups" : [ ],
     "policies" : [ {
       "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "id" : "6345cfc6-023a-4df4-aed8-9b00a769e850",
+          "name" : "687j4fEgV3Z0BkP",
+          "description" : "This is the description for UI Automation Policy operational policy",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "9aPGGpJBWAGem9UUjUaBaC",
+          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+          "frsName" : "687j4fEgV3Z0BkP",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "bcf87397-224e-4cd5-89b9-9d0972a0962d",
+          "tier" : {
+            "id" : "2925a0a9-5bf4-4fd0-be03-954542caad89",
+            "name" : "APIC_T_1758091875473",
+            "description" : "This is the description for UI Automation Policy operational policy",
+            "quota" : 2,
+            "timeInterval" : 1,
+            "timeUnit" : "MINUTE",
+            "internalTierId" : "4240ddb3-7763-4eee-8214-ae3a60b236b4"
+          }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    }, {
+      "policy" : {
         "type" : "PII_POLICY",
         "metadata" : {
           "category" : "PRIVACY",
@@ -106,24 +141,6 @@
         "definition" : {
           "data" : { },
           "fields" : [ ]
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NONE",
-      "notes" : ""
-    }, {
-      "policy" : {
-        "type" : "RATE_LIMITING_POLICY",
-        "metadata" : {
-          "category" : "OPERATIONAL",
-          "type" : "RATE_LIMITING_POLICY",
-          "apiDesignRefCount" : 0,
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { }
         },
         "inline" : false,
         "inherited" : false,
