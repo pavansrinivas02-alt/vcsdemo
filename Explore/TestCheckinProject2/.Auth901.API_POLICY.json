@@ -3,25 +3,30 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "icV9cl8TNy5eXLbN4mdC6f",
-    "name" : "TestCheckinProject2",
-    "type" : "Project",
+    "id" : "6XMDT7Hw0wFlrzExXh0A4C",
+    "name" : "Auth901",
+    "type" : "API_POLICY",
+    "validator" : {
+      "version" : "1.0"
+    },
     "metadata" : {
       "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
+        "major" : 1,
+        "minor" : 1
       },
-      "repoInfo" : null,
+      "repoInfo" : {
+        "repoHandle" : "74afd5a1-d116-45ce-b736-40731a34c766"
+      },
       "contextAttributes" : [ ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : "Binary",
-        "documentState" : "COMPLETE"
+        "contentType" : "JSON",
+        "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-09T11:38:11.340Z",
+  "updateTime" : "2026-07-09T11:38:11.339Z",
   "objectRefs" : [ ],
   "readableFileExtension" : null,
   "readableFilePresent" : false

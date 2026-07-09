@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "74afd5a1-d116-45ce-b736-40731a34c766",
+      "name" : "Auth901",
+      "description" : "",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "6XMDT7Hw0wFlrzExXh0A4C",
+      "frsLocation" : "icV9cl8TNy5eXLbN4mdC6f",
+      "frsName" : "Auth901",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "5e8ea50a-06bc-4081-8ad9-cbcaa3328fb4",
+      "authenticationSchemes" : [ "BASIC", "OAUTH_2" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
