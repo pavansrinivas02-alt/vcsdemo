@@ -11,9 +11,9 @@
       }
     },
     "name" : "test_published_api1",
-    "description" : "hujsdijsd",
+    "description" : "hujsdijsdbnnb",
     "version" : "v1",
-    "revision" : 2,
+    "revision" : 3,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -71,7 +71,7 @@
             "authenticationSchemes" : [ "BASIC" ]
           }
         }, {
-          "id" : "3fa43bcc-62ff-4442-a74c-4b618111ad48",
+          "id" : "18448905-e985-4361-8915-b4f0a9e52da1",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -85,7 +85,7 @@
             }
           }
         }, {
-          "id" : "2f674462-ed04-4946-8d55-0bdf5f5861b9",
+          "id" : "f15c2ba3-1fc4-4f6a-b538-8f55ec917cd6",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -143,7 +143,7 @@
             "authenticationSchemes" : [ "BASIC" ]
           }
         }, {
-          "id" : "6045cb98-d5ad-4964-b811-10c3ad81e62f",
+          "id" : "ff1e4402-b23d-49a8-ada7-ce5a970389b9",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -157,7 +157,7 @@
             }
           }
         }, {
-          "id" : "d9677b4a-c2ef-4024-a90c-55c823e997a4",
+          "id" : "55b74a56-58ad-48d0-8a02-4f5349121d8f",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -187,7 +187,7 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "3fa43bcc-62ff-4442-a74c-4b618111ad48", "6045cb98-d5ad-4964-b811-10c3ad81e62f" ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "ff1e4402-b23d-49a8-ada7-ce5a970389b9", "18448905-e985-4361-8915-b4f0a9e52da1" ],
       "userLevelRateLimitsPolicyIds" : [ ],
       "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "implementationProviderIds" : [ "663iyzXdtW0emX8Osx21AS", "c3XbCpFx7gbd2Sf5KKphK7" ]
