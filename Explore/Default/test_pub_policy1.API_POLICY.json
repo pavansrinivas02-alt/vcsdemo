@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "38b6d8b6-17de-4ef2-903e-70fae36341ae",
+      "name" : "test_pub_policy1",
+      "description" : "",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "2Hypl7dcFW1bPVUiIWj3UH",
+      "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+      "frsName" : "test_pub_policy1",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "28de93aa-0b63-45ec-ab96-48b7da64f41f",
+      "authenticationSchemes" : [ "BASIC" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
