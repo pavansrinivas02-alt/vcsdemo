@@ -19,14 +19,14 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "i am removiing the description ",
+        "description" : "i am adding this desciption and chnageing policy",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-09T07:53:55.637Z",
+  "updateTime" : "2026-07-09T08:09:26.409Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
@@ -50,6 +50,29 @@
       }
     },
     "path" : "/Explore/TestCheckinProject5"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "gB1I3uYttesdDf2GzVL6w6",
+    "name" : "4oKq3Xa0bjGgftJ",
+    "type" : "API_POLICY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "e7e95d4a-2383-4674-b633-c68cfcda1690"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "This is the description for UI Automation Policy operational policy",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
   } ],
   "readableFileExtension" : null,
   "readableFilePresent" : false

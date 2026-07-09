@@ -4,20 +4,20 @@
       "id" : "a0a2052e-e94f-485f-aa2e-eb3081c9aaf9",
       "type" : "REST_API",
       "name" : "REST_API_49(v1)",
-      "description" : "i am removiing the description ",
+      "description" : "i am adding this desciption and chnageing policy",
       "apiName" : "REST_API_49",
       "version" : "v1",
       "status" : "DRAFT",
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "aQYCJaSEI6nfF0xr26G2Cb",
-      "lastModifiedDate" : 1783582745556,
+      "lastModifiedDate" : 1783583709816,
       "apiClusterId" : "1ff3d11a-adab-4174-81f5-27a86185fcfc",
       "isFixed" : true
     },
     "location" : "aEU1KGIDIKFi1WkKfndy02",
     "definition" : {
-      "id" : "api_definition_1783582744826",
+      "id" : "api_definition_1783583708849",
       "operations" : [ {
         "id" : "262b5404-64e8-4077-a25a-b3f7f4f1142a",
         "title" : "op",
@@ -43,7 +43,8 @@
             "inherited" : false,
             "properties" : [ ]
           },
-          "selectionType" : "NONE"
+          "selectionType" : "NONE",
+          "notes" : ""
         }, {
           "policy" : {
             "type" : "RESPONSE_CACHING_POLICY",
@@ -95,6 +96,41 @@
     "groups" : [ ],
     "policies" : [ {
       "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "id" : "e7e95d4a-2383-4674-b633-c68cfcda1690",
+          "name" : "4oKq3Xa0bjGgftJ",
+          "description" : "This is the description for UI Automation Policy operational policy",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "gB1I3uYttesdDf2GzVL6w6",
+          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+          "frsName" : "4oKq3Xa0bjGgftJ",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "490a31af-3387-4f9e-9264-0a4636fe3a92",
+          "tier" : {
+            "id" : "97924ea1-e5f9-4e48-bb1e-eee8e9f2660f",
+            "name" : "APIC_T_1758262306773",
+            "description" : "This is the description for UI Automation Policy operational policy",
+            "quota" : 2,
+            "timeInterval" : 1,
+            "timeUnit" : "MINUTE",
+            "internalTierId" : "5bd464c6-cc2b-42cf-894d-a517d041846d"
+          }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    }, {
+      "policy" : {
         "type" : "PII_POLICY",
         "metadata" : {
           "category" : "PRIVACY",
@@ -105,24 +141,6 @@
         "definition" : {
           "data" : { },
           "fields" : [ ]
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NONE",
-      "notes" : ""
-    }, {
-      "policy" : {
-        "type" : "RATE_LIMITING_POLICY",
-        "metadata" : {
-          "category" : "OPERATIONAL",
-          "type" : "RATE_LIMITING_POLICY",
-          "apiDesignRefCount" : 0,
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { }
         },
         "inline" : false,
         "inherited" : false,
