@@ -1,9 +1,9 @@
 {
   "documentData" : {
     "id" : "9cda0b4a-b416-40fa-87ff-e5219825c0fa",
-    "apiDesignId" : "f3c14650-9b4f-4f42-b499-d20e836f252f",
+    "apiDesignId" : "f427d2fa-3d97-412f-aa36-64c6c702a5ae",
     "apiDesignApiName" : "sdjbmnsd",
-    "apiDesignInternalName" : "sdjbmnsd",
+    "apiDesignInternalName" : "sdjbmnsd(v1)",
     "apiDesignMetadata" : {
       "tags" : [ ],
       "properties" : {
@@ -11,12 +11,12 @@
       }
     },
     "name" : "sdjbmnsd",
-    "description" : "",
+    "description" : "hjgvbn",
     "version" : "v1",
-    "revision" : 1,
+    "revision" : 2,
     "type" : "REST_API",
     "status" : "PUBLISHED",
-    "provider" : "CAI_PROCESS",
+    "provider" : "API_CENTER",
     "comments" : "",
     "content" : {
       "tags" : [ ],
@@ -53,18 +53,19 @@
         },
         "configuration" : { },
         "policies" : [ {
-          "id" : "0ffb7f07-76d9-4e12-8f7c-3c52dbb8b536",
+          "id" : "59c88e80-fa68-40f0-a04c-cbdb9079cde4",
           "category" : "SECURITY",
           "type" : "AUTHENTICATION_POLICY",
           "status" : "ENABLED",
           "inline" : true,
-          "inherited" : true,
+          "inherited" : false,
           "selectionType" : "INLINE",
           "definition" : {
+            "id" : "9468fa1d-1a60-41ed-8f58-496e7876a00b",
             "authenticationSchemes" : [ "ANONYMOUS" ]
           }
         }, {
-          "id" : "b49ab944-fd8b-4c4e-99e6-5db4a10aa46b",
+          "id" : "4ee3d2e4-e29c-4706-aa03-4bab8f6de78e",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -78,7 +79,7 @@
             }
           }
         }, {
-          "id" : "6372fa2b-d665-4837-b2ee-56e11e3ee732",
+          "id" : "36d04efc-63c5-49b7-b509-2bd643bda3bb",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -92,6 +93,12 @@
       "apiLevelPolicies" : [ {
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
+          "metadata" : {
+            "category" : "OPERATIONAL",
+            "type" : "RATE_LIMITING_POLICY",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
           "definition" : {
             "data" : { }
           },
@@ -102,8 +109,8 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
-      "apiLevelRateLimitNamedPolicyIds" : [ ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "b49ab944-fd8b-4c4e-99e6-5db4a10aa46b" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "4ee3d2e4-e29c-4706-aa03-4bab8f6de78e" ],
       "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "663iyzXdtW0emX8Osx21AS" ]
     },
