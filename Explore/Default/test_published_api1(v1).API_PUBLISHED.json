@@ -13,7 +13,7 @@
     "name" : "test_published_api1",
     "description" : "hujsdijsdbnnb",
     "version" : "v1",
-    "revision" : 2,
+    "revision" : 3,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -71,7 +71,7 @@
             "authenticationSchemes" : [ "BASIC" ]
           }
         }, {
-          "id" : "0b96e366-b0a5-4864-ac9d-5eadd7bf0177",
+          "id" : "d2e790f8-e164-4aea-977f-24ef6ed61414",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -85,7 +85,7 @@
             }
           }
         }, {
-          "id" : "69c7b0e8-3943-457d-b40e-3209c9dd3b85",
+          "id" : "4ca3a5ef-596d-4b16-babb-34018aa5e29b",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -143,7 +143,7 @@
             "authenticationSchemes" : [ "BASIC" ]
           }
         }, {
-          "id" : "0b07a399-907d-4ab6-9b81-873a348f0b59",
+          "id" : "1063ebf9-0a02-4ace-b1ca-19d368f3d54b",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -157,7 +157,7 @@
             }
           }
         }, {
-          "id" : "8b4e1be3-5c79-4705-9096-1f8a04e9cce5",
+          "id" : "4d262a9d-1ae6-4a38-8704-0bfc525ff2a9",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -215,21 +215,30 @@
             "authenticationSchemes" : [ "BASIC" ]
           }
         }, {
-          "id" : "8d14322f-e595-4a67-99cd-288b53ee415d",
+          "id" : "22463278-3d66-45b7-8521-c97cadc38faa",
+          "name" : "rl1",
+          "description" : "",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
           "inline" : false,
           "inherited" : false,
           "notes" : "",
-          "selectionType" : "NONE",
+          "selectionType" : "NAMED",
           "definition" : {
+            "id" : "9da3b8af-5fae-4c1b-a84a-f4582810ca44",
             "tier" : {
-              "timeUnit" : "SECOND"
+              "id" : "f3c29dff-2af1-4aa1-a724-9619667ea348",
+              "name" : "APIC_T_1783618085350",
+              "description" : "",
+              "quota" : 23,
+              "timeInterval" : 1,
+              "timeUnit" : "HOUR",
+              "internalTierId" : "b9f11d7e-6672-47d2-aee5-7306e863a8dc"
             }
           }
         }, {
-          "id" : "e56190be-c9cf-422c-9d22-b4fee37e33d9",
+          "id" : "5f187628-c262-48c5-882d-4199b867c9d3",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -244,24 +253,41 @@
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
           "metadata" : {
+            "id" : "22463278-3d66-45b7-8521-c97cadc38faa",
+            "name" : "rl1",
+            "description" : "",
             "category" : "OPERATIONAL",
             "type" : "RATE_LIMITING_POLICY",
+            "status" : "ENABLED",
             "apiDesignRefCount" : 0,
+            "frsDocumentId" : "iy6PnWMGAUNkgxRsMWAHYX",
+            "frsLocation" : "f2Am1SWtCCnfvzOx5D9yWT",
+            "frsName" : "rl1",
             "orgLevelRateLimitPolicy" : false
           },
           "definition" : {
-            "data" : { }
+            "data" : { },
+            "id" : "9da3b8af-5fae-4c1b-a84a-f4582810ca44",
+            "tier" : {
+              "id" : "f3c29dff-2af1-4aa1-a724-9619667ea348",
+              "name" : "APIC_T_1783618085350",
+              "description" : "",
+              "quota" : 23,
+              "timeInterval" : 1,
+              "timeUnit" : "HOUR",
+              "internalTierId" : "b9f11d7e-6672-47d2-aee5-7306e863a8dc"
+            }
           },
           "inline" : false,
           "inherited" : false,
           "properties" : [ ]
         },
-        "selectionType" : "NONE",
+        "selectionType" : "NAMED",
         "notes" : ""
       } ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "8d14322f-e595-4a67-99cd-288b53ee415d", "0b96e366-b0a5-4864-ac9d-5eadd7bf0177", "0b07a399-907d-4ab6-9b81-873a348f0b59" ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "d2e790f8-e164-4aea-977f-24ef6ed61414", "1063ebf9-0a02-4ace-b1ca-19d368f3d54b", "22463278-3d66-45b7-8521-c97cadc38faa" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "apiLevelRateLimitNamedPolicyIds" : [ null ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "22463278-3d66-45b7-8521-c97cadc38faa" ],
       "implementationProviderIds" : [ "daxeKx3MJSzgyB2H2IFog8", "00R87FIOCbpc3fB44Y1LGN", "1YPZTpluUXKglytitRGgiT" ]
     },
     "apiClusterId" : "e36325fe-4804-4e77-83d3-465c1ccf5b9c",
