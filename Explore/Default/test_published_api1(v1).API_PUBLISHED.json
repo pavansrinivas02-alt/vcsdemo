@@ -13,7 +13,7 @@
     "name" : "test_published_api1",
     "description" : "hujsdijsdbnnb",
     "version" : "v1",
-    "revision" : 3,
+    "revision" : 6,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -187,9 +187,9 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "operationLevelRateLimitNamedPolicyIds" : [ "ff1e4402-b23d-49a8-ada7-ce5a970389b9", "18448905-e985-4361-8915-b4f0a9e52da1" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "implementationProviderIds" : [ "663iyzXdtW0emX8Osx21AS", "c3XbCpFx7gbd2Sf5KKphK7" ]
     },
     "apiClusterId" : "f29ae2ee-f36d-488a-85ab-c8b420ead7ec",
