@@ -1,0 +1,33 @@
+{
+  "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "1bB7zL1JjK7dn1YSalPiMb",
+    "name" : "check_auth",
+    "type" : "API_POLICY",
+    "validator" : {
+      "version" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "9e72bd90-9d42-43d8-abe6-301fa3687158"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-07-12T18:58:37.663Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}

@@ -4,20 +4,20 @@
       "id" : "c5be40d2-c362-4ac1-8ee8-3be8b6f76750",
       "type" : "REST_API",
       "name" : "REST_API_23(v1)",
-      "description" : "",
+      "description" : "this is the second commit i am making by editing api design and creating a new policy standalone",
       "apiName" : "REST_API_23",
       "version" : "v1",
       "status" : "DRAFT",
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "fI1zbLcHs2mjYH1tBU9TMj",
-      "lastModifiedDate" : 1783881795652,
+      "lastModifiedDate" : 1783882669605,
       "apiClusterId" : "6bd30ab4-7445-4fe6-a7f5-bff8aaf58684",
       "isFixed" : true
     },
     "location" : "1kG78rsULWocyGcMGebvgf",
     "definition" : {
-      "id" : "api_definition_1783881795062",
+      "id" : "api_definition_1783882669292",
       "operations" : [ {
         "id" : "8b617ad3-9f4f-4d95-b778-d5b8065e944e",
         "title" : "op",
@@ -43,8 +43,7 @@
             "inherited" : false,
             "properties" : [ ]
           },
-          "selectionType" : "NONE",
-          "notes" : ""
+          "selectionType" : "NONE"
         }, {
           "policy" : {
             "type" : "RESPONSE_CACHING_POLICY",
@@ -96,6 +95,33 @@
     "groups" : [ ],
     "policies" : [ {
       "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "id" : "9e72bd90-9d42-43d8-abe6-301fa3687158",
+          "name" : "check_auth",
+          "description" : "",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "1bB7zL1JjK7dn1YSalPiMb",
+          "frsLocation" : "1kG78rsULWocyGcMGebvgf",
+          "frsName" : "check_auth",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "3dc74ea3-4c12-4d08-8fec-702b9f5bd3fd",
+          "authenticationSchemes" : [ "BASIC", "OAUTH_2" ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    }, {
+      "policy" : {
         "type" : "PII_POLICY",
         "metadata" : {
           "category" : "PRIVACY",
@@ -117,49 +143,13 @@
       "policy" : {
         "type" : "RATE_LIMITING_POLICY",
         "metadata" : {
-          "id" : "59eb1565-6a06-4b6e-bfd6-1a117cb2b215",
-          "name" : "md_check_rl",
-          "description" : "",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
-          "status" : "ENABLED",
-          "apiDesignRefCount" : 0,
-          "frsDocumentId" : "559NEnUYuW3lpwWFjBOUsx",
-          "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
-          "frsName" : "md_check_rl",
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { },
-          "id" : "7f6a45e8-fea1-49ee-9cf2-ba6e19d5af5a",
-          "tier" : {
-            "id" : "db7a3bca-d8b0-43b3-8cf5-4be1d2e6d57b",
-            "name" : "APIC_T_1783881752442",
-            "description" : "",
-            "quota" : 211,
-            "timeInterval" : 1,
-            "timeUnit" : "DAY",
-            "internalTierId" : "cbae0d35-249a-4dd9-866d-c62fdb758367"
-          }
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NAMED",
-      "notes" : ""
-    }, {
-      "policy" : {
-        "type" : "AUTHENTICATION_POLICY",
-        "metadata" : {
-          "category" : "SECURITY",
-          "type" : "AUTHENTICATION_POLICY",
           "apiDesignRefCount" : 0,
           "orgLevelRateLimitPolicy" : false
         },
         "definition" : {
-          "data" : { },
-          "authenticationSchemes" : [ ]
+          "data" : { }
         },
         "inline" : false,
         "inherited" : false,

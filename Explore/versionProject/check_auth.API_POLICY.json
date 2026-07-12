@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "9e72bd90-9d42-43d8-abe6-301fa3687158",
+      "name" : "check_auth",
+      "description" : "",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "1bB7zL1JjK7dn1YSalPiMb",
+      "frsLocation" : "1kG78rsULWocyGcMGebvgf",
+      "frsName" : "check_auth",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "3dc74ea3-4c12-4d08-8fec-702b9f5bd3fd",
+      "authenticationSchemes" : [ "BASIC", "OAUTH_2" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
