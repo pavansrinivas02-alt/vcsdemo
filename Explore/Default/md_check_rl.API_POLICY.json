@@ -1,0 +1,37 @@
+{
+  "documentData" : {
+    "type" : "RATE_LIMITING_POLICY",
+    "metadata" : {
+      "id" : "59eb1565-6a06-4b6e-bfd6-1a117cb2b215",
+      "name" : "md_check_rl",
+      "description" : "",
+      "category" : "OPERATIONAL",
+      "type" : "RATE_LIMITING_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "559NEnUYuW3lpwWFjBOUsx",
+      "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+      "frsName" : "md_check_rl",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "7f6a45e8-fea1-49ee-9cf2-ba6e19d5af5a",
+      "tier" : {
+        "id" : "db7a3bca-d8b0-43b3-8cf5-4be1d2e6d57b",
+        "name" : "APIC_T_1783881752442",
+        "description" : "",
+        "quota" : 211,
+        "timeInterval" : 1,
+        "timeUnit" : "DAY",
+        "internalTierId" : "cbae0d35-249a-4dd9-866d-c62fdb758367"
+      }
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
