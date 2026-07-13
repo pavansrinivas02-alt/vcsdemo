@@ -125,7 +125,7 @@
           "status" : "ENABLED",
           "apiDesignRefCount" : 0,
           "frsDocumentId" : "9n30Lu4PIV5iGKW4esxtyr",
-          "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+          "frsLocation" : "lkcgXu2TfE6b2V5O4gwAq4",
           "frsName" : "NewAuth",
           "orgLevelRateLimitPolicy" : false
         },
@@ -152,7 +152,7 @@
           "status" : "ENABLED",
           "apiDesignRefCount" : 0,
           "frsDocumentId" : "f0zQElx7m4YgF3oesHquEs",
-          "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+          "frsLocation" : "lkcgXu2TfE6b2V5O4gwAq4",
           "frsName" : "NewRL",
           "orgLevelRateLimitPolicy" : false
         },
