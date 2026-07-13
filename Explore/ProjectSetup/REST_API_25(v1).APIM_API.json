@@ -1,0 +1,189 @@
+{
+  "documentData" : {
+    "metadata" : {
+      "id" : "8844b52f-d21f-43bd-a99d-033a843c4af0",
+      "type" : "REST_API",
+      "name" : "REST_API_25(v1)",
+      "description" : "",
+      "apiName" : "REST_API_25",
+      "version" : "v1",
+      "status" : "DRAFT",
+      "visibility" : "EXTERNAL",
+      "revisionNumber" : 1,
+      "frsDocumentId" : "6MRoSZY64RKhqryLmvZRCO",
+      "lastModifiedDate" : 1783914208033,
+      "apiClusterId" : "af307c17-629d-470a-83ed-289fe534e4ec",
+      "isFixed" : true
+    },
+    "location" : "lkcgXu2TfE6b2V5O4gwAq4",
+    "definition" : {
+      "id" : "api_definition_1783914207732",
+      "operations" : [ {
+        "id" : "0f38c2b8-5cbd-4bdb-9871-4b0d89d0abd9",
+        "title" : "op",
+        "description" : "",
+        "tags" : [ ],
+        "implementationConfigurations" : [ {
+          "frsId" : "41lXlLNND0ecRAuNOVW8Sd",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "process_25",
+          "description" : "",
+          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/process_25",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeMappings" : [ ]
+        } ],
+        "policies" : [ {
+          "policy" : {
+            "type" : "RATE_LIMITING_POLICY",
+            "definition" : {
+              "data" : { }
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NONE",
+          "notes" : ""
+        }, {
+          "policy" : {
+            "type" : "RESPONSE_CACHING_POLICY",
+            "definition" : {
+              "data" : { }
+            },
+            "inline" : false,
+            "inherited" : false,
+            "properties" : [ ]
+          },
+          "selectionType" : "NONE",
+          "notes" : ""
+        } ],
+        "operationalConfiguration" : { },
+        "requestMethod" : "POST",
+        "path" : "/op",
+        "pathParameters" : [ ],
+        "queryParameters" : [ ],
+        "request" : {
+          "headers" : [ ],
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "constraints" : {
+            "required" : false
+          }
+        },
+        "duplicateOperation" : false,
+        "conflict" : false,
+        "responses" : [ {
+          "headers" : [ ],
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "metadata" : { },
+            "definition" : {
+              "fields" : [ ]
+            },
+            "inline" : false,
+            "properties" : [ ]
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK."
+        } ],
+        "ifSkip" : false,
+        "issuesParsing" : [ ]
+      } ],
+      "implementationProviderIds" : [ "41lXlLNND0ecRAuNOVW8Sd" ]
+    },
+    "metadata.type" : "REST_API",
+    "artifacts" : [ ],
+    "groups" : [ ],
+    "policies" : [ {
+      "policy" : {
+        "type" : "PII_POLICY",
+        "metadata" : {
+          "category" : "PRIVACY",
+          "type" : "PII_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "fields" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "id" : "b84efb2b-0d4a-41b5-9ae9-2d1bdbac9ab8",
+          "name" : "NewAuth",
+          "description" : "",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "9n30Lu4PIV5iGKW4esxtyr",
+          "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+          "frsName" : "NewAuth",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "61a69f99-1a5b-4d01-8027-664ff8bb39b5",
+          "authenticationSchemes" : [ "BASIC" ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "id" : "2b2dc165-a82e-41b3-a541-781b8bf646e6",
+          "name" : "NewRL",
+          "description" : "",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "f0zQElx7m4YgF3oesHquEs",
+          "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+          "frsName" : "NewRL",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "1ec99ca7-4939-4e40-9dbf-d6560994a1f5",
+          "tier" : {
+            "id" : "52f39454-7916-48bf-bc35-30c4c7dc345d",
+            "name" : "APIC_T_1783914162411",
+            "description" : "",
+            "quota" : 310,
+            "timeInterval" : 1,
+            "timeUnit" : "DAY",
+            "internalTierId" : "61750162-5c96-4f93-a7fa-d6e739e05036"
+          }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    } ],
+    "tags" : [ ],
+    "properties" : [ {
+      "id" : "271f9274-8e1f-4c53-b2ef-a205140ed71a",
+      "name" : "ApiImplementationProviderType",
+      "value" : "CAI_PROCESS"
+    } ]
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
