@@ -3,8 +3,8 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "f0zQElx7m4YgF3oesHquEs",
-    "name" : "NewRL",
+    "id" : "9n30Lu4PIV5iGKW4esxtyr",
+    "name" : "NewAuth",
     "type" : "API_POLICY",
     "validator" : {
       "version" : "1.0"
@@ -15,7 +15,7 @@
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "2b2dc165-a82e-41b3-a541-781b8bf646e6"
+        "repoHandle" : "b84efb2b-0d4a-41b5-9ae9-2d1bdbac9ab8"
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-13T03:47:07.224Z",
+  "updateTime" : "2026-07-13T03:49:16.342Z",
   "objectRefs" : [ ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
