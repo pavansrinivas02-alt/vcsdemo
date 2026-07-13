@@ -1,7 +1,7 @@
 {
   "documentData" : {
-    "id" : "e8804981-4088-4d0b-8ed8-3d7708827b9d",
-    "apiDesignId" : "e941b9c2-e8f2-448d-97c6-f0b0c8eb601e",
+    "id" : "b08b3a40-16eb-43fb-aec6-189361fa7dab",
+    "apiDesignId" : "5a138c72-bcbc-4f0f-b821-2e32c95b078b",
     "apiDesignApiName" : "REST_API_26",
     "apiDesignInternalName" : "REST_API_26(v1)",
     "apiDesignMetadata" : {
@@ -45,11 +45,11 @@
           "description" : "OK."
         } ],
         "implementation" : {
-          "id" : "0xq0PGdTqejfYVmEAuxPq2",
+          "id" : "8kkbTovzhLXdL48vEhxAKj",
           "provider" : "CAI_PROCESS",
           "assetName" : "process_m",
           "description" : "",
-          "endpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/9Zf5iUTZprSjJxUgb87goe/process_m",
+          "endpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/process_m",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeTransformations" : [ ]
@@ -85,15 +85,14 @@
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
           "metadata" : {
-            "id" : "8b34d2d1-ca59-48f7-939a-549d148c634e",
+            "id" : "2b2dc165-a82e-41b3-a541-781b8bf646e6",
             "name" : "NewRL",
             "description" : "",
             "category" : "OPERATIONAL",
             "type" : "RATE_LIMITING_POLICY",
             "status" : "ENABLED",
             "apiDesignRefCount" : 0,
-            "frsDocumentId" : "0VxBlRMBjiBdgvFzJBT4uX",
-            "frsLocation" : "kbGx864pzYKfBOz9PDexGJ",
+            "frsDocumentId" : "f0zQElx7m4YgF3oesHquEs",
             "frsName" : "NewRL",
             "orgLevelRateLimitPolicy" : false
           },
@@ -101,13 +100,13 @@
             "data" : { },
             "id" : "1ec99ca7-4939-4e40-9dbf-d6560994a1f5",
             "tier" : {
-              "id" : "6df41dde-a636-4690-9cfc-fbe82e2a5f13",
+              "id" : "52f39454-7916-48bf-bc35-30c4c7dc345d",
               "name" : "APIC_T_1783914162411",
               "description" : "",
               "quota" : 310,
               "timeInterval" : 1,
               "timeUnit" : "DAY",
-              "internalTierId" : "22292dac-bf48-473f-9044-2cfab4149cf6"
+              "internalTierId" : "61750162-5c96-4f93-a7fa-d6e739e05036"
             }
           },
           "inline" : false,
@@ -117,15 +116,15 @@
         "selectionType" : "NAMED",
         "notes" : ""
       } ],
-      "apiLevelRateLimitNamedPolicyIds" : [ "8b34d2d1-ca59-48f7-939a-549d148c634e" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "2b2dc165-a82e-41b3-a541-781b8bf646e6" ],
       "operationLevelRateLimitNamedPolicyIds" : [ "5b80dceb-c76e-4b35-98ba-4cd00358df4f" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "implementationProviderIds" : [ "0xq0PGdTqejfYVmEAuxPq2" ]
+      "implementationProviderIds" : [ "8kkbTovzhLXdL48vEhxAKj" ]
     },
-    "apiClusterId" : "e8d79a1f-ad16-4f30-b956-d5b9f0e82aaa",
+    "apiClusterId" : "70548bc7-dfce-464a-a34e-5f345a7b271e",
     "apiCategory" : "IDMC_APP_GENERATED",
-    "frsDocumentId" : "kSw2sCTsKaygC7zCrxLcKm",
-    "frsLocation" : "3KSgkDwopabbFZLtJSLDsv",
+    "frsDocumentId" : "61CHBjBrjiRfGntv1fhbsk",
+    "frsLocation" : "2PGIMtFZUUjkDGrb9fngIP",
     "isFixed" : true,
     "frsName" : "Test_Published_m(v1)",
     "runtimeEnvironmentInfo" : {
