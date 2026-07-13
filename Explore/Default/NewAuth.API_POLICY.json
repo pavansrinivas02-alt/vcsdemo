@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "b84efb2b-0d4a-41b5-9ae9-2d1bdbac9ab8",
+      "name" : "NewAuth",
+      "description" : "",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "9n30Lu4PIV5iGKW4esxtyr",
+      "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+      "frsName" : "NewAuth",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "61a69f99-1a5b-4d01-8027-664ff8bb39b5",
+      "authenticationSchemes" : [ "BASIC" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}

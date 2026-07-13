@@ -1,0 +1,37 @@
+{
+  "documentData" : {
+    "type" : "RATE_LIMITING_POLICY",
+    "metadata" : {
+      "id" : "2b2dc165-a82e-41b3-a541-781b8bf646e6",
+      "name" : "NewRL",
+      "description" : "",
+      "category" : "OPERATIONAL",
+      "type" : "RATE_LIMITING_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "f0zQElx7m4YgF3oesHquEs",
+      "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+      "frsName" : "NewRL",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "1ec99ca7-4939-4e40-9dbf-d6560994a1f5",
+      "tier" : {
+        "id" : "52f39454-7916-48bf-bc35-30c4c7dc345d",
+        "name" : "APIC_T_1783914162411",
+        "description" : "",
+        "quota" : 310,
+        "timeInterval" : 1,
+        "timeUnit" : "DAY",
+        "internalTierId" : "61750162-5c96-4f93-a7fa-d6e739e05036"
+      }
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
