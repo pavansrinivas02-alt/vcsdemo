@@ -98,7 +98,7 @@
           "inline" : false,
           "inherited" : false,
           "definition" : {
-            "authenticationSchemes" : [ "ANONYMOUS" ]
+            "authenticationSchemes" : [ "BASIC" ]
           }
         }, {
           "id" : "f358cc86-25f4-44f4-a592-717e6c72698b",
