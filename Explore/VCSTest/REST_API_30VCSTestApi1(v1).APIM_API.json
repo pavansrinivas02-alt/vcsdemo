@@ -1,0 +1,90 @@
+{
+  "documentData" : {
+    "metadata" : {
+      "id" : "cd2c90fc-3c26-4821-9ce6-afbdbb5642ea",
+      "type" : "REST_API",
+      "name" : "REST_API_30VCSTestApi1(v1)",
+      "description" : "",
+      "apiName" : "REST_API_30VCSTestApi1",
+      "version" : "v1",
+      "status" : "DRAFT",
+      "visibility" : "EXTERNAL",
+      "revisionNumber" : 1,
+      "frsDocumentId" : "8FAohztpt0lht3nPgzVWYC",
+      "lastModifiedDate" : 1784145366619,
+      "apiClusterId" : "687db4f6-8955-42ff-a06f-c186407bcdcc",
+      "isFixed" : true
+    },
+    "location" : "0Q3GuhKA2IZl0fQhwLxryS",
+    "definition" : {
+      "id" : "api_definition_1784145365504",
+      "operations" : [ ],
+      "implementationProviderIds" : [ ]
+    },
+    "metadata.type" : "REST_API",
+    "artifacts" : [ ],
+    "groups" : [ ],
+    "policies" : [ {
+      "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "authenticationSchemes" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "PII_POLICY",
+        "metadata" : {
+          "category" : "PRIVACY",
+          "type" : "PII_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "fields" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    } ],
+    "tags" : [ ],
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
