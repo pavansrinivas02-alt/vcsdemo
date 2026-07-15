@@ -1,0 +1,47 @@
+{
+  "documentData" : {
+    "type" : "CORS_POLICY",
+    "metadata" : {
+      "id" : "7a3e1af5-5000-4e6c-b6ea-290e12d1e881",
+      "name" : "cors_test_11",
+      "description" : "",
+      "category" : "OPERATIONAL",
+      "type" : "CORS_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "1AbRNm72CSjkHCCyMruW0e",
+      "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+      "frsName" : "cors_test_11",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "2a333b8a-e1f6-4d6a-b2c4-74fc3abc9f61",
+      "internalPolicyId" : "f4b3e71c-a298-48b6-993a-8e2fc98a6bd2",
+      "currentCORSGroupList" : [ {
+        "id" : "30bd7ab9-4226-4cbb-a72b-c93c13ab80a7",
+        "origins" : [ "https://www.google.com" ],
+        "maxAge" : 600,
+        "methods" : [ "GET" ],
+        "headers" : [ ],
+        "exposedHeaders" : [ ],
+        "credentials" : true
+      } ],
+      "gatewayCORSGroupList" : [ {
+        "id" : "30bd7ab9-4226-4cbb-a72b-c93c13ab80a7",
+        "origins" : [ "https://www.google.com" ],
+        "maxAge" : 600,
+        "methods" : [ "GET" ],
+        "headers" : [ ],
+        "exposedHeaders" : [ ],
+        "credentials" : true
+      } ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
