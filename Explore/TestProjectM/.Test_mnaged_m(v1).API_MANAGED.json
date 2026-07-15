@@ -3,7 +3,7 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "4V3AU66udCYiJD2MoEIw4Q",
+    "id" : "40aV7wSB5dDezIm2dWbLwi",
     "name" : "Test_mnaged_m(v1)",
     "type" : "API_MANAGED",
     "validator" : {
@@ -15,7 +15,7 @@
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "718ead5c-b904-4249-8e3d-abe53ee30cd5"
+        "repoHandle" : "c5595cac-3a83-4c4e-a2df-21ab31f9e3b2"
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-13T12:17:14.403Z",
+  "updateTime" : "2026-07-15T06:11:34.366Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
@@ -73,6 +73,29 @@
       }
     },
     "path" : "/Explore/TestProjectM/TestFolderM"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "3tAXeDaqKsyckfrMGwz1Ed",
+    "name" : "test_jk_rl",
+    "type" : "API_POLICY",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "4d29187f-4a85-4bad-9a90-811800123d9e"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Default"
   }, {
     "schemaVersion" : null,
     "idmcRelease" : null,

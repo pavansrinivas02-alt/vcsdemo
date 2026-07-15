@@ -1,6 +1,6 @@
 {
   "documentData" : {
-    "id" : "718ead5c-b904-4249-8e3d-abe53ee30cd5",
+    "id" : "c5595cac-3a83-4c4e-a2df-21ab31f9e3b2",
     "publishedApiId" : "b08b3a40-16eb-43fb-aec6-189361fa7dab",
     "publishedApiName" : "Test_Published_m",
     "apiDesignId" : "5a138c72-bcbc-4f0f-b821-2e32c95b078b",
@@ -17,7 +17,7 @@
     "status" : "CREATED",
     "type" : "REST_API",
     "frsLocation" : "2PGIMtFZUUjkDGrb9fngIP",
-    "frsDocumentId" : "4V3AU66udCYiJD2MoEIw4Q",
+    "frsDocumentId" : "40aV7wSB5dDezIm2dWbLwi",
     "isFixed" : true,
     "frsName" : "Test_mnaged_m(v1)",
     "apiClusterId" : "70548bc7-dfce-464a-a34e-5f345a7b271e",
@@ -59,17 +59,23 @@
         },
         "configuration" : { },
         "policies" : [ {
-          "id" : "5b80dceb-c76e-4b35-98ba-4cd00358df4f",
-          "category" : "OPERATIONAL",
+          "id" : "4d29187f-4a85-4bad-9a90-811800123d9e",
+          "name" : "test_jk_rl",
           "type" : "RATE_LIMITING_POLICY",
-          "status" : "ENABLED",
           "inline" : false,
           "inherited" : false,
           "notes" : "",
-          "selectionType" : "NONE",
+          "selectionType" : "NAMED",
           "definition" : {
+            "id" : "65d41b1a-356f-4039-8e9e-4c7be0c171af",
             "tier" : {
-              "timeUnit" : "SECOND"
+              "id" : "cbc903b5-a6b6-4b0c-9f72-cd6261a1f998",
+              "name" : "APIC_T_1784095784922",
+              "description" : "",
+              "quota" : 21,
+              "timeInterval" : 1,
+              "timeUnit" : "DAY",
+              "internalTierId" : "8a0296bf-0bb0-4fa4-a33c-0bd9e8805b4d"
             }
           }
         }, {
@@ -244,13 +250,13 @@
       } ],
       "version" : "v1",
       "revision" : "1",
-      "apiLevelRateLimitNamedPolicyIds" : [ "2b2dc165-a82e-41b3-a541-781b8bf646e6" ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "5b80dceb-c76e-4b35-98ba-4cd00358df4f" ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "4d29187f-4a85-4bad-9a90-811800123d9e" ],
       "userLevelRateLimitsPolicyIds" : [ ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "2b2dc165-a82e-41b3-a541-781b8bf646e6" ],
       "implementationProviderIds" : [ "8kkbTovzhLXdL48vEhxAKj" ]
     },
     "properties" : [ {
-      "id" : "7e36878c-2f20-4c9c-8f13-3e3db6af014a",
+      "id" : "a6e242ab-bd3c-4958-a812-83a451da9408",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
     } ],
