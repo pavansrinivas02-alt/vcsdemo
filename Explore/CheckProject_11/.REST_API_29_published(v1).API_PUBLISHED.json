@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-15T13:24:48.335Z",
+  "updateTime" : "2026-07-15T20:17:38.666Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
@@ -34,9 +34,6 @@
     "id" : "aheX6k67YaLbokCzv9UcOr",
     "name" : "REST_API_29(v1)",
     "type" : "APIM_API",
-    "validator" : {
-      "VERSION" : "1.0"
-    },
     "metadata" : {
       "modelVersion" : {
         "major" : 1,
@@ -45,7 +42,7 @@
       "repoInfo" : {
         "repoHandle" : "51367d2c-d8c6-432b-975a-76e6f37bb528"
       },
-      "contextAttributes" : [ ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
