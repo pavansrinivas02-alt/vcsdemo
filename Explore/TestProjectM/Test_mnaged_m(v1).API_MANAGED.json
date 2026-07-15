@@ -59,23 +59,23 @@
         },
         "configuration" : { },
         "policies" : [ {
-          "id" : "4d29187f-4a85-4bad-9a90-811800123d9e",
-          "name" : "test_jk_rl",
+          "id" : "59eb1565-6a06-4b6e-bfd6-1a117cb2b215",
+          "name" : "md_check_rl",
           "type" : "RATE_LIMITING_POLICY",
           "inline" : false,
           "inherited" : false,
           "notes" : "",
           "selectionType" : "NAMED",
           "definition" : {
-            "id" : "65d41b1a-356f-4039-8e9e-4c7be0c171af",
+            "id" : "7f6a45e8-fea1-49ee-9cf2-ba6e19d5af5a",
             "tier" : {
-              "id" : "cbc903b5-a6b6-4b0c-9f72-cd6261a1f998",
-              "name" : "APIC_T_1784095784922",
+              "id" : "db7a3bca-d8b0-43b3-8cf5-4be1d2e6d57b",
+              "name" : "APIC_T_1783881752442",
               "description" : "",
-              "quota" : 21,
+              "quota" : 211,
               "timeInterval" : 1,
               "timeUnit" : "DAY",
-              "internalTierId" : "8a0296bf-0bb0-4fa4-a33c-0bd9e8805b4d"
+              "internalTierId" : "cbae0d35-249a-4dd9-866d-c62fdb758367"
             }
           }
         }, {
@@ -251,7 +251,7 @@
       "version" : "v1",
       "revision" : "1",
       "apiLevelRateLimitNamedPolicyIds" : [ "2b2dc165-a82e-41b3-a541-781b8bf646e6" ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "4d29187f-4a85-4bad-9a90-811800123d9e" ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "59eb1565-6a06-4b6e-bfd6-1a117cb2b215" ],
       "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "8kkbTovzhLXdL48vEhxAKj" ]
     },
