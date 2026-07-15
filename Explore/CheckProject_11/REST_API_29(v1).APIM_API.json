@@ -1,21 +1,21 @@
 {
   "documentData" : {
     "metadata" : {
-      "id" : "51367d2c-d8c6-432b-975a-76e6f37bb528",
+      "id" : "cf2d4bc7-69e6-4087-ae88-09d8ccaf7a7e",
       "type" : "REST_API",
       "name" : "REST_API_29(v1)",
       "description" : "",
       "apiName" : "REST_API_29",
       "version" : "v1",
-      "status" : "PUBLISHED",
+      "status" : "DRAFT",
       "visibility" : "EXTERNAL",
-      "revisionNumber" : 1,
-      "frsDocumentId" : "aheX6k67YaLbokCzv9UcOr",
-      "lastModifiedDate" : 1784121809032,
-      "apiClusterId" : "4b005b6d-3fb3-4b35-8621-9fdd7fc68bd7",
+      "revisionNumber" : 2,
+      "frsDocumentId" : "iMU5D4LsCQmeRxMgTCryw4",
+      "lastModifiedDate" : 1784121966200,
+      "apiClusterId" : "16b1a003-babe-49c5-8122-5420e3380048",
       "isFixed" : true
     },
-    "location" : "1Ij4Pxpdwq5fblaxR605m9",
+    "location" : "lUy26CtGEGHivTguPqv9O5",
     "definition" : {
       "id" : "api_definition_1784121798816",
       "operations" : [ {
@@ -24,11 +24,11 @@
         "description" : "",
         "tags" : [ ],
         "implementationConfigurations" : [ {
-          "frsId" : "gimIpG9rIqJg0487I4KKQV",
+          "frsId" : "1vOmtzBOXvbexciYttOms0",
           "provider" : "CAI_PROCESS",
           "assetName" : "ddfsdfsdfsd",
           "description" : "",
-          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/ddfsdfsdfsd",
+          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/9Zf5iUTZprSjJxUgb87goe/ddfsdfsdfsd",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeMappings" : [ ]
@@ -89,7 +89,7 @@
         "ifSkip" : false,
         "issuesParsing" : [ ]
       } ],
-      "implementationProviderIds" : [ "gimIpG9rIqJg0487I4KKQV" ]
+      "implementationProviderIds" : [ "1vOmtzBOXvbexciYttOms0" ]
     },
     "metadata.type" : "REST_API",
     "artifacts" : [ ],
@@ -153,7 +153,7 @@
     } ],
     "tags" : [ ],
     "properties" : [ {
-      "id" : "25e54f19-fd08-45e8-a653-10bffba08976",
+      "id" : "bc3fe0fe-57a7-479c-bdd7-9f82adaa0810",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
     } ]
