@@ -1,6 +1,6 @@
 {
   "documentData" : {
-    "id" : "973b0543-240a-4cd4-b1a2-f7c7ef963bf3",
+    "id" : "25c31d9f-e966-4f37-99bb-be78f3e14682",
     "apiDesignId" : "a9ac45bf-3dfe-45ec-bfe2-459bc039685b",
     "apiDesignApiName" : "REST_API_1",
     "apiDesignInternalName" : "REST_API_1(v1)",
@@ -109,14 +109,14 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
-      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "operationLevelRateLimitNamedPolicyIds" : [ "4a10e6ee-4337-43b6-b5b2-92f66550d78e" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "implementationProviderIds" : [ "9hQa2ygJQbSkjG5F3lXGyQ" ]
+      "implementationProviderIds" : [ "9hQa2ygJQbSkjG5F3lXGyQ" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ]
     },
     "apiClusterId" : "1b6a0595-c6c0-41a0-9ea0-4c62880deba3",
     "apiCategory" : "IDMC_APP_GENERATED",
-    "frsDocumentId" : "b6hNG1ZOtceiuXFQFQHJeL",
+    "frsDocumentId" : "1f5w3FUq4pucVGhKwvlv6u",
     "frsLocation" : "0HnDt1elUqQfF9zE5mG62d",
     "isFixed" : true,
     "runtimeEnvironmentInfo" : {
