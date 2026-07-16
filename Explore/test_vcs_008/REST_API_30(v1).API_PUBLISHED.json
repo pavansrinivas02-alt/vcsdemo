@@ -1,7 +1,7 @@
 {
   "documentData" : {
-    "id" : "b4d43b6e-900b-40e9-8e01-68eee90d243c",
-    "apiDesignId" : "a8044d6a-c46a-4fa3-b767-901b25dcfbe5",
+    "id" : "f5397b89-e341-4038-8ead-6ea64687060d",
+    "apiDesignId" : "d4e8db74-6cbe-4e99-9d7e-92f335a0c2ea",
     "apiDesignApiName" : "REST_API_30",
     "apiDesignInternalName" : "REST_API_30(v1)",
     "apiDesignMetadata" : {
@@ -45,11 +45,11 @@
           "description" : "OK."
         } ],
         "implementation" : {
-          "id" : "5sbjjLjU7ynbEfBer2vbs0",
+          "id" : "3IOTpNenzvXjPQCDm1Gsoi",
           "provider" : "CAI_PROCESS",
           "assetName" : "sxhjbnsmxz",
           "description" : "",
-          "endpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/sxhjbnsmxz",
+          "endpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/9Zf5iUTZprSjJxUgb87goe/sxhjbnsmxz",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeTransformations" : [ ]
@@ -127,12 +127,12 @@
       "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "operationLevelRateLimitNamedPolicyIds" : [ "061775d8-1df7-4738-8aa4-7ebdae78ff3e" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "implementationProviderIds" : [ "5sbjjLjU7ynbEfBer2vbs0" ]
+      "implementationProviderIds" : [ "3IOTpNenzvXjPQCDm1Gsoi" ]
     },
-    "apiClusterId" : "42e7930f-3fd0-4eea-8ea6-8ae5aafdd703",
+    "apiClusterId" : "56eb4f8d-3a9c-4e84-9e05-d4943c2b6048",
     "apiCategory" : "IDMC_APP_GENERATED",
-    "frsDocumentId" : "0QA6EbqFEoUiaekKT4dhqF",
-    "frsLocation" : "4oNbctw6tCbkt3x0XNlOq6",
+    "frsDocumentId" : "0UeIlTYJEJ3fwXwB28qlaP",
+    "frsLocation" : "3MQUosVba1CiAhDwymQikM",
     "isFixed" : true,
     "frsName" : "REST_API_30(v1)",
     "runtimeEnvironmentInfo" : {
