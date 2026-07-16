@@ -13,7 +13,7 @@
     "name" : "REST_API_32",
     "description" : "",
     "version" : "v1",
-    "revision" : 1,
+    "revision" : 2,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -56,7 +56,7 @@
         },
         "configuration" : { },
         "policies" : [ {
-          "id" : "342d5fa1-3d10-4e58-bc85-28cedce451d0",
+          "id" : "9d3b6ed6-b359-4c91-8cbd-b44f1b35cb7b",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -70,7 +70,7 @@
             }
           }
         }, {
-          "id" : "4e2636a0-5498-4a9d-be02-d97f2600ad78",
+          "id" : "cb752e7f-9dc9-4e98-917a-83d2fa433ea3",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -85,29 +85,29 @@
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
           "metadata" : {
-            "id" : "9c72dbbe-633e-44d5-8d79-74861e5d478b",
-            "name" : "rl_policy",
+            "id" : "54e7900d-61fa-4f23-9e52-f1583c09fdd5",
+            "name" : "rl_policy002",
             "description" : "",
             "category" : "OPERATIONAL",
             "type" : "RATE_LIMITING_POLICY",
             "status" : "ENABLED",
             "apiDesignRefCount" : 0,
-            "frsDocumentId" : "9GWsNjcwByEhSCJxWg33qF",
+            "frsDocumentId" : "apxnRCPkkEXhzIhZX1jDgT",
             "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
-            "frsName" : "rl_policy",
+            "frsName" : "rl_policy002",
             "orgLevelRateLimitPolicy" : false
           },
           "definition" : {
             "data" : { },
-            "id" : "4854f74f-e1f2-4afc-a3e5-17e00f53d5d1",
+            "id" : "6db3cb9e-be22-4a7c-aa3a-04f2da5ffc1a",
             "tier" : {
-              "id" : "add0ecbe-db76-48fd-9195-545b0a7ea1c1",
-              "name" : "APIC_T_1784189791024",
+              "id" : "43daa96f-a4bc-4949-8ee9-6eef682e315d",
+              "name" : "APIC_T_1784190255641",
               "description" : "",
-              "quota" : 23,
+              "quota" : 232,
               "timeInterval" : 1,
               "timeUnit" : "HOUR",
-              "internalTierId" : "2fc0f388-8147-439f-b6c7-feec41a345d5"
+              "internalTierId" : "cdbe9ac0-c630-4c2f-b6bf-d3a2e306007e"
             }
           },
           "inline" : false,
@@ -117,9 +117,9 @@
         "selectionType" : "NAMED",
         "notes" : ""
       } ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "342d5fa1-3d10-4e58-bc85-28cedce451d0" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5" ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "9d3b6ed6-b359-4c91-8cbd-b44f1b35cb7b" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "apiLevelRateLimitNamedPolicyIds" : [ "9c72dbbe-633e-44d5-8d79-74861e5d478b" ],
       "implementationProviderIds" : [ "0bqh1Va2ikJlQWrkR5qKms" ]
     },
     "apiClusterId" : "6d45d7af-a3a7-46b5-9a8c-b3f96ae6ddcd",

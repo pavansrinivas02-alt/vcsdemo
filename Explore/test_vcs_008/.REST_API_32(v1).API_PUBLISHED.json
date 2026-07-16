@@ -26,13 +26,13 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-16T08:17:55.266Z",
+  "updateTime" : "2026-07-16T08:26:16.678Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "9GWsNjcwByEhSCJxWg33qF",
-    "name" : "rl_policy",
+    "id" : "apxnRCPkkEXhzIhZX1jDgT",
+    "name" : "rl_policy002",
     "type" : "API_POLICY",
     "metadata" : {
       "modelVersion" : {
@@ -40,7 +40,7 @@
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "9c72dbbe-633e-44d5-8d79-74861e5d478b"
+        "repoHandle" : "54e7900d-61fa-4f23-9e52-f1583c09fdd5"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -80,9 +80,6 @@
     "id" : "9KZFMpQizdwgIFZbRBBjeR",
     "name" : "REST_API_32(v1)",
     "type" : "APIM_API",
-    "validator" : {
-      "VERSION" : "1.0"
-    },
     "metadata" : {
       "modelVersion" : {
         "major" : 1,
@@ -91,7 +88,7 @@
       "repoInfo" : {
         "repoHandle" : "4b7b3153-1ad3-4763-afb9-c0b39a30b95a"
       },
-      "contextAttributes" : [ ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
