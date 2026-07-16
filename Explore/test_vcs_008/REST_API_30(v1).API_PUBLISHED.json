@@ -1,0 +1,145 @@
+{
+  "documentData" : {
+    "id" : "b4d43b6e-900b-40e9-8e01-68eee90d243c",
+    "apiDesignId" : "a8044d6a-c46a-4fa3-b767-901b25dcfbe5",
+    "apiDesignApiName" : "REST_API_30",
+    "apiDesignInternalName" : "REST_API_30(v1)",
+    "apiDesignMetadata" : {
+      "tags" : [ ],
+      "properties" : {
+        "ApiImplementationProviderType" : "CAI_PROCESS"
+      }
+    },
+    "name" : "REST_API_30",
+    "description" : "",
+    "version" : "v1",
+    "revision" : 1,
+    "type" : "REST_API",
+    "status" : "PUBLISHED",
+    "provider" : "API_CENTER",
+    "comments" : "",
+    "content" : {
+      "tags" : [ ],
+      "properties" : {
+        "ApiImplementationProviderType" : "CAI_PROCESS"
+      },
+      "operations" : [ {
+        "id" : "ab8085e7-be8e-42ea-b305-bae0decea792",
+        "title" : "sdxsdsd",
+        "description" : "",
+        "requestMethod" : "POST",
+        "type" : "REST_API",
+        "path" : "/sdhbns",
+        "tags" : [ ],
+        "properties" : { },
+        "request" : {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "required" : false
+        },
+        "responses" : [ {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "inline" : false
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK."
+        } ],
+        "implementation" : {
+          "id" : "5sbjjLjU7ynbEfBer2vbs0",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "sxhjbnsmxz",
+          "description" : "",
+          "endpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/sxhjbnsmxz",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeTransformations" : [ ]
+        },
+        "configuration" : { },
+        "policies" : [ {
+          "id" : "98c93e4c-e7d5-4a3d-8cd0-f7811120a9a8",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : {
+            "authenticationSchemes" : [ ]
+          }
+        }, {
+          "id" : "aba8f715-3091-48e1-aae5-ac783c72345c",
+          "category" : "PRIVACY",
+          "type" : "PII_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : {
+            "fields" : [ ]
+          }
+        }, {
+          "id" : "061775d8-1df7-4738-8aa4-7ebdae78ff3e",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : {
+            "tier" : {
+              "timeUnit" : "SECOND"
+            }
+          }
+        }, {
+          "id" : "8d094f64-8138-4f17-af90-df9d1b824caf",
+          "category" : "OPERATIONAL",
+          "type" : "RESPONSE_CACHING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : { }
+        } ]
+      } ],
+      "apiLevelPolicies" : [ {
+        "policy" : {
+          "type" : "RATE_LIMITING_POLICY",
+          "metadata" : {
+            "category" : "OPERATIONAL",
+            "type" : "RATE_LIMITING_POLICY",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { }
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "NONE",
+        "notes" : ""
+      } ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "061775d8-1df7-4738-8aa4-7ebdae78ff3e" ],
+      "userLevelRateLimitsPolicyIds" : [ ],
+      "implementationProviderIds" : [ "5sbjjLjU7ynbEfBer2vbs0" ]
+    },
+    "apiClusterId" : "42e7930f-3fd0-4eea-8ea6-8ae5aafdd703",
+    "apiCategory" : "IDMC_APP_GENERATED",
+    "frsDocumentId" : "0QA6EbqFEoUiaekKT4dhqF",
+    "frsLocation" : "4oNbctw6tCbkt3x0XNlOq6",
+    "isFixed" : true,
+    "frsName" : "REST_API_30(v1)",
+    "runtimeEnvironmentInfo" : {
+      "runtimeEnvironment" : "CLOUD"
+    }
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
