@@ -3,8 +3,8 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "7silyLjgLgAjqZCBgTyK2n",
-    "name" : "REST_API_30(v1)",
+    "id" : "aB8n9bZRakHd0gBor9nboV",
+    "name" : "REST_API_30_test(v1)",
     "type" : "APIM_API",
     "validator" : {
       "VERSION" : "1.0"
@@ -15,7 +15,7 @@
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "a8044d6a-c46a-4fa3-b767-901b25dcfbe5"
+        "repoHandle" : "d4e8db74-6cbe-4e99-9d7e-92f335a0c2ea"
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
@@ -26,12 +26,12 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-16T04:01:25.936Z",
+  "updateTime" : "2026-07-16T04:06:41.984Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "5sbjjLjU7ynbEfBer2vbs0",
+    "id" : "3IOTpNenzvXjPQCDm1Gsoi",
     "name" : "sxhjbnsmxz",
     "type" : "PROCESS",
     "metadata" : {
@@ -40,7 +40,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "jDg8SOlA1vyoY2G-gt-134257-2026-07-16T03:58:47.157Z::pd.xml"
+        "repoHandle" : "8sPFn2H0Fdw8jIw-gt-138332-2026-07-16T04:02:49.607Z::pd.xml"
       },
       "contextAttributes" : null,
       "additionalInfo" : {

@@ -1,21 +1,21 @@
 {
   "documentData" : {
     "metadata" : {
-      "id" : "a8044d6a-c46a-4fa3-b767-901b25dcfbe5",
+      "id" : "d4e8db74-6cbe-4e99-9d7e-92f335a0c2ea",
       "type" : "REST_API",
-      "name" : "REST_API_30(v1)",
+      "name" : "REST_API_30_test(v1)",
       "description" : "",
       "apiName" : "REST_API_30",
       "version" : "v1",
-      "status" : "PUBLISHED",
+      "status" : "DRAFT",
       "visibility" : "EXTERNAL",
-      "revisionNumber" : 1,
-      "frsDocumentId" : "7silyLjgLgAjqZCBgTyK2n",
-      "lastModifiedDate" : 1784174367415,
-      "apiClusterId" : "42e7930f-3fd0-4eea-8ea6-8ae5aafdd703",
+      "revisionNumber" : 2,
+      "frsDocumentId" : "aB8n9bZRakHd0gBor9nboV",
+      "lastModifiedDate" : 1784174768804,
+      "apiClusterId" : "56eb4f8d-3a9c-4e84-9e05-d4943c2b6048",
       "isFixed" : true
     },
-    "location" : "4oNbctw6tCbkt3x0XNlOq6",
+    "location" : "3MQUosVba1CiAhDwymQikM",
     "definition" : {
       "id" : "api_definition_1784174362492",
       "operations" : [ {
@@ -24,11 +24,11 @@
         "description" : "",
         "tags" : [ ],
         "implementationConfigurations" : [ {
-          "frsId" : "5sbjjLjU7ynbEfBer2vbs0",
+          "frsId" : "3IOTpNenzvXjPQCDm1Gsoi",
           "provider" : "CAI_PROCESS",
           "assetName" : "sxhjbnsmxz",
           "description" : "",
-          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/sxhjbnsmxz",
+          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/9Zf5iUTZprSjJxUgb87goe/sxhjbnsmxz",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeMappings" : [ ]
@@ -115,7 +115,7 @@
         "ifSkip" : false,
         "issuesParsing" : [ ]
       } ],
-      "implementationProviderIds" : [ "5sbjjLjU7ynbEfBer2vbs0" ]
+      "implementationProviderIds" : [ "3IOTpNenzvXjPQCDm1Gsoi" ]
     },
     "metadata.type" : "REST_API",
     "artifacts" : [ ],
@@ -132,24 +132,6 @@
         "definition" : {
           "data" : { },
           "fields" : [ ]
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NONE",
-      "notes" : ""
-    }, {
-      "policy" : {
-        "type" : "RATE_LIMITING_POLICY",
-        "metadata" : {
-          "category" : "OPERATIONAL",
-          "type" : "RATE_LIMITING_POLICY",
-          "apiDesignRefCount" : 0,
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { }
         },
         "inline" : false,
         "inherited" : false,
@@ -176,10 +158,28 @@
       },
       "selectionType" : "NONE",
       "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
     } ],
     "tags" : [ ],
     "properties" : [ {
-      "id" : "396ffc65-e3a4-4c5a-bb8f-82f74a9b807c",
+      "id" : "031f150a-2f42-4d59-81e0-fc16d7288737",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
     } ]
