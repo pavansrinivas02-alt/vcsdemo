@@ -1,0 +1,90 @@
+{
+  "documentData" : {
+    "metadata" : {
+      "id" : "706ed987-a4ff-4b1c-ab83-6007e43abc75",
+      "type" : "REST_API",
+      "name" : "REST_API_32VCS_TA_Del1(v1)",
+      "description" : "",
+      "apiName" : "REST_API_32VCS_TA_Del1",
+      "version" : "v1",
+      "status" : "DRAFT",
+      "visibility" : "EXTERNAL",
+      "revisionNumber" : 1,
+      "frsDocumentId" : "cFYBioTnyAbiTFDereyXgF",
+      "lastModifiedDate" : 1784180771904,
+      "apiClusterId" : "c5976cfb-0d7e-4bd9-9dcf-e4d1b9e1626c",
+      "isFixed" : true
+    },
+    "location" : "0Q3GuhKA2IZl0fQhwLxryS",
+    "definition" : {
+      "id" : "api_definition_1784180771249",
+      "operations" : [ ],
+      "implementationProviderIds" : [ ]
+    },
+    "metadata.type" : "REST_API",
+    "artifacts" : [ ],
+    "groups" : [ ],
+    "policies" : [ {
+      "policy" : {
+        "type" : "PII_POLICY",
+        "metadata" : {
+          "category" : "PRIVACY",
+          "type" : "PII_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "fields" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "authenticationSchemes" : [ ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    } ],
+    "tags" : [ ],
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
