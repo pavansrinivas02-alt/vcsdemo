@@ -19,15 +19,38 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "dfhjnsdxjnds",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-16T09:36:06.687Z",
+  "updateTime" : "2026-07-16T09:36:51.923Z",
   "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "8cnDbLGwaOIgXjc47fpBwT",
+    "name" : "dwsxhjnsdkjxm",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "aaaaaa-gt-171741-2026-07-16T09:36:34.009Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/test_vcs_008"
+  }, {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
