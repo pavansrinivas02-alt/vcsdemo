@@ -1,0 +1,33 @@
+{
+  "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "c2mwr2cuxagcGAhbX5unmS",
+    "name" : "REST_API_30VCS_TA_Del2(v1)",
+    "type" : "APIM_API",
+    "validator" : {
+      "VERSION" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "ebd3762e-e8af-45f5-bd13-ea3ab0e99d2b"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-07-16T04:01:38.721Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
