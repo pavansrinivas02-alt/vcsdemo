@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "12c9f2ce-8c8e-46a6-9d6e-9efca49f91e1",
       "name" : "VCSVAL_S1_07061630",
-      "description" : "VCS validation single-checkin policy",
+      "description" : "EDITED IN CONSOLE (scenario 7) - checked-in, no chsdcnbdnseckout",
       "category" : "PRIVACY",
       "type" : "PII_POLICY",
       "status" : "ENABLED",
@@ -16,10 +16,14 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "2888cbcd-dbd0-4f75-8632-21ba5514e108",
+      "id" : "d2541d1b-a8ea-4ca6-87f6-cb5f42c56550",
       "fields" : [ {
         "name" : "Credit Card",
         "requestAction" : "BLOCK",
+        "responseAction" : "NO_ACTION"
+      }, {
+        "name" : "US Address",
+        "requestAction" : "NO_ACTION",
         "responseAction" : "NO_ACTION"
       } ]
     },

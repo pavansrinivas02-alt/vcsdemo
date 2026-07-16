@@ -19,14 +19,14 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "VCS validation single-checkin policy",
+        "description" : "EDITED IN CONSOLE (scenario 7) - checked-in, no chsdcnbdnseckout",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-06T11:02:33.362Z",
+  "updateTime" : "2026-07-16T11:19:03.015Z",
   "objectRefs" : [ ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
