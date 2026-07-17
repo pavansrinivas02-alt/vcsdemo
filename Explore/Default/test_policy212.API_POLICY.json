@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "deb30244-9ff6-4f83-b86d-003849be0c29",
       "name" : "test_policy212",
-      "description" : "",
+      "description" : "lkjhbnkhgvb",
       "category" : "SECURITY",
       "type" : "AUTHENTICATION_POLICY",
       "status" : "ENABLED",
@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "d814ce5b-2cff-409f-831d-4d6f28f82f85",
+      "id" : "44e87948-30da-4e08-8e94-221051051239",
       "authenticationSchemes" : [ "BASIC" ]
     },
     "inline" : false,
