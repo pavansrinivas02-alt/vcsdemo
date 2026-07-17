@@ -1,7 +1,7 @@
 {
   "documentData" : {
     "metadata" : {
-      "id" : "cf2d4bc7-69e6-4087-ae88-09d8ccaf7a7e",
+      "id" : "51367d2c-d8c6-432b-975a-76e6f37bb528",
       "type" : "REST_API",
       "name" : "REST_API_29(v1)",
       "description" : "",
@@ -10,12 +10,12 @@
       "status" : "DRAFT",
       "visibility" : "EXTERNAL",
       "revisionNumber" : 2,
-      "frsDocumentId" : "iMU5D4LsCQmeRxMgTCryw4",
-      "lastModifiedDate" : 1784121966200,
-      "apiClusterId" : "16b1a003-babe-49c5-8122-5420e3380048",
+      "frsDocumentId" : "aheX6k67YaLbokCzv9UcOr",
+      "lastModifiedDate" : 1784187124055,
+      "apiClusterId" : "4b005b6d-3fb3-4b35-8621-9fdd7fc68bd7",
       "isFixed" : true
     },
-    "location" : "lUy26CtGEGHivTguPqv9O5",
+    "location" : "1Ij4Pxpdwq5fblaxR605m9",
     "definition" : {
       "id" : "api_definition_1784121798816",
       "operations" : [ {
@@ -24,11 +24,11 @@
         "description" : "",
         "tags" : [ ],
         "implementationConfigurations" : [ {
-          "frsId" : "1vOmtzBOXvbexciYttOms0",
+          "frsId" : "gimIpG9rIqJg0487I4KKQV",
           "provider" : "CAI_PROCESS",
           "assetName" : "ddfsdfsdfsd",
           "description" : "",
-          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/9Zf5iUTZprSjJxUgb87goe/ddfsdfsdfsd",
+          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/ddfsdfsdfsd",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeMappings" : [ ]
@@ -89,7 +89,7 @@
         "ifSkip" : false,
         "issuesParsing" : [ ]
       } ],
-      "implementationProviderIds" : [ "1vOmtzBOXvbexciYttOms0" ]
+      "implementationProviderIds" : [ "gimIpG9rIqJg0487I4KKQV" ]
     },
     "metadata.type" : "REST_API",
     "artifacts" : [ ],
@@ -153,7 +153,7 @@
     } ],
     "tags" : [ ],
     "properties" : [ {
-      "id" : "bc3fe0fe-57a7-479c-bdd7-9f82adaa0810",
+      "id" : "25e54f19-fd08-45e8-a653-10bffba08976",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
     } ]
