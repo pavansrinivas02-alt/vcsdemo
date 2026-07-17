@@ -1,0 +1,79 @@
+{
+  "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "8ysAfPs4lW6cyaMFV1rF6U",
+    "name" : "REST_API_34(v1)",
+    "type" : "API_PUBLISHED",
+    "validator" : {
+      "VERSION" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "5e723104-7dd8-4299-8517-d313dc1a9989"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "jhbnhjh",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-07-17T09:19:28.307Z",
+  "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "0DVfkX4xVcYg04XmKOp7mj",
+    "name" : "sakxjhsaxz",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "X2qEKSabbeJOSM8-gt-367087-2026-07-17T09:12:04.799Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/test_vcs_008"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "53hK0h7bKPkfGZndpHrLCq",
+    "name" : "REST_API_34(v1)",
+    "type" : "APIM_API",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "289bc716-055c-4aba-9ddf-f96aefc63d2c"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "jhbnhjh",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/test_vcs_008"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
