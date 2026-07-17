@@ -2,29 +2,29 @@
   "documentData" : {
     "type" : "RATE_LIMITING_POLICY",
     "metadata" : {
-      "id" : "22463278-3d66-45b7-8521-c97cadc38faa",
+      "id" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c",
       "name" : "rl1",
       "description" : "",
       "category" : "OPERATIONAL",
       "type" : "RATE_LIMITING_POLICY",
       "status" : "ENABLED",
       "apiDesignRefCount" : 0,
-      "frsDocumentId" : "iy6PnWMGAUNkgxRsMWAHYX",
-      "frsLocation" : "f2Am1SWtCCnfvzOx5D9yWT",
+      "frsDocumentId" : "7NIaKAHKTs0bhTdOsKmAeQ",
+      "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
       "frsName" : "rl1",
       "orgLevelRateLimitPolicy" : false
     },
     "definition" : {
       "data" : { },
-      "id" : "9da3b8af-5fae-4c1b-a84a-f4582810ca44",
+      "id" : "f90445fc-52dc-45f5-bd13-bdcfe5fb9a37",
       "tier" : {
-        "id" : "f3c29dff-2af1-4aa1-a724-9619667ea348",
-        "name" : "APIC_T_1783618085350",
+        "id" : "422ca7ed-91dc-4a9e-910f-0bf95b1a77fe",
+        "name" : "APIC_T_1783618707488",
         "description" : "",
-        "quota" : 23,
+        "quota" : 30,
         "timeInterval" : 1,
         "timeUnit" : "HOUR",
-        "internalTierId" : "b9f11d7e-6672-47d2-aee5-7306e863a8dc"
+        "internalTierId" : "8d4ec293-163e-4380-a762-c9ff02a1fd3f"
       }
     },
     "inline" : false,

@@ -3,7 +3,7 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "iy6PnWMGAUNkgxRsMWAHYX",
+    "id" : "7NIaKAHKTs0bhTdOsKmAeQ",
     "name" : "rl1",
     "type" : "API_POLICY",
     "validator" : {
@@ -15,7 +15,7 @@
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "22463278-3d66-45b7-8521-c97cadc38faa"
+        "repoHandle" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c"
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-09T17:33:31.543Z",
+  "updateTime" : "2026-07-17T07:33:29.047Z",
   "objectRefs" : [ ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
