@@ -112,12 +112,12 @@
         },
         "definition" : {
           "data" : { },
-          "id" : "9da3b8af-5fae-4c1b-a84a-f4582810ca44",
+          "id" : "f90445fc-52dc-45f5-bd13-bdcfe5fb9a37",
           "tier" : {
             "id" : "422ca7ed-91dc-4a9e-910f-0bf95b1a77fe",
             "name" : "APIC_T_1783618707488",
             "description" : "",
-            "quota" : 23,
+            "quota" : 30,
             "timeInterval" : 1,
             "timeUnit" : "HOUR",
             "internalTierId" : "8d4ec293-163e-4380-a762-c9ff02a1fd3f"
