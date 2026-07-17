@@ -7,7 +7,7 @@
     "name" : "TestGroupCheck",
     "description" : "This is the second time i am making the chceckin",
     "version" : "v1",
-    "revision" : 3,
+    "revision" : 4,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "comments" : "",
@@ -182,14 +182,37 @@
       "apiLevelPolicies" : [ {
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
+          "metadata" : {
+            "id" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c",
+            "name" : "rl1",
+            "description" : "",
+            "category" : "OPERATIONAL",
+            "type" : "RATE_LIMITING_POLICY",
+            "status" : "ENABLED",
+            "apiDesignRefCount" : 0,
+            "frsDocumentId" : "7NIaKAHKTs0bhTdOsKmAeQ",
+            "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+            "frsName" : "rl1",
+            "orgLevelRateLimitPolicy" : false
+          },
           "definition" : {
-            "data" : { }
+            "data" : { },
+            "id" : "9da3b8af-5fae-4c1b-a84a-f4582810ca44",
+            "tier" : {
+              "id" : "422ca7ed-91dc-4a9e-910f-0bf95b1a77fe",
+              "name" : "APIC_T_1783618707488",
+              "description" : "",
+              "quota" : 23,
+              "timeInterval" : 1,
+              "timeUnit" : "HOUR",
+              "internalTierId" : "8d4ec293-163e-4380-a762-c9ff02a1fd3f"
+            }
           },
           "inline" : false,
           "inherited" : false,
           "properties" : [ ]
         },
-        "selectionType" : "NONE",
+        "selectionType" : "NAMED",
         "notes" : ""
       }, {
         "policy" : {
@@ -259,7 +282,7 @@
       } ],
       "version" : "v1",
       "revision" : "1",
-      "apiLevelRateLimitNamedPolicyIds" : [ ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "f9b29e29-3611-4894-8e9e-e7a634f0a56c" ],
       "operationLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5", "a2c1ff07-d0da-4e21-9b80-62d49af3ad64" ],
       "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "9o0ilc29uIZeCpIIz3QHUd", "0bqh1Va2ikJlQWrkR5qKms" ]
