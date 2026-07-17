@@ -13,7 +13,7 @@
     "name" : "REST_API_32",
     "description" : "",
     "version" : "v1",
-    "revision" : 2,
+    "revision" : 3,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -24,6 +24,63 @@
         "ApiImplementationProviderType" : "CAI_PROCESS"
       },
       "operations" : [ {
+        "id" : "000b77ed-f80f-40a0-903c-cde719df923f",
+        "title" : "wesdxhgbws",
+        "description" : "",
+        "requestMethod" : "POST",
+        "type" : "REST_API",
+        "path" : "/ewiusdhj",
+        "tags" : [ ],
+        "properties" : { },
+        "request" : {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "required" : false
+        },
+        "responses" : [ {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "inline" : false
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK."
+        } ],
+        "implementation" : {
+          "id" : "eK3OljtYOG3kT4XLGxDXk0",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "erdkjhbn",
+          "description" : "",
+          "endpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/erdkjhbn",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeTransformations" : [ ]
+        },
+        "configuration" : { },
+        "policies" : [ {
+          "id" : "8ecd2685-8e4c-4a7e-975b-a829b11c9051",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : {
+            "tier" : {
+              "timeUnit" : "SECOND"
+            }
+          }
+        }, {
+          "id" : "72d7b5a8-393a-4979-ac35-dd62fd3ca198",
+          "category" : "OPERATIONAL",
+          "type" : "RESPONSE_CACHING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : { }
+        } ]
+      }, {
         "id" : "a347a9bc-55ab-478f-8e27-5b0b121329fd",
         "title" : "jsaxjksxjns",
         "description" : "",
@@ -56,7 +113,7 @@
         },
         "configuration" : { },
         "policies" : [ {
-          "id" : "9d3b6ed6-b359-4c91-8cbd-b44f1b35cb7b",
+          "id" : "19932c33-b81b-4eb1-83fd-9bd138d5b754",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -70,7 +127,7 @@
             }
           }
         }, {
-          "id" : "cb752e7f-9dc9-4e98-917a-83d2fa433ea3",
+          "id" : "d74afed7-7ee3-4d3f-bd58-7de7267387f9",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -118,9 +175,9 @@
         "notes" : ""
       } ],
       "apiLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5" ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "9d3b6ed6-b359-4c91-8cbd-b44f1b35cb7b" ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "8ecd2685-8e4c-4a7e-975b-a829b11c9051", "19932c33-b81b-4eb1-83fd-9bd138d5b754" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "implementationProviderIds" : [ "0bqh1Va2ikJlQWrkR5qKms" ]
+      "implementationProviderIds" : [ "0bqh1Va2ikJlQWrkR5qKms", "eK3OljtYOG3kT4XLGxDXk0" ]
     },
     "apiClusterId" : "6d45d7af-a3a7-46b5-9a8c-b3f96ae6ddcd",
     "apiCategory" : "IDMC_APP_GENERATED",

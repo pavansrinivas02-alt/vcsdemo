@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-16T08:26:16.678Z",
+  "updateTime" : "2026-07-17T10:18:51.682Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
@@ -92,6 +92,29 @@
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/test_vcs_008"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "eK3OljtYOG3kT4XLGxDXk0",
+    "name" : "erdkjhbn",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "wfYtjCtbdsreK8Z-gt-376751-2026-07-17T10:18:16.36Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
         "documentState" : "VALID"
       }
     },
