@@ -282,9 +282,9 @@
       } ],
       "version" : "v1",
       "revision" : "1",
-      "apiLevelRateLimitNamedPolicyIds" : [ "f9b29e29-3611-4894-8e9e-e7a634f0a56c" ],
       "operationLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5", "a2c1ff07-d0da-4e21-9b80-62d49af3ad64" ],
       "userLevelRateLimitsPolicyIds" : [ ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "f9b29e29-3611-4894-8e9e-e7a634f0a56c" ],
       "implementationProviderIds" : [ "9o0ilc29uIZeCpIIz3QHUd", "0bqh1Va2ikJlQWrkR5qKms" ]
     },
     "apiClusterId" : "6f110aca-2b71-4da6-bab2-950cd272cb88",
