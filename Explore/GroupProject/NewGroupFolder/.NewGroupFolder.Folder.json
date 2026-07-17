@@ -1,0 +1,28 @@
+{
+  "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "2h1ouxUam8gdxgDLz35d4c",
+    "name" : "NewGroupFolder",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-07-17T07:19:38.207Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
