@@ -1,34 +1,30 @@
 {
   "documentData" : {
     "metadata" : {
-      "id" : "5c8e40f7-b1c0-4bf0-83e0-f64cf0191fe5",
+      "id" : "157f2407-6e70-4e0c-844b-c85f6bdeaa51",
       "type" : "REST_API",
-      "name" : "REST_API_27(v1)",
+      "name" : "REST_API_28(v1)",
       "description" : "",
-      "apiName" : "REST_API_27",
+      "apiName" : "REST_API_28",
       "version" : "v1",
       "status" : "DRAFT",
       "visibility" : "EXTERNAL",
-      "revisionNumber" : 2,
-      "frsDocumentId" : "1Bt43Na6ekfdi7dwDGy3so",
-      "lastModifiedDate" : 1784187124183,
-      "apiClusterId" : "c986cc33-4c73-4d7d-b263-24c1edbdb1d2",
+      "revisionNumber" : 1,
+      "frsDocumentId" : "kC3UkFAQywrdxhkMw0NLoJ",
+      "lastModifiedDate" : 1784108495555,
+      "apiClusterId" : "d529caec-b426-4b5f-bd78-e3e9d3af260e",
       "isFixed" : true
     },
     "location" : "1Ij4Pxpdwq5fblaxR605m9",
     "definition" : {
-      "id" : "api_definition_1784106830591",
+      "id" : "api_definition_1784108495251",
       "operations" : [ {
-        "id" : "94cd83c6-83dd-482c-8f86-9ab6cf90a6c9",
+        "id" : "c02ce9a9-ed82-4738-9166-a49d271bc673",
         "title" : "op",
         "description" : "",
         "tags" : [ ],
         "implementationConfigurations" : [ {
-          "frsId" : "96sm8B736PgbQt4rGORjes",
           "provider" : "CAI_PROCESS",
-          "assetName" : "process_11",
-          "description" : "",
-          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/process_11",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeMappings" : [ ]
@@ -65,7 +61,7 @@
         "queryParameters" : [ ],
         "request" : {
           "headers" : [ ],
-          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "mediaTypes" : [ ],
           "constraints" : {
             "required" : false
           }
@@ -74,7 +70,7 @@
         "conflict" : false,
         "responses" : [ {
           "headers" : [ ],
-          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "mediaTypes" : [ ],
           "body" : {
             "metadata" : { },
             "definition" : {
@@ -89,12 +85,30 @@
         "ifSkip" : false,
         "issuesParsing" : [ ]
       } ],
-      "implementationProviderIds" : [ "96sm8B736PgbQt4rGORjes" ]
+      "implementationProviderIds" : [ ]
     },
     "metadata.type" : "REST_API",
     "artifacts" : [ ],
     "groups" : [ ],
     "policies" : [ {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
+    }, {
       "policy" : {
         "type" : "AUTHENTICATION_POLICY",
         "metadata" : {
@@ -112,41 +126,6 @@
         "properties" : [ ]
       },
       "selectionType" : "NONE",
-      "notes" : ""
-    }, {
-      "policy" : {
-        "type" : "RATE_LIMITING_POLICY",
-        "metadata" : {
-          "id" : "2b2dc165-a82e-41b3-a541-781b8bf646e6",
-          "name" : "NewRL",
-          "description" : "",
-          "category" : "OPERATIONAL",
-          "type" : "RATE_LIMITING_POLICY",
-          "status" : "ENABLED",
-          "apiDesignRefCount" : 0,
-          "frsDocumentId" : "f0zQElx7m4YgF3oesHquEs",
-          "frsLocation" : "lkcgXu2TfE6b2V5O4gwAq4",
-          "frsName" : "NewRL",
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { },
-          "id" : "1ec99ca7-4939-4e40-9dbf-d6560994a1f5",
-          "tier" : {
-            "id" : "52f39454-7916-48bf-bc35-30c4c7dc345d",
-            "name" : "APIC_T_1783914162411",
-            "description" : "",
-            "quota" : 310,
-            "timeInterval" : 1,
-            "timeUnit" : "DAY",
-            "internalTierId" : "61750162-5c96-4f93-a7fa-d6e739e05036"
-          }
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NAMED",
       "notes" : ""
     }, {
       "policy" : {
@@ -170,7 +149,7 @@
     } ],
     "tags" : [ ],
     "properties" : [ {
-      "id" : "1d349c66-6c33-432a-94c3-37fd1862617b",
+      "id" : "c676d1f2-1681-4823-91b5-76d6e16e9d99",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
     } ]
