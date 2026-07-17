@@ -19,14 +19,14 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "jhbnhjhdfckjd",
+        "description" : "new description",
         "contentType" : "Binary",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-17T09:21:50.694Z",
+  "updateTime" : "2026-07-17T09:27:40.559Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
@@ -67,7 +67,7 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "jhbnhjhdfckjd",
+        "description" : "new description",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }

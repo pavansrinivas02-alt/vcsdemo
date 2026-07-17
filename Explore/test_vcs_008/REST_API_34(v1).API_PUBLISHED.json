@@ -11,9 +11,9 @@
       }
     },
     "name" : "REST_API_34",
-    "description" : "jhbnhjhdfckjd",
+    "description" : "new description",
     "version" : "v1",
-    "revision" : 2,
+    "revision" : 3,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -56,7 +56,7 @@
         },
         "configuration" : { },
         "policies" : [ {
-          "id" : "8339ea6e-52ed-447f-af01-d1422de9bf41",
+          "id" : "067e632e-479d-437a-b8b0-ff07642eddda",
           "category" : "SECURITY",
           "type" : "AUTHENTICATION_POLICY",
           "status" : "ENABLED",
@@ -68,7 +68,7 @@
             "authenticationSchemes" : [ "BASIC" ]
           }
         }, {
-          "id" : "659fcb22-dcc5-488f-8d09-fa3399a35df1",
+          "id" : "520ecfb6-2c86-4b32-abf2-04846810119c",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
           "status" : "ENABLED",
@@ -82,7 +82,7 @@
             }
           }
         }, {
-          "id" : "66c41b22-92fa-43c5-935f-afcd58ae4087",
+          "id" : "68ac9158-d7fd-469b-95a0-406484a704d4",
           "category" : "OPERATIONAL",
           "type" : "RESPONSE_CACHING_POLICY",
           "status" : "ENABLED",
@@ -112,9 +112,9 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "659fcb22-dcc5-488f-8d09-fa3399a35df1" ],
-      "userLevelRateLimitsPolicyIds" : [ ],
       "apiLevelRateLimitNamedPolicyIds" : [ null ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "520ecfb6-2c86-4b32-abf2-04846810119c" ],
+      "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "0DVfkX4xVcYg04XmKOp7mj" ]
     },
     "apiClusterId" : "63fc2c37-c661-47a4-8e03-0dedf9c4eac8",
