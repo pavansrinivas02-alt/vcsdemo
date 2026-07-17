@@ -5,9 +5,9 @@
     "apiDesignApiName" : "TestGroupCheck",
     "apiDesignInternalName" : "TestGroupCheck",
     "name" : "TestGroupCheck",
-    "description" : "This is the second time i am making the chceckin",
+    "description" : "This is the secovvvvvnd time i am making the chceckin.    cccc",
     "version" : "v1",
-    "revision" : 6,
+    "revision" : 10,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "comments" : "",
@@ -183,29 +183,29 @@
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
           "metadata" : {
-            "id" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c",
-            "name" : "rl1",
+            "id" : "9c72dbbe-633e-44d5-8d79-74861e5d478b",
+            "name" : "rl_policy",
             "description" : "",
             "category" : "OPERATIONAL",
             "type" : "RATE_LIMITING_POLICY",
             "status" : "ENABLED",
             "apiDesignRefCount" : 0,
-            "frsDocumentId" : "7NIaKAHKTs0bhTdOsKmAeQ",
+            "frsDocumentId" : "9GWsNjcwByEhSCJxWg33qF",
             "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
-            "frsName" : "rl1",
+            "frsName" : "rl_policy",
             "orgLevelRateLimitPolicy" : false
           },
           "definition" : {
             "data" : { },
-            "id" : "9da3b8af-5fae-4c1b-a84a-f4582810ca44",
+            "id" : "4854f74f-e1f2-4afc-a3e5-17e00f53d5d1",
             "tier" : {
-              "id" : "422ca7ed-91dc-4a9e-910f-0bf95b1a77fe",
-              "name" : "APIC_T_1783618707488",
+              "id" : "add0ecbe-db76-48fd-9195-545b0a7ea1c1",
+              "name" : "APIC_T_1784189791024",
               "description" : "",
               "quota" : 23,
               "timeInterval" : 1,
               "timeUnit" : "HOUR",
-              "internalTierId" : "8d4ec293-163e-4380-a762-c9ff02a1fd3f"
+              "internalTierId" : "2fc0f388-8147-439f-b6c7-feec41a345d5"
             }
           },
           "inline" : false,
@@ -227,7 +227,14 @@
           "definition" : {
             "data" : { },
             "id" : "b5b119f8-b334-4c94-accc-787fa799e891",
-            "userLevelRateLimits" : [ ]
+            "userLevelRateLimits" : [ {
+              "id" : "db788d0c-07c8-4828-aee7-5a509260612d",
+              "policyId" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c",
+              "policyName" : "rl1",
+              "userId" : "APIC_QE_AWS_REL13",
+              "internalTierId" : "8d4ec293-163e-4380-a762-c9ff02a1fd3f",
+              "isEnabled" : true
+            } ]
           },
           "inline" : false,
           "inherited" : false,
@@ -282,9 +289,9 @@
       } ],
       "version" : "v1",
       "revision" : "1",
-      "apiLevelRateLimitNamedPolicyIds" : [ "f9b29e29-3611-4894-8e9e-e7a634f0a56c" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "9c72dbbe-633e-44d5-8d79-74861e5d478b" ],
       "operationLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5", "a2c1ff07-d0da-4e21-9b80-62d49af3ad64" ],
-      "userLevelRateLimitsPolicyIds" : [ ],
+      "userLevelRateLimitsPolicyIds" : [ "f9b29e29-3611-4894-8e9e-e7a634f0a56c" ],
       "implementationProviderIds" : [ "9o0ilc29uIZeCpIIz3QHUd", "0bqh1Va2ikJlQWrkR5qKms" ]
     },
     "apiClusterId" : "6f110aca-2b71-4da6-bab2-950cd272cb88",
