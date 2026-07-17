@@ -5,9 +5,9 @@
     "apiDesignApiName" : "TestGroupCheck",
     "apiDesignInternalName" : "TestGroupCheck",
     "name" : "TestGroupCheck",
-    "description" : "",
+    "description" : "This is the second time i am making the chceckin",
     "version" : "v1",
-    "revision" : 2,
+    "revision" : 3,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "comments" : "",
@@ -178,80 +178,6 @@
           "revision" : 2,
           "version" : "v1"
         }
-      }, {
-        "id" : "2859707f-d372-4d12-b45f-b55d2fcd32c5",
-        "title" : "sauxhjsanxzj",
-        "description" : "",
-        "requestMethod" : "POST",
-        "type" : "REST_API",
-        "path" : "/asuixhjnsax",
-        "tags" : [ ],
-        "properties" : { },
-        "request" : {
-          "mediaTypes" : [ "APPLICATION_JSON" ],
-          "required" : false
-        },
-        "responses" : [ {
-          "mediaTypes" : [ "APPLICATION_JSON" ],
-          "body" : {
-            "inline" : false
-          },
-          "status" : "STATUS_200_OK",
-          "description" : "OK."
-        } ],
-        "implementation" : {
-          "id" : "4jjkZG6aNM0jn3ZBZhOw4x",
-          "provider" : "CAI_PROCESS",
-          "assetName" : "asxzkjhbsanxzmnsazx",
-          "description" : "",
-          "endpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/asxzkjhbsanxzmnsazx",
-          "inputTransformations" : [ ],
-          "outputTransformations" : [ ],
-          "responseCodeTransformations" : [ ]
-        },
-        "configuration" : { },
-        "policies" : [ {
-          "id" : "cdc0cb07-85f6-446b-9215-f37456bcc711",
-          "category" : "OPERATIONAL",
-          "type" : "RATE_LIMITING_POLICY",
-          "status" : "ENABLED",
-          "inline" : false,
-          "inherited" : false,
-          "notes" : "",
-          "selectionType" : "NONE",
-          "definition" : {
-            "tier" : {
-              "timeUnit" : "SECOND"
-            }
-          }
-        }, {
-          "id" : "f5f100fa-db9d-4b20-a687-e2faf30db2a6",
-          "category" : "OPERATIONAL",
-          "type" : "RESPONSE_CACHING_POLICY",
-          "status" : "ENABLED",
-          "inline" : false,
-          "inherited" : false,
-          "notes" : "",
-          "selectionType" : "NONE",
-          "definition" : { }
-        }, {
-          "id" : "ce54f300-eaeb-4732-8215-fc1631bc364f",
-          "name" : "",
-          "description" : "",
-          "category" : "SECURITY",
-          "type" : "AUTHENTICATION_POLICY",
-          "status" : "ENABLED",
-          "inline" : false,
-          "inherited" : false,
-          "definition" : {
-            "authenticationSchemes" : [ ]
-          }
-        } ],
-        "publishedApiDetails" : {
-          "publishedApiId" : "d147d60b-0964-4b63-a182-42255f83af96",
-          "revision" : 2,
-          "version" : "v1"
-        }
       } ],
       "apiLevelPolicies" : [ {
         "policy" : {
@@ -333,10 +259,10 @@
       } ],
       "version" : "v1",
       "revision" : "1",
-      "operationLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5", "cdc0cb07-85f6-446b-9215-f37456bcc711", "a2c1ff07-d0da-4e21-9b80-62d49af3ad64" ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5", "a2c1ff07-d0da-4e21-9b80-62d49af3ad64" ],
       "userLevelRateLimitsPolicyIds" : [ ],
       "apiLevelRateLimitNamedPolicyIds" : [ ],
-      "implementationProviderIds" : [ "9o0ilc29uIZeCpIIz3QHUd", "4jjkZG6aNM0jn3ZBZhOw4x", "0bqh1Va2ikJlQWrkR5qKms" ]
+      "implementationProviderIds" : [ "9o0ilc29uIZeCpIIz3QHUd", "0bqh1Va2ikJlQWrkR5qKms" ]
     },
     "apiClusterId" : "6f110aca-2b71-4da6-bab2-950cd272cb88",
     "dependencyFixed" : false
