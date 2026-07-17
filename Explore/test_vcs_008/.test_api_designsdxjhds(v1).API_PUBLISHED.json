@@ -19,15 +19,38 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "dsaxhjb",
+        "description" : "dsaxhjbsdkjhds",
         "contentType" : "Binary",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-17T06:15:09.664Z",
+  "updateTime" : "2026-07-17T06:16:39.125Z",
   "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "9o0ilc29uIZeCpIIz3QHUd",
+    "name" : "sdxhgbsxs",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "MRgpDqotxGomUhG-gt-359921-2026-07-17T06:15:54.622Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/test_vcs_008"
+  }, {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
@@ -44,7 +67,7 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "dsaxhjb",
+        "description" : "dsaxhjbsdkjhds",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
