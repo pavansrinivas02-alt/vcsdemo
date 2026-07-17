@@ -7,7 +7,7 @@
     "name" : "TestGroupCheck",
     "description" : "This is the second time i am making the chceckin",
     "version" : "v1",
-    "revision" : 4,
+    "revision" : 6,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "comments" : "",
@@ -247,7 +247,7 @@
             "id" : "6270fca5-5435-4a16-b0ce-de5d1dd45152",
             "ipFilteringRules" : [ {
               "startRange" : "10.0.0.1",
-              "endRange" : "10.0.0.2",
+              "endRange" : "10.0.0.3",
               "description" : "IP filtering policy",
               "action" : "ALLOW"
             } ]
@@ -271,13 +271,13 @@
           },
           "definition" : {
             "data" : { },
-            "authenticationSchemes" : [ ]
+            "authenticationSchemes" : [ "BEARER", "OAUTH_2" ]
           },
           "inline" : false,
           "inherited" : false,
           "properties" : [ ]
         },
-        "selectionType" : "NONE",
+        "selectionType" : "INLINE",
         "notes" : ""
       } ],
       "version" : "v1",
