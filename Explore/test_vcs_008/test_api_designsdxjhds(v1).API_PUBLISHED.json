@@ -100,9 +100,9 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "operationLevelRateLimitNamedPolicyIds" : [ "8cfe2eae-689e-41a2-9773-0ca5ce2bee6e" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "implementationProviderIds" : [ "4jjkZG6aNM0jn3ZBZhOw4x" ]
     },
     "apiClusterId" : "c6c6163f-bcf6-4f5d-991c-fb69426d10f5",
