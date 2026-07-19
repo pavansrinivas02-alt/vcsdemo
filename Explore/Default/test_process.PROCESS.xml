@@ -1,0 +1,53 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>I1iUsRvsGRvDINc-gt-537575-2026-07-19T10:37:17.564Z::pd.xml</types1:EntryId>
+      <types1:Name>test_process</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>APIC_QE_AWS_REL13</types1:CreatedBy>
+      <types1:CreationDate>2026-07-19T10:37:18Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  GUID="3SBV0e9OhHreUUVdVSYVMB"
+                  displayName="test_process"
+                  name="test_process"
+                  overrideAPIName="false">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags/>
+            <generator>Informatica Process Designer 11</generator>
+            <notes/>
+            <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="none">
+               <rest/>
+            </deployment>
+            <extData>
+               <nvpair name="treatEmptyStringAsNotNull">false</nvpair>
+               <nvpair name="treatEmptyObjectListAsArray">true</nvpair>
+            </extData>
+            <flow id="z1b38c164-5324-456a-b811-c54fa499bb15">
+               <start id="oc9d56689-c796-4578-8ab3-9c685d5bdd28">
+                  <link id="g3934d258-f789-4beb-8e4b-f84dfc56d692"
+                        targetId="end-x516ff1fc-c515-4144-b5ab-a601e7d3d091"/>
+               </start>
+               <end id="end-x516ff1fc-c515-4144-b5ab-a601e7d3d091">
+                  <title>End</title>
+               </end>
+            </flow>
+         </process>
+      </types1:Entry>
+      <types1:GUID>3SBV0e9OhHreUUVdVSYVMB</types1:GUID>
+      <types1:DisplayName>test_process</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2026-07-19T10:37:36.035Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
