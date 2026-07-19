@@ -1,0 +1,37 @@
+{
+  "documentData" : {
+    "type" : "RATE_LIMITING_POLICY",
+    "metadata" : {
+      "id" : "6585e346-ab7e-4201-bca4-e3c93ac6fee1",
+      "name" : "system-org-level-rate-limit",
+      "description" : "This is a system-generated organization-level rate limit policy.",
+      "category" : "OPERATIONAL",
+      "type" : "RATE_LIMITING_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "5ztlNha57mSjFNNY7BxuKJ",
+      "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+      "frsName" : "system-org-level-rate-limit",
+      "orgLevelRateLimitPolicy" : true
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "dd3e1e94-1639-46ea-9edd-9aea7bcc61c9",
+      "tier" : {
+        "id" : "aa6a15ba-edc4-4981-a633-3f80db93107d",
+        "name" : "APIC_T_1783593936914",
+        "description" : "This is a system-generated organization-level rate limit policy.",
+        "quota" : 1000,
+        "timeInterval" : 1,
+        "timeUnit" : "MINUTE",
+        "internalTierId" : "a42c7fcc-bb93-4566-8949-5a7e812c35ba"
+      }
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}

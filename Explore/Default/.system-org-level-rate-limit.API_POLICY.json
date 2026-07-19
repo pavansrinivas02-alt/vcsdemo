@@ -1,0 +1,33 @@
+{
+  "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "5ztlNha57mSjFNNY7BxuKJ",
+    "name" : "system-org-level-rate-limit",
+    "type" : "API_POLICY",
+    "validator" : {
+      "version" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "6585e346-ab7e-4201-bca4-e3c93ac6fee1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "This is a system-generated organization-level rate limit policy.",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-07-19T13:58:39.222Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
