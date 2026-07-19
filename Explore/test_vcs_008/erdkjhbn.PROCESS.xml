@@ -1,0 +1,54 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>wfYtjCtbdsreK8Z-gt-376751-2026-07-17T10:18:16.36Z::pd.xml</types1:EntryId>
+      <types1:Name>erdkjhbn</types1:Name>
+      <types1:MimeType>application/xml+process</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags>.anonymous</types1:Tags>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>APIC_QE_AWS_REL13</types1:CreatedBy>
+      <types1:CreationDate>2026-07-17T10:18:16Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>APIC_QE_AWS_REL13</types1:PublishedBy>
+      <types1:PublicationDate>2026-07-17T10:18:17Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/spi.erdkjhbn/erdkjhbn.pd.xml</types1:PublishedContributionId>
+      <types1:Entry>
+         <process xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
+                  xmlns:tfm="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"
+                  xmlns:list="urn:activevos:spi:list:functions"
+                  GUID="eK3OljtYOG3kT4XLGxDXk0"
+                  displayName="erdkjhbn"
+                  name="erdkjhbn">
+            <parameterSet xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2021/04/taskflowModel.xsd"/>
+            <appliesTo/>
+            <description/>
+            <tags>.anonymous</tags>
+            <generator>Informatica Process Designer 11</generator>
+            <notes/>
+            <deployment suspendOnFault="false" tracingLevel="none">
+               <rest>
+                  <allowAnonymousAccess/>
+               </rest>
+            </deployment>
+            <flow id="a">
+               <start id="b">
+                  <link id="link1" targetId="c"/>
+               </start>
+               <end id="c">
+                  <title>OK.</title>
+                  <httpStatus>200</httpStatus>
+               </end>
+            </flow>
+            <dependencies/>
+         </process>
+      </types1:Entry>
+      <types1:GUID>eK3OljtYOG3kT4XLGxDXk0</types1:GUID>
+      <types1:DisplayName>erdkjhbn</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2026-07-19T12:58:30.363Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
