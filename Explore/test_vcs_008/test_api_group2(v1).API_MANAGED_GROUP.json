@@ -97,12 +97,7 @@
           "definition" : {
             "authenticationSchemes" : [ ]
           }
-        } ],
-        "publishedApiDetails" : {
-          "publishedApiId" : "a44bf737-deac-4d87-bc19-d54fb723ff57",
-          "revision" : 3,
-          "version" : "v1"
-        }
+        } ]
       }, {
         "id" : "a347a9bc-55ab-478f-8e27-5b0b121329fd",
         "title" : "jsaxjksxjns",
@@ -180,24 +175,42 @@
           "definition" : {
             "authenticationSchemes" : [ ]
           }
-        } ],
-        "publishedApiDetails" : {
-          "publishedApiId" : "a44bf737-deac-4d87-bc19-d54fb723ff57",
-          "revision" : 3,
-          "version" : "v1"
-        }
+        } ]
       } ],
       "apiLevelPolicies" : [ {
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
+          "metadata" : {
+            "id" : "a4414b2e-f9c1-4d2e-94b3-c215899cf191",
+            "name" : "test_rl_policy_007",
+            "description" : "",
+            "category" : "OPERATIONAL",
+            "type" : "RATE_LIMITING_POLICY",
+            "status" : "ENABLED",
+            "apiDesignRefCount" : 0,
+            "frsDocumentId" : "9dkEqgliLORi1jYWosNDUj",
+            "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+            "frsName" : "test_rl_policy_007",
+            "orgLevelRateLimitPolicy" : false
+          },
           "definition" : {
-            "data" : { }
+            "data" : { },
+            "id" : "a4962780-45ff-4700-b3bb-6ba6a98b9776",
+            "tier" : {
+              "id" : "48702f46-8061-41f9-bfc5-28fd9bc27fe0",
+              "name" : "APIC_T_1784466757150",
+              "description" : "",
+              "quota" : 7832,
+              "timeInterval" : 1,
+              "timeUnit" : "DAY",
+              "internalTierId" : "7f7f0ec0-fb92-4fd2-afb4-b7d6486b2e75"
+            }
           },
           "inline" : false,
           "inherited" : false,
           "properties" : [ ]
         },
-        "selectionType" : "NONE",
+        "selectionType" : "NAMED",
         "notes" : ""
       }, {
         "policy" : {
@@ -281,9 +294,9 @@
       } ],
       "version" : "v1",
       "revision" : "1",
-      "apiLevelRateLimitNamedPolicyIds" : [ ],
       "operationLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5" ],
       "userLevelRateLimitsPolicyIds" : [ ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "a4414b2e-f9c1-4d2e-94b3-c215899cf191" ],
       "implementationProviderIds" : [ "0bqh1Va2ikJlQWrkR5qKms", "eK3OljtYOG3kT4XLGxDXk0" ]
     },
     "properties" : [ {
