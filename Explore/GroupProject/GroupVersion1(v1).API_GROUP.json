@@ -7,7 +7,7 @@
     "name" : "GroupVersion1",
     "description" : "",
     "version" : "v1",
-    "revision" : 2,
+    "revision" : 3,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "comments" : "",
@@ -99,14 +99,37 @@
       "apiLevelPolicies" : [ {
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
+          "metadata" : {
+            "id" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c",
+            "name" : "rl1",
+            "description" : "",
+            "category" : "OPERATIONAL",
+            "type" : "RATE_LIMITING_POLICY",
+            "status" : "ENABLED",
+            "apiDesignRefCount" : 0,
+            "frsDocumentId" : "7NIaKAHKTs0bhTdOsKmAeQ",
+            "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
+            "frsName" : "rl1",
+            "orgLevelRateLimitPolicy" : false
+          },
           "definition" : {
-            "data" : { }
+            "data" : { },
+            "id" : "f90445fc-52dc-45f5-bd13-bdcfe5fb9a37",
+            "tier" : {
+              "id" : "422ca7ed-91dc-4a9e-910f-0bf95b1a77fe",
+              "name" : "APIC_T_1783618707488",
+              "description" : "",
+              "quota" : 30,
+              "timeInterval" : 1,
+              "timeUnit" : "HOUR",
+              "internalTierId" : "8d4ec293-163e-4380-a762-c9ff02a1fd3f"
+            }
           },
           "inline" : false,
           "inherited" : false,
           "properties" : [ ]
         },
-        "selectionType" : "NONE",
+        "selectionType" : "NAMED",
         "notes" : ""
       }, {
         "policy" : {
@@ -171,9 +194,9 @@
       } ],
       "version" : "v1",
       "revision" : "1",
+      "apiLevelRateLimitNamedPolicyIds" : [ "f9b29e29-3611-4894-8e9e-e7a634f0a56c" ],
       "operationLevelRateLimitNamedPolicyIds" : [ "80bb69ee-df85-4c44-9c1b-5a71f5fdb311" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "apiLevelRateLimitNamedPolicyIds" : [ ],
       "implementationProviderIds" : [ "9CSmroOEIiyldOvwRIMikC" ]
     },
     "apiClusterId" : "296e8b20-0e07-41ca-b1cb-ac119da0109b",
