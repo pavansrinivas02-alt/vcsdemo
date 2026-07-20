@@ -7,7 +7,7 @@
     "name" : "GroupVersion1",
     "description" : "",
     "version" : "v1",
-    "revision" : 3,
+    "revision" : 4,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "comments" : "",
@@ -100,29 +100,29 @@
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
           "metadata" : {
-            "id" : "f9b29e29-3611-4894-8e9e-e7a634f0a56c",
-            "name" : "rl1",
+            "id" : "54e7900d-61fa-4f23-9e52-f1583c09fdd5",
+            "name" : "rl_policy002",
             "description" : "",
             "category" : "OPERATIONAL",
             "type" : "RATE_LIMITING_POLICY",
             "status" : "ENABLED",
             "apiDesignRefCount" : 0,
-            "frsDocumentId" : "7NIaKAHKTs0bhTdOsKmAeQ",
+            "frsDocumentId" : "apxnRCPkkEXhzIhZX1jDgT",
             "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
-            "frsName" : "rl1",
+            "frsName" : "rl_policy002",
             "orgLevelRateLimitPolicy" : false
           },
           "definition" : {
             "data" : { },
-            "id" : "f90445fc-52dc-45f5-bd13-bdcfe5fb9a37",
+            "id" : "6db3cb9e-be22-4a7c-aa3a-04f2da5ffc1a",
             "tier" : {
-              "id" : "422ca7ed-91dc-4a9e-910f-0bf95b1a77fe",
-              "name" : "APIC_T_1783618707488",
+              "id" : "43daa96f-a4bc-4949-8ee9-6eef682e315d",
+              "name" : "APIC_T_1784190255641",
               "description" : "",
-              "quota" : 30,
+              "quota" : 232,
               "timeInterval" : 1,
               "timeUnit" : "HOUR",
-              "internalTierId" : "8d4ec293-163e-4380-a762-c9ff02a1fd3f"
+              "internalTierId" : "cdbe9ac0-c630-4c2f-b6bf-d3a2e306007e"
             }
           },
           "inline" : false,
@@ -194,7 +194,7 @@
       } ],
       "version" : "v1",
       "revision" : "1",
-      "apiLevelRateLimitNamedPolicyIds" : [ "f9b29e29-3611-4894-8e9e-e7a634f0a56c" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5" ],
       "operationLevelRateLimitNamedPolicyIds" : [ "80bb69ee-df85-4c44-9c1b-5a71f5fdb311" ],
       "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "9CSmroOEIiyldOvwRIMikC" ]
