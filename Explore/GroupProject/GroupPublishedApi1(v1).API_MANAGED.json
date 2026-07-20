@@ -1,0 +1,249 @@
+{
+  "documentData" : {
+    "id" : "f7bc814d-d1f4-4fb9-90f9-98b98980b7ef",
+    "publishedApiId" : "9cc55b2a-66db-4605-8d2c-39ab985e1716",
+    "publishedApiName" : "GroupPublishedApi1",
+    "apiDesignId" : "2967fd96-4758-46cc-97db-296d76b9d8fc",
+    "apiDesignApiName" : "GroupPublishedApi1",
+    "apiDesignInternalName" : "GroupPublishedApi1(v1)",
+    "name" : "GroupPublishedApi1",
+    "provider" : "API_CENTER",
+    "description" : "",
+    "contextName" : "zfsdfs",
+    "domainName" : "https://pod1-apigw.rel.infaqa.com",
+    "customDomain" : false,
+    "version" : "v1",
+    "revision" : "1",
+    "status" : "CREATED",
+    "type" : "REST_API",
+    "frsLocation" : "3tjdags9n4AetSjnDA2l6S",
+    "frsDocumentId" : "4zbWSyAaZKfl5S7oH3gLio",
+    "isFixed" : true,
+    "frsName" : "GroupPublishedApi1(v1)",
+    "apiClusterId" : "254b3b0d-e4e7-4171-9b9c-1396b55cfaa7",
+    "overriddenContent" : {
+      "tags" : [ ],
+      "properties" : {
+        "ApiImplementationProviderType" : "CAI_PROCESS"
+      },
+      "operations" : [ {
+        "id" : "738cd841-fbc6-4e07-b1c3-f4d5cde062ed",
+        "title" : "op",
+        "description" : "",
+        "requestMethod" : "POST",
+        "type" : "REST_API",
+        "path" : "/GroupPublishedApi1",
+        "tags" : [ ],
+        "properties" : { },
+        "request" : {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "required" : false
+        },
+        "responses" : [ {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "inline" : false
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK."
+        } ],
+        "implementation" : {
+          "id" : "9CSmroOEIiyldOvwRIMikC",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "GroupPublishedApi1",
+          "description" : "",
+          "endpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/GroupPublishedApi1",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeTransformations" : [ ]
+        },
+        "configuration" : { },
+        "policies" : [ {
+          "id" : "80bb69ee-df85-4c44-9c1b-5a71f5fdb311",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : {
+            "tier" : {
+              "timeUnit" : "SECOND"
+            }
+          }
+        }, {
+          "id" : "3de02f55-7f50-4cd1-b9fc-1bf655651fda",
+          "category" : "OPERATIONAL",
+          "type" : "RESPONSE_CACHING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : { }
+        }, {
+          "id" : "f100a478-9dc1-401b-b471-2456dbe48239",
+          "name" : "",
+          "description" : "",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "definition" : {
+            "authenticationSchemes" : [ "ANONYMOUS" ]
+          }
+        }, {
+          "id" : "84125389-c720-4dcb-aaba-21c3bdc6b61d",
+          "type" : "PII_POLICY",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "definition" : {
+            "fields" : [ {
+              "name" : "Credit Card",
+              "requestAction" : "NO_ACTION",
+              "responseAction" : "NO_ACTION"
+            }, {
+              "name" : "Email Address",
+              "requestAction" : "NO_ACTION",
+              "responseAction" : "NO_ACTION"
+            }, {
+              "name" : "IP Address",
+              "requestAction" : "NO_ACTION",
+              "responseAction" : "NO_ACTION"
+            }, {
+              "name" : "Phone Number",
+              "requestAction" : "NO_ACTION",
+              "responseAction" : "NO_ACTION"
+            }, {
+              "name" : "SSN",
+              "requestAction" : "NO_ACTION",
+              "responseAction" : "NO_ACTION"
+            }, {
+              "name" : "US Address",
+              "requestAction" : "NO_ACTION",
+              "responseAction" : "NO_ACTION"
+            } ]
+          }
+        } ]
+      } ],
+      "apiLevelPolicies" : [ {
+        "policy" : {
+          "type" : "RATE_LIMITING_POLICY",
+          "metadata" : {
+            "category" : "OPERATIONAL",
+            "type" : "RATE_LIMITING_POLICY",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { }
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "NONE",
+        "notes" : ""
+      }, {
+        "policy" : {
+          "type" : "AUTHENTICATION_POLICY",
+          "metadata" : {
+            "category" : "SECURITY",
+            "type" : "AUTHENTICATION_POLICY",
+            "status" : "ENABLED",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { },
+            "authenticationSchemes" : [ ]
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "NONE",
+        "notes" : ""
+      }, {
+        "policy" : {
+          "type" : "CORS_POLICY",
+          "metadata" : {
+            "category" : "OPERATIONAL",
+            "type" : "CORS_POLICY",
+            "status" : "ENABLED",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { }
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "NONE",
+        "notes" : ""
+      }, {
+        "policy" : {
+          "type" : "IP_FILTERING_POLICY",
+          "metadata" : {
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { },
+            "id" : "04fc2996-3200-4d77-aaae-02027557629b",
+            "ipFilteringRules" : [ ]
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "INLINE",
+        "notes" : ""
+      }, {
+        "policy" : {
+          "type" : "USER_LEVEL_RATE_LIMITING_POLICY",
+          "metadata" : {
+            "category" : "OPERATIONAL",
+            "type" : "USER_LEVEL_RATE_LIMITING_POLICY",
+            "status" : "ENABLED",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { },
+            "id" : "c96a8395-8e9e-4b34-b6c3-a9b0b736a437",
+            "userLevelRateLimits" : [ ]
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "INLINE",
+        "notes" : ""
+      } ],
+      "version" : "v1",
+      "revision" : "1",
+      "operationLevelRateLimitNamedPolicyIds" : [ "80bb69ee-df85-4c44-9c1b-5a71f5fdb311" ],
+      "userLevelRateLimitsPolicyIds" : [ ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
+      "implementationProviderIds" : [ "9CSmroOEIiyldOvwRIMikC" ]
+    },
+    "properties" : [ {
+      "id" : "7c95a7aa-88bd-42da-a97f-6a611794c0e6",
+      "name" : "ApiImplementationProviderType",
+      "value" : "CAI_PROCESS"
+    } ],
+    "runtimeEnvironmentInfo" : {
+      "runtimeEnvironment" : "CLOUD"
+    },
+    "refreshAvailable" : false
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
