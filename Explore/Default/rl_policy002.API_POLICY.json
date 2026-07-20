@@ -16,12 +16,12 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "6db3cb9e-be22-4a7c-aa3a-04f2da5ffc1a",
+      "id" : "96b2174e-00af-4b4a-a960-3b0cbf1f25e3",
       "tier" : {
         "id" : "43daa96f-a4bc-4949-8ee9-6eef682e315d",
         "name" : "APIC_T_1784190255641",
         "description" : "",
-        "quota" : 232,
+        "quota" : 200,
         "timeInterval" : 1,
         "timeUnit" : "HOUR",
         "internalTierId" : "cdbe9ac0-c630-4c2f-b6bf-d3a2e306007e"
