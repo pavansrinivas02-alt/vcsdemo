@@ -245,9 +245,9 @@
       } ],
       "version" : "v1",
       "revision" : "1",
+      "apiLevelRateLimitNamedPolicyIds" : [ "a4414b2e-f9c1-4d2e-94b3-c215899cf191" ],
       "operationLevelRateLimitNamedPolicyIds" : [ "96f49ac8-721f-47e8-84ea-d1d8cb6a0848" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "apiLevelRateLimitNamedPolicyIds" : [ "a4414b2e-f9c1-4d2e-94b3-c215899cf191" ],
       "implementationProviderIds" : [ "5w2bDDh2JyOfqfemhR84QQ" ]
     },
     "properties" : [ {
