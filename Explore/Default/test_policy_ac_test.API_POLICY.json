@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "088a72a9-8af3-4a75-865f-5d84a67db93d",
       "name" : "test_policy_ac_test",
-      "description" : "",
+      "description" : "edshbnds",
       "category" : "SECURITY",
       "type" : "AUTHENTICATION_POLICY",
       "status" : "ENABLED",
@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "482b5f7b-3f23-45de-ad6c-640ce5135a29",
+      "id" : "93d0b211-39c6-43d8-947a-105da36689cb",
       "authenticationSchemes" : [ "BASIC" ]
     },
     "inline" : false,
