@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "f6ad7294-7a07-4adc-ac16-e41fe6ffd946",
       "name" : "test_policy_ac_test2",
-      "description" : "",
+      "description" : "dcxdscx",
       "category" : "SECURITY",
       "type" : "AUTHENTICATION_POLICY",
       "status" : "ENABLED",
@@ -16,8 +16,8 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "99993e6d-67ec-43f1-86c9-dd203032ab75",
-      "authenticationSchemes" : [ "BASIC" ]
+      "id" : "b8991eda-e2e7-4ada-b3aa-83afd4110a5a",
+      "authenticationSchemes" : [ "ANONYMOUS" ]
     },
     "inline" : false,
     "inherited" : false,
