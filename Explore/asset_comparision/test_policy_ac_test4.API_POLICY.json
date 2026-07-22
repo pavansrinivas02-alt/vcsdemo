@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "ef8286a4-f5cd-4c9a-b831-952d42782ac8",
       "name" : "test_policy_ac_test4",
-      "description" : "",
+      "description" : "sahjnsa",
       "category" : "SECURITY",
       "type" : "AUTHENTICATION_POLICY",
       "status" : "ENABLED",
@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "99498def-f91a-479c-8884-90eb16e6b3a1",
+      "id" : "8b8f7803-b49c-4001-8894-8ae6c591c5ca",
       "authenticationSchemes" : [ "BASIC" ]
     },
     "inline" : false,
