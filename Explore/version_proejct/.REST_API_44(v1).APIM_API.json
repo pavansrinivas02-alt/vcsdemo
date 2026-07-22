@@ -19,37 +19,40 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "this is the second time i am making checkin by chnaging description",
+        "description" : "",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-09T11:18:57.952Z",
+  "updateTime" : "2026-07-22T18:55:25.912Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "9aPGGpJBWAGem9UUjUaBaC",
-    "name" : "687j4fEgV3Z0BkP",
+    "id" : "aUEQEwjCaQxbhLT2oLTPUq",
+    "name" : "version_policy",
     "type" : "API_POLICY",
+    "validator" : {
+      "version" : "1.0"
+    },
     "metadata" : {
       "modelVersion" : {
         "major" : 1,
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "6345cfc6-023a-4df4-aed8-9b00a769e850"
+        "repoHandle" : "58a0a20f-9470-4741-b7fd-50a267c66596"
       },
-      "contextAttributes" : null,
+      "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "This is the description for UI Automation Policy operational policy",
+        "description" : "",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     },
-    "path" : "/Explore/Default"
+    "path" : "/Explore/version_proejct/version_folder"
   }, {
     "schemaVersion" : null,
     "idmcRelease" : null,
