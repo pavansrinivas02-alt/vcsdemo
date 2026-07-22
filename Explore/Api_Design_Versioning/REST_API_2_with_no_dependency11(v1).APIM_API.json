@@ -1,18 +1,18 @@
 {
   "documentData" : {
     "metadata" : {
-      "id" : "e9c8db98-202d-4b90-9c23-641856f6b5f5",
+      "id" : "40b684e7-1272-4a8e-986b-3215b8032a0e",
       "type" : "REST_API",
-      "name" : "REST_API_2_with_no_dependency(v1)",
+      "name" : "REST_API_2_with_no_dependency11(v1)",
       "description" : "",
       "apiName" : "REST_API_2_with_no_dependency",
       "version" : "v1",
       "status" : "DRAFT",
       "visibility" : "EXTERNAL",
-      "revisionNumber" : 1,
-      "frsDocumentId" : "h6ELkzEQ3Gobv8itgWCL4n",
-      "lastModifiedDate" : 1782986311099,
-      "apiClusterId" : "71bf78d0-ec95-4ef4-a705-32643d075051",
+      "revisionNumber" : 2,
+      "frsDocumentId" : "6BeH3AGmY3ujZxGVfGI9Wk",
+      "lastModifiedDate" : 1783596335777,
+      "apiClusterId" : "86e2b190-f4e3-4942-947a-2a35c29eac43",
       "isFixed" : true
     },
     "location" : "ct7PqUvockPf3d9g4PJzOi",
@@ -96,6 +96,33 @@
     "groups" : [ ],
     "policies" : [ {
       "policy" : {
+        "type" : "AUTHENTICATION_POLICY",
+        "metadata" : {
+          "id" : "31c55a7f-50b0-4a88-b283-b1435c48a669",
+          "name" : "09PspUUAiE4n6Qh",
+          "description" : "This is the description for UI Automation Policy",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "apiDesignRefCount" : 0,
+          "frsDocumentId" : "bL8HnE1B58RcgkE5STgt2G",
+          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
+          "frsName" : "09PspUUAiE4n6Qh",
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { },
+          "id" : "aaa749fd-91e8-468e-bd06-dba0901127d6",
+          "authenticationSchemes" : [ "ANONYMOUS" ]
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NAMED",
+      "notes" : ""
+    }, {
+      "policy" : {
         "type" : "PII_POLICY",
         "metadata" : {
           "category" : "PRIVACY",
@@ -131,37 +158,10 @@
       },
       "selectionType" : "NONE",
       "notes" : ""
-    }, {
-      "policy" : {
-        "type" : "AUTHENTICATION_POLICY",
-        "metadata" : {
-          "id" : "31c55a7f-50b0-4a88-b283-b1435c48a669",
-          "name" : "09PspUUAiE4n6Qh",
-          "description" : "This is the description for UI Automation Policy",
-          "category" : "SECURITY",
-          "type" : "AUTHENTICATION_POLICY",
-          "status" : "ENABLED",
-          "apiDesignRefCount" : 0,
-          "frsDocumentId" : "bL8HnE1B58RcgkE5STgt2G",
-          "frsLocation" : "5ofblPUigEgf3IEC4PyXSv",
-          "frsName" : "09PspUUAiE4n6Qh",
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { },
-          "id" : "aaa749fd-91e8-468e-bd06-dba0901127d6",
-          "authenticationSchemes" : [ "ANONYMOUS" ]
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NAMED",
-      "notes" : ""
     } ],
     "tags" : [ ],
     "properties" : [ {
-      "id" : "1bd27a3c-c6e9-4d4b-bdfe-e3e43fe00e64",
+      "id" : "432160b1-b1ef-4cac-9f1d-0f9f5f45635c",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
     } ]

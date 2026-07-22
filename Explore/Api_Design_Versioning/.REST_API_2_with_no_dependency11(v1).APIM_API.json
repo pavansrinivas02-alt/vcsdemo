@@ -3,8 +3,8 @@
     "schemaVersion" : null,
     "idmcRelease" : null,
     "productRelease" : null,
-    "id" : "h6ELkzEQ3Gobv8itgWCL4n",
-    "name" : "REST_API_2_with_no_dependency(v1)",
+    "id" : "6BeH3AGmY3ujZxGVfGI9Wk",
+    "name" : "REST_API_2_with_no_dependency11(v1)",
     "type" : "APIM_API",
     "validator" : {
       "VERSION" : "1.0"
@@ -15,7 +15,7 @@
         "minor" : 1
       },
       "repoInfo" : {
-        "repoHandle" : "e9c8db98-202d-4b90-9c23-641856f6b5f5"
+        "repoHandle" : "40b684e7-1272-4a8e-986b-3215b8032a0e"
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
@@ -26,7 +26,7 @@
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-07-02T10:00:26.133Z",
+  "updateTime" : "2026-07-22T18:57:30.305Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
