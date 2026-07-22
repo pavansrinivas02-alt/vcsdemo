@@ -1,0 +1,18 @@
+{
+  "definition" : {
+    "authenticationSchemes" : [ "BASIC" ],
+    "data" : { }
+  },
+  "inherited" : false,
+  "inline" : false,
+  "metadata" : {
+    "category" : "SECURITY",
+    "description" : "",
+    "name" : "test_policy_ac_test4",
+    "orgLevelRateLimitPolicy" : false,
+    "status" : "ENABLED",
+    "type" : "AUTHENTICATION_POLICY"
+  },
+  "properties" : [ ],
+  "type" : "AUTHENTICATION_POLICY"
+}
