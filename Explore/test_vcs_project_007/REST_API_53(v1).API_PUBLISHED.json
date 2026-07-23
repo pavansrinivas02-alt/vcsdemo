@@ -1,0 +1,121 @@
+{
+  "documentData" : {
+    "id" : "0e6e8df3-b20f-4d10-a5f9-eb1c5f46c8ab",
+    "apiDesignId" : "d394dce7-a226-44f5-ba65-0bf855833172",
+    "apiDesignApiName" : "REST_API_53",
+    "apiDesignInternalName" : "REST_API_53(v1)",
+    "apiDesignMetadata" : {
+      "tags" : [ ],
+      "properties" : {
+        "ApiImplementationProviderType" : "CAI_PROCESS"
+      }
+    },
+    "name" : "REST_API_53",
+    "description" : "",
+    "version" : "v1",
+    "revision" : 1,
+    "type" : "REST_API",
+    "status" : "PUBLISHED",
+    "provider" : "API_CENTER",
+    "comments" : "",
+    "content" : {
+      "tags" : [ ],
+      "properties" : {
+        "ApiImplementationProviderType" : "CAI_PROCESS"
+      },
+      "operations" : [ {
+        "id" : "95da755d-5d08-4312-bed4-a698794ca982",
+        "title" : "sxzhjbsxjz",
+        "description" : "",
+        "requestMethod" : "POST",
+        "type" : "REST_API",
+        "path" : "/sdxcjhbds",
+        "tags" : [ ],
+        "properties" : { },
+        "request" : {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "required" : false
+        },
+        "responses" : [ {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "inline" : false
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK."
+        } ],
+        "implementation" : {
+          "id" : "0rCOB2eoK8rkBCL2wmHMu7",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "sxkjbnsmxzm",
+          "description" : "",
+          "endpoint" : "https://pod1-cai.ml.infaqa.com/active-bpel/public/rt/5zDmg4mEN4Uk9GkaQm3iy9/sxkjbnsmxzm",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeTransformations" : [ ]
+        },
+        "configuration" : { },
+        "policies" : [ {
+          "id" : "863218ef-52ee-493c-bb98-6cdf3c0b2436",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : {
+            "tier" : {
+              "timeUnit" : "SECOND"
+            }
+          }
+        }, {
+          "id" : "2a3ed6c0-7eb4-4b3a-9a53-29327ff856e4",
+          "category" : "OPERATIONAL",
+          "type" : "RESPONSE_CACHING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : { }
+        } ]
+      } ],
+      "apiLevelPolicies" : [ {
+        "policy" : {
+          "type" : "RATE_LIMITING_POLICY",
+          "metadata" : {
+            "category" : "OPERATIONAL",
+            "type" : "RATE_LIMITING_POLICY",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { }
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "NONE",
+        "notes" : ""
+      } ],
+      "userLevelRateLimitsPolicyIds" : [ ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "863218ef-52ee-493c-bb98-6cdf3c0b2436" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
+      "implementationProviderIds" : [ "0rCOB2eoK8rkBCL2wmHMu7" ]
+    },
+    "apiClusterId" : "cdedb592-5ff6-497a-816c-e75094d5d9d5",
+    "apiCategory" : "IDMC_APP_GENERATED",
+    "frsDocumentId" : "7UdFH97GgFDhgNFxH5roYp",
+    "frsLocation" : "6J2NP66EKucgl1CEr42BcM",
+    "isFixed" : true,
+    "frsName" : "REST_API_53(v1)",
+    "runtimeEnvironmentInfo" : {
+      "runtimeEnvironment" : "CLOUD"
+    }
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
