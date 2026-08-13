@@ -133,29 +133,29 @@
         "policy" : {
           "type" : "RATE_LIMITING_POLICY",
           "metadata" : {
-            "id" : "54e7900d-61fa-4f23-9e52-f1583c09fdd5",
-            "name" : "rl_policy002",
+            "id" : "d29493e9-1e55-4b22-8295-0cb61369d43e",
+            "name" : "new_rl",
             "description" : "",
             "category" : "OPERATIONAL",
             "type" : "RATE_LIMITING_POLICY",
             "status" : "ENABLED",
             "apiDesignRefCount" : 0,
-            "frsDocumentId" : "apxnRCPkkEXhzIhZX1jDgT",
+            "frsDocumentId" : "eykhaXvm4UCdSBovmpfXwY",
             "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
-            "frsName" : "rl_policy002",
+            "frsName" : "new_rl",
             "orgLevelRateLimitPolicy" : false
           },
           "definition" : {
             "data" : { },
-            "id" : "96b2174e-00af-4b4a-a960-3b0cbf1f25e3",
+            "id" : "197b5219-8aad-42ba-9177-2944a4025e92",
             "tier" : {
-              "id" : "43daa96f-a4bc-4949-8ee9-6eef682e315d",
-              "name" : "APIC_T_1784190255641",
+              "id" : "7c4e541f-aa0e-4b4d-bec2-83c3bd61411c",
+              "name" : "APIC_T_1786616601033",
               "description" : "",
               "quota" : 200,
               "timeInterval" : 1,
-              "timeUnit" : "HOUR",
-              "internalTierId" : "cdbe9ac0-c630-4c2f-b6bf-d3a2e306007e"
+              "timeUnit" : "DAY",
+              "internalTierId" : "7b0d6dba-ee38-42f2-8e3f-e363f5e37da0"
             }
           },
           "inline" : false,
@@ -245,7 +245,7 @@
       } ],
       "version" : "v1",
       "revision" : "1",
-      "apiLevelRateLimitNamedPolicyIds" : [ "54e7900d-61fa-4f23-9e52-f1583c09fdd5" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "d29493e9-1e55-4b22-8295-0cb61369d43e" ],
       "operationLevelRateLimitNamedPolicyIds" : [ "c638b92f-f84b-4132-82ba-925e48cdd782" ],
       "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "arO5P2tgw0BkxoNeblVZqa" ]
