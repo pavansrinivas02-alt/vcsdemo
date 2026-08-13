@@ -1,0 +1,79 @@
+{
+  "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "64Ll8AfrVMKg88FirX6NmR",
+    "name" : "REST_API_37_1(v1)",
+    "type" : "API_MANAGED",
+    "validator" : {
+      "VERSION" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "8634db0a-c485-4e04-97d2-d330041b4be1"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "dksjnxm",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-08-13T10:23:47.772Z",
+  "objectRefs" : [ {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "3i0FGLODOp3dArsvMcfjKA",
+    "name" : "REST_API_37(v1)",
+    "type" : "API_PUBLISHED",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "3fb9ee80-d6e5-47e8-bfee-891b64e96775"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "dksjnxm",
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MdProject_1"
+  }, {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "arO5P2tgw0BkxoNeblVZqa",
+    "name" : "wedsiujsdxhjdsx",
+    "type" : "PROCESS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "nCKwKBqRi92qBbb-gt-15468-2026-07-20T15:30:38.211Z::pd.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/MdProject_1"
+  } ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
