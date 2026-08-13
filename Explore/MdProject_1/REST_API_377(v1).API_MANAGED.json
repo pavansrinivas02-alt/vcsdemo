@@ -9,7 +9,7 @@
     "name" : "REST_API_377",
     "provider" : "API_CENTER",
     "description" : "dksjnxm",
-    "contextName" : "fsdfsgdfgdvcv",
+    "contextName" : "fsdfsgdfgdvcvddss",
     "domainName" : "https://pod1-apigw.rel.infaqa.com",
     "customDomain" : false,
     "version" : "v1",
@@ -152,7 +152,7 @@
               "id" : "7c4e541f-aa0e-4b4d-bec2-83c3bd61411c",
               "name" : "APIC_T_1786616601033",
               "description" : "",
-              "quota" : 200,
+              "quota" : 300,
               "timeInterval" : 1,
               "timeUnit" : "DAY",
               "internalTierId" : "7b0d6dba-ee38-42f2-8e3f-e363f5e37da0"
@@ -245,8 +245,8 @@
       } ],
       "version" : "v1",
       "revision" : "1",
-      "apiLevelRateLimitNamedPolicyIds" : [ "d29493e9-1e55-4b22-8295-0cb61369d43e" ],
       "operationLevelRateLimitNamedPolicyIds" : [ "c638b92f-f84b-4132-82ba-925e48cdd782" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ "d29493e9-1e55-4b22-8295-0cb61369d43e" ],
       "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "arO5P2tgw0BkxoNeblVZqa" ]
     },
