@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "9f6d5859-62a0-4655-b858-06e0e5fcb0de",
       "name" : "demo_policy",
-      "description" : "",
+      "description" : "dsuhsdh",
       "category" : "SECURITY",
       "type" : "AUTHENTICATION_POLICY",
       "status" : "ENABLED",
@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "0fe3e290-25f0-4ea9-bc91-56da03795db3",
+      "id" : "b73c6104-d5e4-419d-bfbd-10899ed3ccb8",
       "authenticationSchemes" : [ "BASIC" ]
     },
     "inline" : false,
