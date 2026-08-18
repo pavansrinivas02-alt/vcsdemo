@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "95438867-a8f3-4aac-a121-c38f9c3e7396",
       "name" : "apic_dev_demo_policy1",
-      "description" : "",
+      "description" : "added new description",
       "category" : "SECURITY",
       "type" : "AUTHENTICATION_POLICY",
       "status" : "ENABLED",
@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "a2499246-51ac-417b-b956-4d222c537040",
+      "id" : "e2d400c5-3387-49c6-b045-2f5c0075f04b",
       "authenticationSchemes" : [ "BASIC" ]
     },
     "inline" : false,
