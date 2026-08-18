@@ -1,0 +1,29 @@
+{
+  "documentData" : {
+    "type" : "AUTHENTICATION_POLICY",
+    "metadata" : {
+      "id" : "95438867-a8f3-4aac-a121-c38f9c3e7396",
+      "name" : "apic_dev_demo_policy1",
+      "description" : "",
+      "category" : "SECURITY",
+      "type" : "AUTHENTICATION_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "9JOSyFcqGnFicoD2OusxmY",
+      "frsLocation" : "6EKWUFfrzAGkJmKuBEgxYZ",
+      "frsName" : "apic_dev_demo_policy1",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "a2499246-51ac-417b-b956-4d222c537040",
+      "authenticationSchemes" : [ "BASIC" ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
