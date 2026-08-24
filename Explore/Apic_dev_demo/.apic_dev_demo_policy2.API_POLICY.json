@@ -1,0 +1,33 @@
+{
+  "objectInfo" : {
+    "schemaVersion" : null,
+    "idmcRelease" : null,
+    "productRelease" : null,
+    "id" : "9gaKM4PBnEmiMKSzVqbmmX",
+    "name" : "apic_dev_demo_policy2",
+    "type" : "API_POLICY",
+    "validator" : {
+      "version" : "1.0"
+    },
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 1
+      },
+      "repoInfo" : {
+        "repoHandle" : "f739f966-e95e-4ff9-9860-765c30abd737"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-08-24T13:17:07.028Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}
