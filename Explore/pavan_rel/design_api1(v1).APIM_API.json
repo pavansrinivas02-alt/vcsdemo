@@ -1,7 +1,7 @@
 {
   "documentData" : {
     "metadata" : {
-      "id" : "c30a6af3-6165-46e9-a3ac-32854df12d09",
+      "id" : "efe076cf-3937-4743-90dd-78674c549447",
       "type" : "REST_API",
       "name" : "design_api1(v1)",
       "description" : "",
@@ -9,13 +9,13 @@
       "version" : "v1",
       "status" : "DRAFT",
       "visibility" : "EXTERNAL",
-      "revisionNumber" : 1,
-      "frsDocumentId" : "kc1zst3Q70ZkqzbmKJpbk9",
-      "lastModifiedDate" : 1783595707234,
-      "apiClusterId" : "05d735c4-7c09-49de-9785-e9c6043d69a8",
+      "revisionNumber" : 2,
+      "frsDocumentId" : "gV2sQINZsC5higrkj7X5Wg",
+      "lastModifiedDate" : 1783597178125,
+      "apiClusterId" : "61b2598b-cdd9-456d-8dc4-2fa8b2e94d85",
       "isFixed" : true
     },
-    "location" : "1PUPM5vsJpjgQFn8hAGk0a",
+    "location" : "9lKyUZ60ga7kGB4DL0hEQE",
     "definition" : {
       "id" : "api_definition_1783595580392",
       "operations" : [ {
@@ -24,11 +24,11 @@
         "description" : "",
         "tags" : [ ],
         "implementationConfigurations" : [ {
-          "frsId" : "36TETErqzK5hBqvLu1ddaP",
+          "frsId" : "97hyV1vKUqRbpX3mRXN74a",
           "provider" : "CAI_PROCESS",
           "assetName" : "wsxhsx",
           "description" : "",
-          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/9Zf5iUTZprSjJxUgb87goe/wsxhsx",
+          "implementationEndpoint" : "https://pod1-cai.rel.infaqa.com/active-bpel/public/rt/2JW13HLO0EAhUvTbmJWNag/wsxhsx",
           "inputTransformations" : [ ],
           "outputTransformations" : [ ],
           "responseCodeMappings" : [ ]
@@ -37,15 +37,15 @@
           "policy" : {
             "type" : "AUTHENTICATION_POLICY",
             "metadata" : {
-              "id" : "0ce151b9-463f-4c47-b8d3-d972f5c51ac2",
+              "id" : "4640e320-159c-48ab-a472-e765cad84621",
               "name" : "test_auth_policy1",
               "description" : "",
               "category" : "SECURITY",
               "type" : "AUTHENTICATION_POLICY",
               "status" : "ENABLED",
               "apiDesignRefCount" : 0,
-              "frsDocumentId" : "8SY2PfBO2EKl0urSkVR161",
-              "frsLocation" : "f2Am1SWtCCnfvzOx5D9yWT",
+              "frsDocumentId" : "0ccEoaMAjJufvBBRxxDpkP",
+              "frsLocation" : "ebtt59y80eTfamO6E1DZI8",
               "frsName" : "test_auth_policy1",
               "orgLevelRateLimitPolicy" : false
             },
@@ -116,7 +116,7 @@
         "ifSkip" : false,
         "issuesParsing" : [ ]
       } ],
-      "implementationProviderIds" : [ "36TETErqzK5hBqvLu1ddaP" ]
+      "implementationProviderIds" : [ "97hyV1vKUqRbpX3mRXN74a" ]
     },
     "metadata.type" : "REST_API",
     "artifacts" : [ ],
@@ -133,24 +133,6 @@
         "definition" : {
           "data" : { },
           "authenticationSchemes" : [ ]
-        },
-        "inline" : false,
-        "inherited" : false,
-        "properties" : [ ]
-      },
-      "selectionType" : "NONE",
-      "notes" : ""
-    }, {
-      "policy" : {
-        "type" : "RATE_LIMITING_POLICY",
-        "metadata" : {
-          "category" : "OPERATIONAL",
-          "type" : "RATE_LIMITING_POLICY",
-          "apiDesignRefCount" : 0,
-          "orgLevelRateLimitPolicy" : false
-        },
-        "definition" : {
-          "data" : { }
         },
         "inline" : false,
         "inherited" : false,
@@ -177,10 +159,28 @@
       },
       "selectionType" : "NONE",
       "notes" : ""
+    }, {
+      "policy" : {
+        "type" : "RATE_LIMITING_POLICY",
+        "metadata" : {
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "apiDesignRefCount" : 0,
+          "orgLevelRateLimitPolicy" : false
+        },
+        "definition" : {
+          "data" : { }
+        },
+        "inline" : false,
+        "inherited" : false,
+        "properties" : [ ]
+      },
+      "selectionType" : "NONE",
+      "notes" : ""
     } ],
     "tags" : [ ],
     "properties" : [ {
-      "id" : "f12feddd-12fe-4ed3-9643-c46507615ae4",
+      "id" : "759c4401-e03a-449b-a0fe-4a8bcb9847f6",
       "name" : "ApiImplementationProviderType",
       "value" : "CAI_PROCESS"
     } ]
