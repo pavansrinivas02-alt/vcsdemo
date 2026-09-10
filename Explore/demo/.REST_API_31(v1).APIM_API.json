@@ -19,14 +19,14 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "adding desc",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-09-10T09:05:22.222Z",
+  "updateTime" : "2026-09-10T09:05:52.022Z",
   "objectRefs" : [ {
     "schemaVersion" : null,
     "idmcRelease" : null,
