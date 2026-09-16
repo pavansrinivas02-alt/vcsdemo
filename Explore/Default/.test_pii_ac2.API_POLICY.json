@@ -19,14 +19,14 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "wduyw",
+        "description" : "desc changed",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "json",
-  "updateTime" : "2026-09-16T10:38:45.122Z",
+  "updateTime" : "2026-09-16T10:39:22.492Z",
   "objectRefs" : [ ],
   "readableFileExtension" : null,
   "readableFilePresent" : false
