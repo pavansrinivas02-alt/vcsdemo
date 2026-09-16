@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "8575e474-3577-47ad-aa36-abefbed00aa8",
       "name" : "test_auth_ac1",
-      "description" : "",
+      "description" : "new desc",
       "category" : "SECURITY",
       "type" : "AUTHENTICATION_POLICY",
       "status" : "ENABLED",
