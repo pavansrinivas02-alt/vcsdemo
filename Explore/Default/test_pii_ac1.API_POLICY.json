@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "db94cfce-aecc-48d9-8f9b-74ec803e0352",
       "name" : "test_pii_ac1",
-      "description" : "",
+      "description" : "added desc",
       "category" : "PRIVACY",
       "type" : "PII_POLICY",
       "status" : "ENABLED",
