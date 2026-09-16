@@ -1,0 +1,53 @@
+{
+  "documentData" : {
+    "type" : "PII_POLICY",
+    "metadata" : {
+      "id" : "07e49279-0d49-42b9-9f87-f57c87fff699",
+      "name" : "test_pii_ac",
+      "description" : "no desc",
+      "category" : "PRIVACY",
+      "type" : "PII_POLICY",
+      "status" : "ENABLED",
+      "apiDesignRefCount" : 0,
+      "frsDocumentId" : "dF2ZqYWX3s0hYfOjjiXZOp",
+      "frsLocation" : "2llJ7rh8J0cfNoaRGx8HuQ",
+      "frsName" : "test_pii_ac",
+      "orgLevelRateLimitPolicy" : false
+    },
+    "definition" : {
+      "data" : { },
+      "id" : "52961e3a-3c28-46e1-a99e-56d5e2e0c0fb",
+      "fields" : [ {
+        "name" : "Credit Card",
+        "requestAction" : "BLOCK",
+        "responseAction" : "BLOCK"
+      }, {
+        "name" : "Email Address",
+        "requestAction" : "NO_ACTION",
+        "responseAction" : "NO_ACTION"
+      }, {
+        "name" : "IP Address",
+        "requestAction" : "NO_ACTION",
+        "responseAction" : "NO_ACTION"
+      }, {
+        "name" : "Phone Number",
+        "requestAction" : "NO_ACTION",
+        "responseAction" : "NO_ACTION"
+      }, {
+        "name" : "SSN",
+        "requestAction" : "NO_ACTION",
+        "responseAction" : "NO_ACTION"
+      }, {
+        "name" : "US Address",
+        "requestAction" : "NO_ACTION",
+        "responseAction" : "NO_ACTION"
+      } ]
+    },
+    "inline" : false,
+    "inherited" : false,
+    "properties" : [ ]
+  },
+  "metadata" : {
+    "version" : "1.0"
+  }
+}
