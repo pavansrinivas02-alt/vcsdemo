@@ -4,7 +4,7 @@
     "metadata" : {
       "id" : "07e49279-0d49-42b9-9f87-f57c87fff699",
       "name" : "test_pii_ac",
-      "description" : "no desc",
+      "description" : "test desc",
       "category" : "PRIVACY",
       "type" : "PII_POLICY",
       "status" : "ENABLED",
@@ -16,7 +16,7 @@
     },
     "definition" : {
       "data" : { },
-      "id" : "52961e3a-3c28-46e1-a99e-56d5e2e0c0fb",
+      "id" : "f4481d67-1e77-4018-b394-029480ec82bb",
       "fields" : [ {
         "name" : "Credit Card",
         "requestAction" : "BLOCK",
