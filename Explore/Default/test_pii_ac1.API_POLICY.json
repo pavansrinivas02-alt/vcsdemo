@@ -27,8 +27,8 @@
         "responseAction" : "NO_ACTION"
       }, {
         "name" : "IP Address",
-        "requestAction" : "NO_ACTION",
-        "responseAction" : "NO_ACTION"
+        "requestAction" : "WARNING",
+        "responseAction" : "WARNING"
       }, {
         "name" : "Phone Number",
         "requestAction" : "NO_ACTION",
