@@ -11,7 +11,7 @@
       "visibility" : "EXTERNAL",
       "revisionNumber" : 1,
       "frsDocumentId" : "4E8CAqlvQiueBucCw8ane8",
-      "lastModifiedDate" : 1789537882665,
+      "lastModifiedDate" : 1789538021962,
       "apiClusterId" : "90b9610e-bc14-424e-9694-34a37627f5f6",
       "isFixed" : true
     },
@@ -128,19 +128,36 @@
       "policy" : {
         "type" : "RATE_LIMITING_POLICY",
         "metadata" : {
+          "id" : "62fcc415-682d-4efe-ad8b-0b6ebd52f414",
+          "name" : "2OLxi",
+          "description" : "This Is APIC Automation Policy for Rate Limit",
           "category" : "OPERATIONAL",
           "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
           "apiDesignRefCount" : 0,
+          "frsDocumentId" : "a1nwLJEZYj2c4ucF9OFeOA",
+          "frsLocation" : "2llJ7rh8J0cfNoaRGx8HuQ",
+          "frsName" : "2OLxi",
           "orgLevelRateLimitPolicy" : false
         },
         "definition" : {
-          "data" : { }
+          "data" : { },
+          "id" : "c22daad0-cefb-42c3-9643-d65f0af02aaf",
+          "tier" : {
+            "id" : "32282128-da53-4640-ba6b-e80b2353d8fb",
+            "name" : "APIC_T_1767413626116",
+            "description" : "This Is APIC Automation Policy for Rate Limit",
+            "quota" : 2,
+            "timeInterval" : 1,
+            "timeUnit" : "MINUTE",
+            "internalTierId" : "9d96b506-5b5c-43e6-9a64-ed425f6cd7e3"
+          }
         },
         "inline" : false,
         "inherited" : false,
         "properties" : [ ]
       },
-      "selectionType" : "NONE",
+      "selectionType" : "NAMED",
       "notes" : ""
     } ],
     "tags" : [ ],
