@@ -1,0 +1,185 @@
+{
+  "documentData" : {
+    "id" : "9b3fe9f1-77b7-4cd2-b96e-659762ee9637",
+    "apiDesignId" : "313952db-289f-4935-89ae-23b7439b8e21",
+    "apiDesignApiName" : "test api_group",
+    "apiDesignInternalName" : "test api_group",
+    "name" : "test api_group",
+    "description" : "",
+    "version" : "v1",
+    "revision" : 2,
+    "type" : "REST_API",
+    "status" : "PUBLISHED",
+    "comments" : "",
+    "apiGroupCategory" : "",
+    "createdBy" : "APIC_QE_AWS_ML2",
+    "createdDate" : 1789621873714,
+    "frsDocumentId" : "72rtxKhyhg6krj0To3Mo0O",
+    "frsLocation" : "60HQ1Tl0X9lktXZHrYmjsh",
+    "isFixed" : true,
+    "frsName" : "test api_group(v1)",
+    "content" : {
+      "tags" : [ ],
+      "properties" : { },
+      "operations" : [ {
+        "id" : "9bbc9eac-42fe-421e-9828-6d6864e169d4",
+        "title" : "swaxuzyghbsdxz",
+        "description" : "",
+        "requestMethod" : "POST",
+        "type" : "REST_API",
+        "path" : "/sduyghdsuhsd",
+        "tags" : [ ],
+        "properties" : { },
+        "request" : {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "required" : false
+        },
+        "responses" : [ {
+          "mediaTypes" : [ "APPLICATION_JSON" ],
+          "body" : {
+            "inline" : false
+          },
+          "status" : "STATUS_200_OK",
+          "description" : "OK."
+        } ],
+        "implementation" : {
+          "id" : "4G3xovFnMhQiLci2uUthYq",
+          "provider" : "CAI_PROCESS",
+          "assetName" : "saxzuyhsayuxhzsax",
+          "description" : "",
+          "endpoint" : "https://pod1-cai.ml.infaqa.com/active-bpel/public/rt/7DWQDXlnhE4krcujllMtap/saxzuyhsayuxhzsax",
+          "inputTransformations" : [ ],
+          "outputTransformations" : [ ],
+          "responseCodeTransformations" : [ ]
+        },
+        "configuration" : { },
+        "policies" : [ {
+          "id" : "02316ea9-77d1-491f-8c72-f9da269cfe14",
+          "category" : "SECURITY",
+          "type" : "AUTHENTICATION_POLICY",
+          "status" : "ENABLED",
+          "inline" : true,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "INLINE",
+          "definition" : {
+            "authenticationSchemes" : [ "BEARER" ]
+          }
+        }, {
+          "id" : "59e1abf1-ce0b-4f5d-8dd1-982513613f28",
+          "category" : "OPERATIONAL",
+          "type" : "RATE_LIMITING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : {
+            "tier" : {
+              "timeUnit" : "SECOND"
+            }
+          }
+        }, {
+          "id" : "1127b384-8b70-41be-8505-735a9b97d85e",
+          "category" : "OPERATIONAL",
+          "type" : "RESPONSE_CACHING_POLICY",
+          "status" : "ENABLED",
+          "inline" : false,
+          "inherited" : false,
+          "notes" : "",
+          "selectionType" : "NONE",
+          "definition" : { }
+        } ],
+        "publishedApiDetails" : {
+          "publishedApiId" : "c2bb7f1f-1d94-4e07-8ab1-b81eaf29814e",
+          "revision" : 2,
+          "version" : "v1"
+        }
+      } ],
+      "apiLevelPolicies" : [ {
+        "policy" : {
+          "type" : "RATE_LIMITING_POLICY",
+          "definition" : {
+            "data" : { }
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "NONE",
+        "notes" : ""
+      }, {
+        "policy" : {
+          "type" : "USER_LEVEL_RATE_LIMITING_POLICY",
+          "metadata" : {
+            "category" : "OPERATIONAL",
+            "type" : "USER_LEVEL_RATE_LIMITING_POLICY",
+            "status" : "ENABLED",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { },
+            "id" : "d6389a51-7fbe-43d2-aa40-5db26b146705",
+            "userLevelRateLimits" : [ ]
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "INLINE",
+        "notes" : ""
+      }, {
+        "policy" : {
+          "type" : "IP_FILTERING_POLICY",
+          "metadata" : {
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { },
+            "id" : "0e36d44d-ea8f-4df9-9274-3c0465c18093",
+            "ipFilteringRules" : [ ]
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "INLINE",
+        "notes" : ""
+      }, {
+        "policy" : {
+          "type" : "AUTHENTICATION_POLICY",
+          "metadata" : {
+            "id" : "9711bc47-69b7-405a-9355-2b5449084c59",
+            "category" : "SECURITY",
+            "type" : "AUTHENTICATION_POLICY",
+            "status" : "ENABLED",
+            "apiDesignRefCount" : 0,
+            "orgLevelRateLimitPolicy" : false
+          },
+          "definition" : {
+            "data" : { },
+            "authenticationSchemes" : [ "BEARER" ]
+          },
+          "inline" : false,
+          "inherited" : false,
+          "properties" : [ ]
+        },
+        "selectionType" : "INLINE",
+        "notes" : ""
+      } ],
+      "version" : "v1",
+      "revision" : "1",
+      "operationLevelRateLimitNamedPolicyIds" : [ "59e1abf1-ce0b-4f5d-8dd1-982513613f28" ],
+      "userLevelRateLimitsPolicyIds" : [ ],
+      "implementationProviderIds" : [ "4G3xovFnMhQiLci2uUthYq" ],
+      "apiLevelRateLimitNamedPolicyIds" : [ ]
+    },
+    "apiClusterId" : "e9a27c59-a638-49de-9e41-275cd7a6963f",
+    "dependencyFixed" : false
+  },
+  "metadata" : {
+    "VERSION" : "1.0"
+  }
+}
