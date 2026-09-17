@@ -5,9 +5,9 @@
     "apiDesignApiName" : "test api_group",
     "apiDesignInternalName" : "test api_group",
     "name" : "test api_group",
-    "description" : "",
+    "description" : "added description",
     "version" : "v1",
-    "revision" : 2,
+    "revision" : 3,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "comments" : "",
@@ -160,7 +160,7 @@
           },
           "definition" : {
             "data" : { },
-            "authenticationSchemes" : [ "BEARER" ]
+            "authenticationSchemes" : [ "OAUTH_2" ]
           },
           "inline" : false,
           "inherited" : false,
@@ -171,10 +171,10 @@
       } ],
       "version" : "v1",
       "revision" : "1",
+      "apiLevelRateLimitNamedPolicyIds" : [ ],
       "operationLevelRateLimitNamedPolicyIds" : [ "59e1abf1-ce0b-4f5d-8dd1-982513613f28" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "implementationProviderIds" : [ "4G3xovFnMhQiLci2uUthYq" ],
-      "apiLevelRateLimitNamedPolicyIds" : [ ]
+      "implementationProviderIds" : [ "4G3xovFnMhQiLci2uUthYq" ]
     },
     "apiClusterId" : "e9a27c59-a638-49de-9e41-275cd7a6963f",
     "dependencyFixed" : false
