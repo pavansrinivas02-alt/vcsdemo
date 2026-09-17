@@ -68,7 +68,7 @@
           "notes" : "",
           "selectionType" : "INLINE",
           "definition" : {
-            "authenticationSchemes" : [ "BASIC" ]
+            "authenticationSchemes" : [ "SESSION_ID" ]
           }
         }, {
           "id" : "14ddbf04-5dcf-4594-8a76-eb4bcdaf2539",
