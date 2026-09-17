@@ -8,8 +8,8 @@
     "apiDesignInternalName" : "invocation_data_001(v1)",
     "name" : "test_managed_api_as",
     "provider" : "API_CENTER",
-    "description" : "test desc",
-    "contextName" : "text",
+    "description" : "changed desc",
+    "contextName" : "textupdated",
     "domainName" : "https://pod1-apigw.ml.infaqa.com",
     "customDomain" : false,
     "version" : "v1",
@@ -432,9 +432,9 @@
       } ],
       "version" : "v1",
       "revision" : "3",
-      "userLevelRateLimitsPolicyIds" : [ ],
       "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "operationLevelRateLimitNamedPolicyIds" : [ "36297317-c67c-4a30-af01-4911227e1050", "14ddbf04-5dcf-4594-8a76-eb4bcdaf2539", "cd331bfc-4303-4bbb-a221-d349fa73ef28" ],
+      "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "1sNKu0ndLoKlOA52To3Zo2", "ioqJCBTO50CbP2ARuXY6eU", "bcbB8Tq514qb0D1IKYjVO8" ]
     },
     "properties" : [ {
