@@ -11,9 +11,9 @@
       }
     },
     "name" : "invocation_data_003",
-    "description" : "updated desc again",
+    "description" : "updated desc again again",
     "version" : "v1",
-    "revision" : 4,
+    "revision" : 5,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
