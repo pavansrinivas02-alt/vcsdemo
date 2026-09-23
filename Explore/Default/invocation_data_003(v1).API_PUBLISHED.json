@@ -11,9 +11,9 @@
       }
     },
     "name" : "invocation_data_003",
-    "description" : "updated desc",
+    "description" : "updated desc again",
     "version" : "v1",
-    "revision" : 3,
+    "revision" : 4,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -250,9 +250,9 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "5e705f22-1300-4493-83f3-5f444804f87a", "205cb294-1a37-421a-95df-0730c3e1cd28", "ea94e7fd-2158-4ea4-ab2e-66c0d9d92c92" ],
       "apiLevelRateLimitNamedPolicyIds" : [ ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "5e705f22-1300-4493-83f3-5f444804f87a", "205cb294-1a37-421a-95df-0730c3e1cd28", "ea94e7fd-2158-4ea4-ab2e-66c0d9d92c92" ],
       "implementationProviderIds" : [ "bdrBHOBznOTjY6oBni5wGX", "6sQHBSdO7Gebm5PFBLtrQ3", "151MiffyJcBf8bih4eAR0L" ]
     },
     "apiClusterId" : "994145de-9eaa-4c38-a06f-778079148f7d",
