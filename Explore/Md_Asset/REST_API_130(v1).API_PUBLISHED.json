@@ -11,9 +11,9 @@
       }
     },
     "name" : "REST_API_130",
-    "description" : "",
+    "description" : "updated desc",
     "version" : "v1",
-    "revision" : 1,
+    "revision" : 2,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -100,8 +100,8 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
-      "operationLevelRateLimitNamedPolicyIds" : [ "1f229067-359a-451e-b113-bcf86d810697" ],
       "apiLevelRateLimitNamedPolicyIds" : [ null ],
+      "operationLevelRateLimitNamedPolicyIds" : [ "1f229067-359a-451e-b113-bcf86d810697" ],
       "userLevelRateLimitsPolicyIds" : [ ],
       "implementationProviderIds" : [ "lrQyCCo0p20jhKYHoIUkY0" ]
     },
