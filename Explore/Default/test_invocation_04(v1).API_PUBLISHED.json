@@ -11,9 +11,9 @@
       }
     },
     "name" : "test_invocation_04",
-    "description" : "updated desc",
+    "description" : "updated desc again",
     "version" : "v1",
-    "revision" : 3,
+    "revision" : 4,
     "type" : "REST_API",
     "status" : "PUBLISHED",
     "provider" : "API_CENTER",
@@ -250,9 +250,9 @@
         "selectionType" : "NONE",
         "notes" : ""
       } ],
+      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "operationLevelRateLimitNamedPolicyIds" : [ "48feca5c-0504-40e8-8dbc-41c134d858dd", "beeace35-aa91-46ee-81a8-696c36e19055", "7f24cd2b-daf2-4e96-8107-edac87857192" ],
       "userLevelRateLimitsPolicyIds" : [ ],
-      "apiLevelRateLimitNamedPolicyIds" : [ null ],
       "implementationProviderIds" : [ "0iC7oXJbK8AgMQaPX7C5IP", "i5X5yImTRgwdHF2dhcPgg7", "2h4RGfJz88RfrSpyqKLo0f" ]
     },
     "apiClusterId" : "4460c7e8-1471-4481-9cdd-5c7e2e3fcf75",
